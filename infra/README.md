@@ -58,7 +58,7 @@ No Go runtime in production. CI runs `go run ./cmd/export`, syncs the resulting 
    - `S3_BUCKET` — from `site_bucket_name` output
    - `CLOUDFRONT_DISTRIBUTION_ID` — from `cloudfront_distribution_id` output
 
-6. **First deploy** — push to `main` (or run the workflow via `workflow_dispatch`). The workflow renders, syncs, and invalidates.
+6. **First deploy** — push to `master` (or run the workflow via `workflow_dispatch`). The workflow renders, syncs, and invalidates.
 
 ## Required variables
 
@@ -66,7 +66,7 @@ No Go runtime in production. CI runs `go run ./cmd/export`, syncs the resulting 
 |---|---|
 | `domain_name` | Apex CloudFront serves from |
 | `route53_zone_id` | Hosted zone must already exist |
-| `github_repo` | `<org>/<repo>` — pinned to `main` branch in the trust policy |
+| `github_repo` | `<org>/<repo>` — pinned to `master` branch in the trust policy |
 
 Optional: `subject_alternative_names` (e.g. `["www.lp.williamsburgtherapygroup.com"]`), `aws_region` (default `us-east-1`), `environment` (default `prod`), `price_class` (default `PriceClass_100`), `bucket_name_override`.
 

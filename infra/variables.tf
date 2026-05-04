@@ -31,6 +31,12 @@ variable "github_repo" {
   description = "GitHub repo allowed to assume the deploy role, in '<org>/<repo>' form."
 }
 
+variable "deploy_branch" {
+  type        = string
+  default     = "master"
+  description = "Branch the OIDC trust policy allows to assume the deploy role. Pinned to a single branch — never use a wildcard."
+}
+
 variable "price_class" {
   type        = string
   default     = "PriceClass_100"
