@@ -9,7 +9,7 @@ import (
 
 // LoadPageContent reads <dataDir>/<city>/<variant>.json and decodes it
 // into PageContent. dataDir defaults to "data" (relative to cwd) and can
-// be overridden via SetPaths.
+// be overridden via SetPaths
 func LoadPageContent(city, variant string) (*PageContent, error) {
 	path := filepath.Join(dataDir, city, variant+".json")
 
