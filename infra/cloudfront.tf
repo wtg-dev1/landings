@@ -5,6 +5,16 @@ resource "aws_cloudfront_origin_access_control" "site" {
   signing_protocol                  = "sigv4"
 }
 
+# Redirects apex → default landing, and rewrites extensionless paths to
+# their /index.html counterpart. CloudFront's default_root_object only
+# handles the apex, so subpath URLs need this to find an S3 key.
+resource "aws_cloudfront_function" "rewrite" {
+  name    = "wtg-landings-rewrite-${var.environment}"
+  runtime = "cloudfront-js-2.0"
+  publish = true
+  code    = file("${path.module}/cloudfront_function.js")
+}
+
 # Short TTL for HTML — gives content updates a 5-min floor before a manual
 # CloudFront invalidation lands. Browsers cache for 5 min; edge holds 1 day.
 resource "aws_cloudfront_cache_policy" "html_short" {
@@ -105,6 +115,11 @@ resource "aws_cloudfront_distribution" "site" {
     compress                   = true
     cache_policy_id            = aws_cloudfront_cache_policy.static_long.id
     response_headers_policy_id = aws_cloudfront_response_headers_policy.static.id
+
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.rewrite.arn
+    }
   }
 
   # /<city>/* → HTML. Short TTL + HTML headers/security policy.
@@ -117,6 +132,11 @@ resource "aws_cloudfront_distribution" "site" {
     compress                   = true
     cache_policy_id            = aws_cloudfront_cache_policy.html_short.id
     response_headers_policy_id = aws_cloudfront_response_headers_policy.html.id
+
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.rewrite.arn
+    }
   }
 
   # S3 returns 403 (not 404) for missing keys when public access is blocked.
