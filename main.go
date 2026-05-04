@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Starting web application!")
+	fmt.Println("Starting the landings web application!")
 	server.Run()
 }
