@@ -1,0 +1,14 @@
+{{ define "stats" }}
+<section class="stats" aria-label="Trust statistics">
+  <div class="container">
+    <ul class="stats__grid">
+      {{ range .Stats }}
+      <li class="stat">
+        <div class="stat__value">{{ .Value }}</div>
+        <div class="stat__label">{{ .Label }}</div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

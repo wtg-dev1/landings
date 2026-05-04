@@ -1,0 +1,21 @@
+{{ define "faq" }}
+<section class="section faq" id="faq">
+  <div class="container faq__inner">
+    <div class="faq__copy">
+      <span class="eyebrow">{{ .FAQ.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .FAQ.H2 }}</h2>
+      <div class="faq__visual" aria-hidden="true">
+        <div class="faq__image" style="background-image:url('{{ .FAQ.Image }}')"></div>
+      </div>
+    </div>
+    <div class="faq__items">
+      {{ range $i, $item := .FAQ.Items }}
+      <details class="faq-item" {{ if eq $i 0 }}open{{ end }}>
+        <summary class="faq-item__q">{{ $item.Q }}</summary>
+        <div class="faq-item__a">{{ $item.A }}</div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

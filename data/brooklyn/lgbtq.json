@@ -1,0 +1,390 @@
+{
+  "city": "brooklyn",
+  "variant": "general",
+  "phone": "347-970-6757",
+  "meta": {
+    "title": "Brooklyn Therapy \u2014 Williamsburg Therapy Group",
+    "description": "Doctoral-level therapists in Brooklyn. Same-week openings. PhD and PsyD only."
+  },
+  "header": {
+    "logoEyebrow": "Williamsburg",
+    "logoWordmark": "Therapy Group",
+    "bookLabel": "Book a session"
+  },
+  "anchors": [
+    {
+      "label": "What we treat",
+      "href": "#treat"
+    },
+    {
+      "label": "How it works",
+      "href": "#how"
+    },
+    {
+      "label": "Our clinicians",
+      "href": "#clinicians"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "Locations",
+      "href": "#locations"
+    },
+    {
+      "label": "FAQs",
+      "href": "#faq"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "chips": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "h1": "The right therapist, ready to meet you this week.",
+    "subhead": "First session as soon as this week. Every therapist holds a PhD or PsyD, and a real coordinator picks the one who matches your goals, schedule, and style.",
+    "trustLine": "Same-week openings \u00b7 In person or online \u00b7 Out-of-network with reimbursement support",
+    "primaryCTA": "Book a session",
+    "secondaryCTA": "Call",
+    "image": "/static/images/figma/hero.png",
+    "imageAlt": "WTG clinician in office"
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "PhD & PsyD clinicians"
+    },
+    {
+      "value": "10+",
+      "label": "Years of excellence"
+    },
+    {
+      "value": "5\u2605",
+      "label": "Google rated"
+    },
+    {
+      "value": "7 days",
+      "label": "Typical time to first session"
+    }
+  ],
+  "treat": {
+    "eyebrow": "What we treat",
+    "h2": "Therapy for anxiety, depression, relationships, and life transitions",
+    "subhead": "Every one of our six specialties is staffed by PhD and PsyD clinicians, with board-certified psychiatrists for medication.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Individual therapy",
+        "body": "One-on-one sessions for adults. Work anxiety, burnout, relationship stress, life changes, trauma, and more.",
+        "image": "/static/images/figma/treat-1.png"
+      },
+      {
+        "number": "02",
+        "title": "Couples therapy",
+        "body": "For couples who want to fight less, talk more, and feel close again. In person or online.",
+        "image": "/static/images/figma/treat-2.png"
+      },
+      {
+        "number": "03",
+        "title": "Child & family",
+        "body": "Support for children, teens, and families working through school, behavior, and family changes.",
+        "image": "/static/images/figma/treat-3.png"
+      },
+      {
+        "number": "04",
+        "title": "Anxiety & depression",
+        "body": "Targeted CBT and evidence-based care for anxiety, depression, OCD, and trauma.",
+        "image": "/static/images/figma/treat-4.png"
+      },
+      {
+        "number": "05",
+        "title": "Psychiatry",
+        "body": "Board-certified psychiatrists on the same team as your therapist. One plan, not two.",
+        "image": "/static/images/figma/treat-5.png"
+      },
+      {
+        "number": "06",
+        "title": "Neuropsych testing",
+        "body": "Full evaluations for ADHD, learning differences, and cognitive questions. Results you can actually use.",
+        "image": "/static/images/figma/misc-116.png"
+      }
+    ],
+    "cta": "Find my therapist"
+  },
+  "comparison": {
+    "eyebrow": "How we're different",
+    "h2": "What makes Williamsburg Therapy Group different for therapy",
+    "subhead": "A side-by-side look at what most therapy practices offer versus what happens at WTG.",
+    "themLabel": "Most therapy practices",
+    "usLabel": "Williamsburg Therapy Group",
+    "rows": [
+      {
+        "them": "Master's-level therapists handling complex cases.",
+        "us": "Every clinician holds a PhD or PsyD, plus board-certified psychiatrists on the same team."
+      },
+      {
+        "them": "You scroll a directory and pick a name with no context.",
+        "us": "A real patient coordinator matches you to the right therapist for your goals, schedule, and style."
+      },
+      {
+        "them": "Waitlists that stretch two to six weeks before a first session.",
+        "us": "Most new patients have their first session the same week they call."
+      },
+      {
+        "them": "One-size-fits-all talk therapy regardless of what you're dealing with.",
+        "us": "Evidence-based methods picked for your specific issue, from structured CBT to deeper relational work."
+      },
+      {
+        "them": "You handle out-of-network paperwork alone and hope for reimbursement.",
+        "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
+      }
+    ],
+    "cta": "See if we're a fit"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "h2": "Four simple steps, from call to care",
+    "subhead": "Under two minutes to start. No long forms, no chatbots, a real person answers.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Call or tap to book",
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day."
+      },
+      {
+        "number": "2",
+        "title": "Get matched",
+        "body": "We pair you with the right doctoral therapist for your goals, schedule, and preferences."
+      },
+      {
+        "number": "3",
+        "title": "First session",
+        "body": "Meet in person or over secure video, often within the same week."
+      },
+      {
+        "number": "4",
+        "title": "Make progress",
+        "body": "Clear goals and regular check-ins so you can see how far you've come."
+      }
+    ],
+    "cta": "Get started today"
+  },
+  "whyWTG": {
+    "eyebrow": "Why Williamsburg Therapy Group",
+    "h2": "Doctoral training, delivered with warmth",
+    "subhead": "What makes us different, in five lines.",
+    "bullets": [
+      {
+        "title": "Only doctoral-level clinicians",
+        "body": "Only PhD and PsyD therapists, plus board-certified psychiatrists. Most practices staff master's-level clinicians. We don't."
+      },
+      {
+        "title": "Matched by a real coordinator",
+        "body": "A person on our care team listens to what you're dealing with and picks the therapist most likely to click with you."
+      },
+      {
+        "title": "Evidence-based, not one-size-fits-all",
+        "body": "Your therapist uses methods proven to work for your specific issue, from structured skill-building to deeper talk therapy."
+      },
+      {
+        "title": "In person or online, your call",
+        "body": "Most new patients start the same week."
+      },
+      {
+        "title": "Same therapist, every session",
+        "body": "We match you once, you don't start over."
+      }
+    ],
+    "cta": "Talk to a coordinator",
+    "image": "/static/images/figma/why-wtg.png",
+    "imageAlt": "WTG doctoral clinician"
+  },
+  "clinicians": {
+    "eyebrow": "Meet a few of our therapists",
+    "h2": "Fifty-plus doctoral-level clinicians across three markets",
+    "subhead": "Over fifty doctoral-level clinicians on the team. Your coordinator can pair you with any of them, including the ones here.",
+    "featured": [
+      {
+        "name": "Slot 1",
+        "credential": "PhD",
+        "city": "Brooklyn",
+        "treats": "anxiety, early-career stress, relationship concerns",
+        "photo": "/static/images/figma/clinician-1.png"
+      },
+      {
+        "name": "Slot 2",
+        "credential": "PsyD",
+        "city": "Austin",
+        "treats": "couples, trauma, identity, transitions",
+        "photo": "/static/images/figma/clinician-2.png"
+      },
+      {
+        "name": "Slot 3",
+        "credential": "MD",
+        "city": "Miami",
+        "treats": "patients who need medication alongside therapy",
+        "photo": "/static/images/figma/clinician-3.png"
+      },
+      {
+        "name": "Slot 4",
+        "credential": "PhD",
+        "city": "Online",
+        "treats": "depression, OCD, and trauma using evidence-based talk therapy",
+        "photo": "/static/images/figma/clinician-4.png"
+      }
+    ],
+    "cta": "Get matched today"
+  },
+  "midCTA": {
+    "h2": "Ready when you are.",
+    "body": "Same-week openings across Brooklyn, Austin, Miami, and online. It's your pace.",
+    "cta": "Book a session"
+  },
+  "pricing": {
+    "eyebrow": "Session rates & insurance",
+    "h2": "Clear pricing. Help with reimbursement.",
+    "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
+    "priceBlock": "$280 to $300",
+    "priceUnit": "per 45-minute session",
+    "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
+    "steps": [
+      "We charge you the session fee at the time of service.",
+      "We send you a superbill you can submit to your insurance.",
+      "Reimbursify files the claim for you. You get reimbursed directly."
+    ],
+    "cta": "Check your coverage"
+  },
+  "locations": {
+    "eyebrow": "Where we practice",
+    "h2": "Brooklyn, Austin, Miami, and online",
+    "subhead": "Three offices plus secure video across New York, Texas, and Florida.",
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "North Williamsburg 109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262",
+        "hours": "8 AM to 5 PM CT, Mon to Sat"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Online",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
+        "phone": "",
+        "hours": "Book online anytime",
+        "online": true
+      }
+    ],
+    "cta": "Book at your nearest location"
+  },
+  "testimonials": {
+    "eyebrow": "What patients say",
+    "h2": "Real results, in their words",
+    "reviews": [
+      {
+        "quote": "Dr. Selling and the team at WTG are the best! Beautiful office space in Brooklyn.",
+        "author": "Michael F.",
+        "city": "Brooklyn"
+      },
+      {
+        "quote": "I highly recommend Dr. Trubowitz, she's helped our family resolve some longstanding issues. This is the best group of doctors in Austin that I've worked with. The space is also beautiful and relaxing.",
+        "author": "Rebecca B.",
+        "city": "Austin"
+      },
+      {
+        "quote": "This office is unlike any other therapy office I've ever seen. Totally clean, beautiful curved wood everywhere, complimentary tea and water. Particularly impressed with the group therapy room. Just a really nice place to be.",
+        "author": "Jake F.",
+        "city": "Austin"
+      }
+    ],
+    "cta": "Start your story"
+  },
+  "faq": {
+    "eyebrow": "Common questions",
+    "h2": "Everything you're probably wondering",
+    "items": [
+      {
+        "q": "Do you take my insurance?",
+        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most of our patients use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We'll give you a superbill and partner with Reimbursify, a claim-filing service, to submit it to your insurer on your behalf."
+      },
+      {
+        "q": "How fast can I see someone?",
+        "a": "Most new patients have their first session the same week they call. Your coordinator will show you openings that fit your schedule."
+      },
+      {
+        "q": "What makes \"doctoral-level\" different?",
+        "a": "Every therapist at WTG has a PhD or PsyD, the same doctoral training that hospital and university psychologists hold. Most practices staff master's-level therapists. We don't."
+      },
+      {
+        "q": "Can I do sessions online?",
+        "a": "Yes. We offer secure video sessions across New York, Texas, and Florida. Many patients mix in-person and online based on their week."
+      },
+      {
+        "q": "What if my therapist isn't the right fit?",
+        "a": "It happens, and we expect it sometimes. Tell your coordinator and we'll re-match you with another doctoral therapist on the team. No awkward conversations on your end."
+      }
+    ],
+    "cta": "Get your questions answered",
+    "image": "/static/images/figma/faq-room.png",
+    "imageAlt": "WTG office space"
+  },
+  "form": {
+    "eyebrow": "Ready to take the next step?",
+    "h2": "Tell us a little about what you're looking for",
+    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure.",
+    "locations": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "consent": "By leaving your phone or email, you are consenting to receiving communications from us via text or email and that may include communications about your appointments, services, and marketing information related to our services. You may opt out of marketing information at any time. Your contact information will never be sold to any third party and will only be shared to the extent necessary to perform any services on your behalf.",
+    "submit": "Request my consultation",
+    "phoneFallback": "or call 347-970-6757 to speak with our coordinator now.",
+    "reassurance": "Same-day response. No waitlists, no runaround.",
+    "image": "/static/images/figma/misc-116.png",
+    "imageAlt": "WTG office plant"
+  },
+  "stickyBar": {
+    "text": "Same-week openings. Doctoral-level therapists.",
+    "primaryCTA": "Book a session",
+    "secondaryCTA": "Call"
+  },
+  "footer": {
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547"
+      }
+    ],
+    "legal": "NPI: [pending] \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
+  }
+}

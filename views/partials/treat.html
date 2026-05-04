@@ -1,0 +1,27 @@
+{{ define "treat" }}
+<section class="section treat" id="treat">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Treat.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Treat.H2 }}</h2>
+      <p class="section__subhead">{{ .Treat.Subhead }}</p>
+    </div>
+    <ul class="treat__grid">
+      {{ range .Treat.Cards }}
+      <li class="treat-card">
+        <div class="treat-card__image-wrap">
+          <div class="treat-card__image" style="background-image:url('{{ .Image }}')" aria-hidden="true"></div>
+        </div>
+        <div class="treat-card__body">
+          <h3 class="treat-card__title">{{ .Title }}</h3>
+          <p>{{ .Body }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .Treat.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

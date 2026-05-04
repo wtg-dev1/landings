@@ -1,0 +1,23 @@
+{{ define "howItWorks" }}
+<section class="section how" id="how">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .HowItWorks.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .HowItWorks.H2 }}</h2>
+      <p class="section__subhead">{{ .HowItWorks.Subhead }}</p>
+    </div>
+    <ol class="how__steps">
+      {{ range .HowItWorks.Steps }}
+      <li class="step">
+        <span class="step__num-ring"><span class="step__num">{{ .Number }}</span></span>
+        <h3 class="step__title">{{ .Title }}</h3>
+        <p class="step__body">{{ .Body }}</p>
+      </li>
+      {{ end }}
+    </ol>
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .HowItWorks.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

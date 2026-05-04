@@ -1,0 +1,11 @@
+{{ define "midCTA" }}
+<section class="mid-cta">
+  <div class="container mid-cta__inner">
+    <div class="mid-cta__copy">
+      <h2 class="mid-cta__h2">{{ .MidCTA.H2 }}</h2>
+      <p class="mid-cta__body">{{ .MidCTA.Body }}</p>
+    </div>
+    <a href="#contact" class="btn btn--on-copper">{{ .MidCTA.CTA }}</a>
+  </div>
+</section>
+{{ end }}

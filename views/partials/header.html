@@ -1,0 +1,13 @@
+{{ define "header" }}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="#" class="logo" aria-label="{{ .Header.LogoEyebrow }} {{ .Header.LogoWordmark }}">
+      <img class="logo__img" src="/static/images/figma/logo.png" alt="{{ .Header.LogoEyebrow }} {{ .Header.LogoWordmark }}" />
+    </a>
+    <div class="site-header__actions">
+      <a href="#contact" class="btn btn--primary">{{ .Header.BookLabel }}</a>
+      <a href="tel:{{ .Phone }}" class="btn btn--secondary">Call {{ .Phone }}</a>
+    </div>
+  </div>
+</header>
+{{ end }}

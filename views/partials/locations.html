@@ -1,0 +1,29 @@
+{{ define "locations" }}
+<section class="section locations" id="locations">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Locations.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Locations.H2 }}</h2>
+      <p class="section__subhead">{{ .Locations.Subhead }}</p>
+    </div>
+    <ul class="locations__grid">
+      {{ range .Locations.Offices }}
+      <li class="office {{ if .Online }}office--online{{ end }}">
+        <h3 class="office__name">{{ .Name }}</h3>
+        <p class="office__address">{{ .Address }}</p>
+        {{ if .Phone }}<a class="office__phone" href="tel:{{ .Phone }}">{{ .Phone }}</a>{{ end }}
+        {{ if .Hours }}
+        <p class="office__hours">
+          <span class="office__hours-label">{{ if .Online }}Availability:{{ else }}Phone hours:{{ end }}</span><br>
+          {{ .Hours }}
+        </p>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .Locations.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

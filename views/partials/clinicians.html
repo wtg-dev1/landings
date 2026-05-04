@@ -1,0 +1,31 @@
+{{ define "clinicians" }}
+<section class="section clinicians" id="clinicians">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Clinicians.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Clinicians.H2 }}</h2>
+      <p class="section__subhead">{{ .Clinicians.Subhead }}</p>
+    </div>
+    <ul class="clinicians__grid">
+      {{ range .Clinicians.Featured }}
+      <li class="clinician">
+        <div class="clinician__photo" style="background-image:url('{{ .Photo }}')" aria-hidden="true"></div>
+        <div class="clinician__body">
+          <div class="clinician__head">
+            <p class="clinician__cred">{{ .Credential }} · {{ .City }}</p>
+            <span class="clinician__icon" aria-hidden="true"></span>
+          </div>
+          <p class="clinician__treats">
+            <span class="clinician__treats-label">Treats:</span><br>
+            {{ .Treats }}
+          </p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .Clinicians.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

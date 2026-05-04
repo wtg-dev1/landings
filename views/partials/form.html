@@ -1,0 +1,78 @@
+{{ define "form" }}
+<section class="section form-section" id="contact">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Form.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Form.H2 }}</h2>
+      <p class="section__subhead">{{ .Form.Subhead }}</p>
+    </div>
+
+    <div class="form-section__inner">
+      <form class="lead-form" method="post" action="#" novalidate>
+        <div class="lead-form__row lead-form__row--two">
+          <label class="field">
+            <span class="field__label">Name *</span>
+            <input type="text" name="first_name" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Last name *</span>
+            <input type="text" name="last_name" required />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="field__label">I'm looking for a clinician in *</span>
+          <select name="location" required>
+            <option value="">Please Select</option>
+            {{ range .Form.Locations }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+          </select>
+        </label>
+
+        <fieldset class="field field--radios">
+          <legend class="field__label">Contact preference *</legend>
+          <div class="radios">
+            <label class="radio"><input type="radio" name="contact_pref" value="phone" required /> Phone Call</label>
+            <label class="radio"><input type="radio" name="contact_pref" value="email" /> Email</label>
+          </div>
+        </fieldset>
+
+        <div class="lead-form__row lead-form__row--two">
+          <label class="field">
+            <span class="field__label">Phone number *</span>
+            <input type="tel" name="phone" inputmode="numeric" required />
+          </label>
+          <label class="field">
+            <span class="field__label">Email *</span>
+            <input type="email" name="email" required />
+          </label>
+        </div>
+
+        <p class="lead-form__consent">{{ .Form.Consent }}</p>
+
+        <label class="field">
+          <span class="field__label">Message</span>
+          <textarea name="message" rows="3" placeholder="Briefly, what would you like help with? (Optional)"></textarea>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" name="opt_out" />
+          <span>Opt out of text reminders and marketing offers.</span>
+        </label>
+
+        <label class="lead-form__honey" aria-hidden="true">
+          Website <input type="text" name="website" tabindex="-1" autocomplete="off" />
+        </label>
+
+        <button type="submit" class="btn btn--secondary btn--block">{{ .Form.Submit }}</button>
+
+        <p class="lead-form__phone">{{ .Form.PhoneFallback }}</p>
+        <p class="lead-form__reassurance">{{ .Form.Reassurance }}</p>
+      </form>
+
+      <div class="form-section__visual" aria-hidden="true">
+        <div class="form-section__image" style="background-image:url('{{ .Form.Image }}')"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

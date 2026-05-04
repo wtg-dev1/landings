@@ -1,0 +1,21 @@
+{{ define "hero" }}
+<section class="hero" id="top">
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <ul class="chips" aria-label="Locations">
+        {{ range .Hero.Chips }}<li class="chip">{{ . }}</li>{{ end }}
+      </ul>
+      <h1 class="hero__h1">{{ .Hero.H1 }}</h1>
+      <p class="hero__subhead">{{ .Hero.Subhead }}</p>
+      <div class="hero__ctas">
+        <a href="#contact" class="btn btn--primary">{{ .Hero.PrimaryCTA }}</a>
+        <a href="tel:{{ .Phone }}" class="btn btn--secondary">{{ .Hero.SecondaryCTA }} {{ .Phone }}</a>
+      </div>
+      <p class="hero__trust">{{ .Hero.TrustLine }}</p>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__image" style="background-image:url('{{ .Hero.Image }}')"></div>
+    </div>
+  </div>
+</section>
+{{ end }}

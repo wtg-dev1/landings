@@ -1,0 +1,11 @@
+{{ define "stickyBar" }}
+<div class="sticky-bar" role="region" aria-label="Quick contact">
+  <div class="container sticky-bar__inner">
+    <p class="sticky-bar__text">{{ .StickyBar.Text }}</p>
+    <div class="sticky-bar__actions">
+      <a href="tel:{{ .Phone }}" class="btn btn--on-copper-ghost btn--sm">{{ .StickyBar.SecondaryCTA }} {{ .Phone }}</a>
+      <a href="#contact" class="btn btn--on-copper btn--sm">{{ .StickyBar.PrimaryCTA }}</a>
+    </div>
+  </div>
+</div>
+{{ end }}

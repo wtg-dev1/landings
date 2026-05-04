@@ -1,0 +1,26 @@
+{{ define "footer" }}
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__cta">
+      <p class="footer__cta-text">{{ .StickyBar.Text }}</p>
+      <div class="footer__cta-actions">
+        <a href="#contact" class="btn btn--primary">{{ .StickyBar.PrimaryCTA }}</a>
+        <a href="tel:{{ .Phone }}" class="btn btn--secondary">{{ .StickyBar.SecondaryCTA }} {{ .Phone }}</a>
+      </div>
+    </div>
+
+    <ul class="footer__offices">
+      {{ range .Footer.Offices }}
+      <li class="footer-office">
+        <h3 class="footer-office__name">{{ .Name }}</h3>
+        <p class="footer-office__address">{{ .Address }}</p>
+      </li>
+      {{ end }}
+    </ul>
+
+    <div class="footer__brand">
+      <img class="footer__logo" src="/static/images/figma/misc-121.png" alt="Williamsburg Therapy Group" />
+    </div>
+  </div>
+</footer>
+{{ end }}

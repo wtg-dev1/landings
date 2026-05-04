@@ -1,0 +1,26 @@
+{{ define "whyWTG" }}
+<section class="section why">
+  <div class="container why__inner">
+    <div class="why__visual" aria-hidden="true">
+      <div class="why__image" style="background-image:url('{{ .WhyWTG.Image }}')"></div>
+    </div>
+    <div class="why__copy">
+      <span class="eyebrow">{{ .WhyWTG.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .WhyWTG.H2 }}</h2>
+      <p class="section__subhead">{{ .WhyWTG.Subhead }}</p>
+      <ul class="why__bullets">
+        {{ range .WhyWTG.Bullets }}
+        <li>
+          <span class="why__check" aria-hidden="true">✓</span>
+          <div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ .Body }}</p>
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+      <a href="#contact" class="btn btn--secondary">{{ .WhyWTG.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

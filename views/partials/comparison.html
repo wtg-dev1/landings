@@ -1,0 +1,34 @@
+{{ define "comparison" }}
+<section class="section comparison">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Comparison.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Comparison.H2 }}</h2>
+      <p class="section__subhead">{{ .Comparison.Subhead }}</p>
+    </div>
+
+    <div class="compare">
+      <div class="compare__head">
+        <div class="compare__head-cell compare__head-cell--them">{{ .Comparison.ThemLabel }}</div>
+        <div class="compare__head-cell compare__head-cell--us">{{ .Comparison.UsLabel }}</div>
+      </div>
+      {{ range .Comparison.Rows }}
+      <div class="compare__row">
+        <div class="compare__cell compare__cell--them">
+          <span class="compare__icon compare__icon--x" aria-hidden="true">✕</span>
+          <span class="compare__text">{{ .Them }}</span>
+        </div>
+        <div class="compare__cell compare__cell--us">
+          <span class="compare__icon compare__icon--check" aria-hidden="true">✓</span>
+          <span class="compare__text">{{ .Us }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .Comparison.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

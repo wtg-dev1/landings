@@ -1,0 +1,34 @@
+{{ define "pricing" }}
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Pricing.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Pricing.H2 }}</h2>
+      <p class="section__subhead">{{ .Pricing.Subhead }}</p>
+    </div>
+
+    <div class="pricing__card">
+      <div class="pricing__top">
+        <div class="pricing__price">
+          <div class="pricing__amount">{{ .Pricing.PriceBlock }}</div>
+          <div class="pricing__unit">{{ .Pricing.PriceUnit }}</div>
+        </div>
+        <p class="pricing__reimbursement">{{ .Pricing.Reimbursement }}</p>
+      </div>
+
+      <ol class="pricing__steps">
+        {{ range .Pricing.Steps }}
+        <li class="pricing-step">
+          <span class="pricing-step__num"></span>
+          <p class="pricing-step__body">{{ . }}</p>
+        </li>
+        {{ end }}
+      </ol>
+
+      <div class="pricing__cta">
+        <a href="#contact" class="btn btn--secondary">{{ .Pricing.CTA }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

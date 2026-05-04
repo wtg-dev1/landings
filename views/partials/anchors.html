@@ -1,0 +1,11 @@
+{{ define "anchors" }}
+<nav class="anchors" aria-label="Page sections">
+  <div class="container">
+    <ul class="anchors__list">
+      {{ range .Anchors }}
+      <li><a href="{{ .Href }}">{{ .Label }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>
+{{ end }}

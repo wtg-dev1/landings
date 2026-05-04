@@ -1,0 +1,25 @@
+{{ define "testimonials" }}
+<section class="section testimonials">
+  <div class="container">
+    <div class="section__heading">
+      <span class="eyebrow">{{ .Testimonials.Eyebrow }}</span>
+      <h2 class="section__h2">{{ .Testimonials.H2 }}</h2>
+    </div>
+    <ul class="reviews__grid">
+      {{ range .Testimonials.Reviews }}
+      <li class="review">
+        <img class="review__brand" src="/static/images/figma/misc-100.png" alt="Google review" />
+        <blockquote class="review__quote">"{{ .Quote }}"</blockquote>
+        <p class="review__attr">
+          <span class="review__author">{{ .Author }},</span>
+          <span class="review__source">Google review · {{ .City }}</span>
+        </p>
+      </li>
+      {{ end }}
+    </ul>
+    <div class="section__cta">
+      <a href="#contact" class="btn btn--secondary">{{ .Testimonials.CTA }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
