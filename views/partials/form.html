@@ -9,21 +9,21 @@
     </div>
 
     <div class="form-section__inner">
-      <form class="lead-form" method="post" action="#">
+      <form class="lead-form" id="lead-form">
         <div class="lead-form__row lead-form__row--two">
           <label class="field">
             <span class="field__label">Name *</span>
-            <input type="text" name="first_name" required />
+            <input type="text" id="firstname" name="firstname" required />
           </label>
           <label class="field">
             <span class="field__label">Last name *</span>
-            <input type="text" name="last_name" required />
+            <input type="text" id="lastname" name="lastname" required />
           </label>
         </div>
 
         <label class="field">
           <span class="field__label">I'm looking for a clinician in *</span>
-          <select name="location" required>
+          <select id="office_location_by_state" name="office_location_by_state" required>
             <option value="">Please Select</option>
             {{ range .Form.Locations }}
             <option value="{{ . }}">{{ . }}</option>
@@ -48,11 +48,11 @@
         <div class="lead-form__row lead-form__row--two">
           <label class="field">
             <span class="field__label">Phone number *</span>
-            <input type="tel" name="phone" inputmode="numeric" required />
+            <input type="tel" id="phone" name="phone" inputmode="numeric" required />
           </label>
           <label class="field">
             <span class="field__label">Email *</span>
-            <input type="email" name="email" required />
+            <input type="email" id="email" name="email" required />
           </label>
         </div>
 
@@ -61,6 +61,7 @@
         <label class="field">
           <span class="field__label">Message</span>
           <textarea
+            id="message"
             name="message"
             rows="3"
             placeholder="Briefly, what would you like help with? (Optional)"
@@ -82,6 +83,8 @@
           <p class="lead-form__recaptcha-error" hidden>Please confirm you're not a robot.</p>
         </div>
 
+        <p class="lead-form__error" hidden role="alert"></p>
+
         <button type="submit" class="btn btn--secondary btn--block">
           {{ .Form.Submit }}
         </button>
@@ -97,23 +100,79 @@
 
       <script>
         (function () {
-          var form = document.querySelector('.lead-form');
+          var form = document.getElementById('lead-form');
           var thanks = document.querySelector('.lead-form__thanks');
           if (!form) return;
+
+          var PORTAL_ID = '21125073';
+          var FORM_GUID = '731a27d1-df1f-497c-8be5-15dcc09e8a2d';
+          var ENDPOINT = 'https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_GUID;
+          var HS_FIELDS = ['firstname', 'lastname', 'office_location_by_state', 'phone', 'email', 'message'];
+
           form.addEventListener('submit', function (e) {
-            var err = form.querySelector('.lead-form__recaptcha-error');
-            var token = window.grecaptcha && window.grecaptcha.getResponse();
-            if (!token) {
-              e.preventDefault();
-              if (err) err.hidden = false;
+            e.preventDefault();
+
+            var captchaErr = form.querySelector('.lead-form__recaptcha-error');
+            var apiErr = form.querySelector('.lead-form__error');
+            if (apiErr) apiErr.hidden = true;
+
+            if (!form.checkValidity()) {
+              form.reportValidity();
               return;
             }
-            if (err) err.hidden = true;
+
+            var honey = form.querySelector('input[name="website"]');
+            if (honey && honey.value) return;
+
+            var token = window.grecaptcha && window.grecaptcha.getResponse();
+            if (!token) {
+              if (captchaErr) captchaErr.hidden = false;
+              return;
+            }
+            if (captchaErr) captchaErr.hidden = true;
+
             var btn = form.querySelector('button[type="submit"]');
             if (btn) { btn.disabled = true; btn.setAttribute('aria-busy', 'true'); }
-            e.preventDefault();
-            form.hidden = true;
-            if (thanks) thanks.hidden = false;
+
+            var fields = HS_FIELDS.map(function (name) {
+              var el = document.getElementById(name);
+              return { name: name, value: el ? el.value : '' };
+            }).filter(function (f) { return f.value !== ''; });
+
+            var hutkMatch = document.cookie.match(/hubspotutk=([^;]+)/);
+            var payload = {
+              fields: fields,
+              context: {
+                hutk: hutkMatch ? hutkMatch[1] : '',
+                pageUri: window.location.href,
+                pageName: document.title
+              }
+            };
+
+            fetch(ENDPOINT, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(payload)
+            }).then(function (res) {
+              if (res.ok) {
+                form.hidden = true;
+                if (thanks) thanks.hidden = false;
+                return;
+              }
+              if (btn) { btn.disabled = false; btn.removeAttribute('aria-busy'); }
+              if (apiErr) {
+                apiErr.textContent = 'Something went wrong. Please try again or give us a call.';
+                apiErr.hidden = false;
+              }
+              res.json().then(function (j) { console.error('HubSpot form error:', j); }).catch(function () {});
+            }).catch(function (err) {
+              if (btn) { btn.disabled = false; btn.removeAttribute('aria-busy'); }
+              if (apiErr) {
+                apiErr.textContent = 'Network error. Please try again or give us a call.';
+                apiErr.hidden = false;
+              }
+              console.error(err);
+            });
           });
         })();
       </script>

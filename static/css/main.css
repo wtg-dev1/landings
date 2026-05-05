@@ -851,7 +851,8 @@ section[id] { scroll-margin-top: 100px; }
 .lead-form__honey { position: absolute; left: -9999px; }
 .lead-form__recaptcha { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
 .lead-form__recaptcha .g-recaptcha { transform-origin: left top; }
-.lead-form__recaptcha-error { font-size: 13px; color: #b3261e; margin: 0; }
+.lead-form__recaptcha-error,
+.lead-form__error { font-size: 13px; color: #b3261e; margin: 0; }
 @media (max-width: 360px) {
   .lead-form__recaptcha .g-recaptcha { transform: scale(0.85); }
 }
