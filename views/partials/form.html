@@ -182,9 +182,9 @@
             var fields = HS_FIELDS.map(function (name) {
               var el = document.getElementById(name);
               if (name === "contact_preference_phone") {
-                return { name: name, value: document.getElementById("contact_preference_phone").checked ? "phone" : "" };
+                return { name: "contact_preference_", value: document.getElementById("contact_preference_phone").checked ? "phone" : "" };
               } else if (name === "contact_preference_email") {
-                return { name: name, value: document.getElementById("contact_preference_email").checked ? "email" : "" };
+                return { name: "contact_preference_", value: document.getElementById("contact_preference_email").checked ? "email" : "" };
               }
               return { name: name, value: el ? el.value : "" };
             }).filter(function (f) {
