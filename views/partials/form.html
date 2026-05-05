@@ -1,6 +1,12 @@
 {{ define "form" }}
 <section class="section form-section" id="contact">
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21125073.js"></script>
+  <script
+    type="text/javascript"
+    id="hs-script-loader"
+    async
+    defer
+    src="//js.hs-scripts.com/21125073.js"
+  ></script>
   <div class="container">
     <div class="section__heading">
       <span class="eyebrow">{{ .Form.Eyebrow }}</span>
@@ -23,7 +29,11 @@
 
         <label class="field">
           <span class="field__label">I'm looking for a clinician in *</span>
-          <select id="office_location_by_state" name="office_location_by_state" required>
+          <select
+            id="office_location_by_state"
+            name="office_location_by_state"
+            required
+          >
             <option value="">Please Select</option>
             {{ range .Form.Locations }}
             <option value="{{ . }}">{{ . }}</option>
@@ -34,12 +44,18 @@
         <fieldset class="field field--radios">
           <legend class="field__label">Contact preference *</legend>
           <div class="radios">
+            <label class="radio">
+              <input
+                type="radio"
+                id="contact_preference_phone"
+                name="contact_preference_"
+                value="phone"
+                required
+              />
+              Phone Call
+            </label>
             <label class="radio"
-              ><input type="radio" name="contact_preference_" value="phone" required />
-              Phone Call</label
-            >
-            <label class="radio"
-              ><input type="radio" name="contact_preference_" value="email" />
+              ><input type="radio" id="contact_preference_email" name="contact_preference_" value="email" />
               Email</label
             >
           </div>
@@ -48,7 +64,13 @@
         <div class="lead-form__row lead-form__row--two">
           <label class="field">
             <span class="field__label">Phone number *</span>
-            <input type="tel" id="phone" name="phone" inputmode="numeric" required />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              inputmode="numeric"
+              required
+            />
           </label>
           <label class="field">
             <span class="field__label">Email *</span>
@@ -79,8 +101,13 @@
         </label>
 
         <div class="lead-form__recaptcha">
-          <div class="g-recaptcha" data-sitekey="6Le8lNosAAAAAPV0WDH-O5Ke0VI9jY46n8Jwy-AZ"></div>
-          <p class="lead-form__recaptcha-error" hidden>Please confirm you're not a robot.</p>
+          <div
+            class="g-recaptcha"
+            data-sitekey="6Le8lNosAAAAAPV0WDH-O5Ke0VI9jY46n8Jwy-AZ"
+          ></div>
+          <p class="lead-form__recaptcha-error" hidden>
+            Please confirm you're not a robot.
+          </p>
         </div>
 
         <p class="lead-form__error" hidden role="alert"></p>
@@ -95,25 +122,40 @@
 
       <div class="lead-form__thanks" hidden role="status" aria-live="polite">
         <h3>Thanks &mdash; we'll be in touch shortly.</h3>
-        <p>A coordinator will reach out using the contact method you selected.</p>
+        <p>
+          A coordinator will reach out using the contact method you selected.
+        </p>
       </div>
 
       <script>
         (function () {
-          var form = document.getElementById('lead-form');
-          var thanks = document.querySelector('.lead-form__thanks');
+          var form = document.getElementById("lead-form");
+          var thanks = document.querySelector(".lead-form__thanks");
           if (!form) return;
 
-          var PORTAL_ID = '21125073';
-          var FORM_GUID = '731a27d1-df1f-497c-8be5-15dcc09e8a2d';
-          var ENDPOINT = 'https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_GUID;
-          var HS_FIELDS = ['firstname', 'lastname', 'office_location_by_state', ,'contact_preference_', 'phone', 'email', 'message'];
+          var PORTAL_ID = "21125073";
+          var FORM_GUID = "731a27d1-df1f-497c-8be5-15dcc09e8a2d";
+          var ENDPOINT =
+            "https://api.hsforms.com/submissions/v3/integration/submit/" +
+            PORTAL_ID +
+            "/" +
+            FORM_GUID;
+          var HS_FIELDS = [
+            "firstname",
+            "lastname",
+            "office_location_by_state",
+            "contact_preference_phone",
+            "contact_preference_email",
+            "phone",
+            "email",
+            "message",
+          ];
 
-          form.addEventListener('submit', function (e) {
+          form.addEventListener("submit", function (e) {
             e.preventDefault();
 
-            var captchaErr = form.querySelector('.lead-form__recaptcha-error');
-            var apiErr = form.querySelector('.lead-form__error');
+            var captchaErr = form.querySelector(".lead-form__recaptcha-error");
+            var apiErr = form.querySelector(".lead-form__error");
             if (apiErr) apiErr.hidden = true;
 
             if (!form.checkValidity()) {
@@ -132,47 +174,72 @@
             if (captchaErr) captchaErr.hidden = true;
 
             var btn = form.querySelector('button[type="submit"]');
-            if (btn) { btn.disabled = true; btn.setAttribute('aria-busy', 'true'); }
+            if (btn) {
+              btn.disabled = true;
+              btn.setAttribute("aria-busy", "true");
+            }
 
             var fields = HS_FIELDS.map(function (name) {
               var el = document.getElementById(name);
-              return { name: name, value: el ? el.value : '' };
-            }).filter(function (f) { return f.value !== ''; });
+              if (name === "contact_preference_phone") {
+                return { name: name, value: document.getElementById("contact_preference_phone").checked ? "phone" : "" };
+              } else if (name === "contact_preference_email") {
+                return { name: name, value: document.getElementById("contact_preference_email").checked ? "email" : "" };
+              }
+              return { name: name, value: el ? el.value : "" };
+            }).filter(function (f) {
+              return f.value !== "";
+            });
 
             var hutkMatch = document.cookie.match(/hubspotutk=([^;]+)/);
             var payload = {
               fields: fields,
               context: {
-                hutk: hutkMatch ? hutkMatch[1] : '',
+                hutk: hutkMatch ? hutkMatch[1] : "",
                 pageUri: window.location.href,
-                pageName: document.title
-              }
+                pageName: document.title,
+              },
             };
 
             fetch(ENDPOINT, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(payload)
-            }).then(function (res) {
-              if (res.ok) {
-                form.hidden = true;
-                if (thanks) thanks.hidden = false;
-                return;
-              }
-              if (btn) { btn.disabled = false; btn.removeAttribute('aria-busy'); }
-              if (apiErr) {
-                apiErr.textContent = 'Something went wrong. Please try again or give us a call.';
-                apiErr.hidden = false;
-              }
-              res.json().then(function (j) { console.error('HubSpot form error:', j); }).catch(function () {});
-            }).catch(function (err) {
-              if (btn) { btn.disabled = false; btn.removeAttribute('aria-busy'); }
-              if (apiErr) {
-                apiErr.textContent = 'Network error. Please try again or give us a call.';
-                apiErr.hidden = false;
-              }
-              console.error(err);
-            });
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+            })
+              .then(function (res) {
+                if (res.ok) {
+                  form.hidden = true;
+                  if (thanks) thanks.hidden = false;
+                  return;
+                }
+                if (btn) {
+                  btn.disabled = false;
+                  btn.removeAttribute("aria-busy");
+                }
+                if (apiErr) {
+                  apiErr.textContent =
+                    "Something went wrong. Please try again or give us a call.";
+                  apiErr.hidden = false;
+                }
+                res
+                  .json()
+                  .then(function (j) {
+                    console.error("HubSpot form error:", j);
+                  })
+                  .catch(function () {});
+              })
+              .catch(function (err) {
+                if (btn) {
+                  btn.disabled = false;
+                  btn.removeAttribute("aria-busy");
+                }
+                if (apiErr) {
+                  apiErr.textContent =
+                    "Network error. Please try again or give us a call.";
+                  apiErr.hidden = false;
+                }
+                console.error(err);
+              });
           });
         })();
       </script>
