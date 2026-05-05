@@ -528,7 +528,7 @@ section[id] { scroll-margin-top: 100px; }
 }
 
 /* --- Mid CTA ------------------------------------------------- */
-.mid-cta { background: var(--copper); color: var(--white); padding: clamp(48px, 6vw, 80px) 0; }
+.mid-cta { background: var(--copper); color: var(--white); padding: clamp(28px, 2vw, 80px) 0; }
 .mid-cta__inner {
   display: flex; align-items: center; justify-content: space-between;
   gap: 32px; flex-wrap: wrap;
@@ -849,8 +849,23 @@ section[id] { scroll-margin-top: 100px; }
   border-radius: var(--r-sm);
 }
 .lead-form__honey { position: absolute; left: -9999px; }
+.lead-form__recaptcha { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.lead-form__recaptcha .g-recaptcha { transform-origin: left top; }
+.lead-form__recaptcha-error { font-size: 13px; color: #b3261e; margin: 0; }
+@media (max-width: 360px) {
+  .lead-form__recaptcha .g-recaptcha { transform: scale(0.85); }
+}
 .lead-form__phone { font-size: 13px; color: var(--muted); text-align: center; }
 .lead-form__reassurance { font-size: 13px; color: var(--copper); text-align: center; font-weight: 700; letter-spacing: 0.56px; text-transform: uppercase; }
+.lead-form__thanks {
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  background: #fbf7ef;
+  text-align: center;
+}
+.lead-form__thanks h3 { font-family: var(--serif); font-weight: 500; font-size: 24px; color: var(--navy); margin: 0 0 8px; }
+.lead-form__thanks p { color: var(--muted); margin: 0; }
 
 /* --- Footer -------------------------------------------------- */
 .footer {
@@ -920,11 +935,18 @@ section[id] { scroll-margin-top: 100px; }
   .clinicians__grid, .how__steps, .locations__grid { grid-template-columns: repeat(2, 1fr); }
   .treat__grid { grid-template-columns: repeat(2, 1fr); }
   .reviews__grid { grid-template-columns: 1fr; }
+  .pricing__card { padding: 48px 36px; }
+  .pricing__top { gap: 32px; }
 }
 
 @media (max-width: 600px) {
   .anchors__list { gap: 18px; font-size: 14px; }
   .site-header__actions .btn:first-child { display: none; }
+  .site-header__inner { height: 64px; gap: 12px; }
+  .logo__img { height: 36px; }
+  .site-header__actions .btn { padding: 8px 14px; font-size: 14px; line-height: 1.2; }
+  .hero__ctas { flex-wrap: nowrap; gap: 12px; }
+  .hero__ctas .btn { flex: 1 1 0; min-width: 0; padding: 12px 14px; font-size: 15px; line-height: 1.2; }
   .treat__grid, .clinicians__grid, .reviews__grid,
   .how__steps, .locations__grid, .footer__offices,
   .stats__grid { grid-template-columns: 1fr; }
@@ -935,4 +957,9 @@ section[id] { scroll-margin-top: 100px; }
   .sticky-bar__text { display: none; }
   .sticky-bar__actions { flex: 1; }
   .sticky-bar__actions .btn { flex: 1; }
+  .pricing__card { padding: 32px 20px; gap: 24px; }
+  .pricing__top { grid-template-columns: 1fr; gap: 20px; }
+  .pricing__amount { font-size: clamp(36px, 11vw, 48px); white-space: normal; }
+  .pricing__steps { grid-template-columns: 1fr; gap: 18px; padding-top: 28px; }
+  .pricing-step { align-items: center; }
 }
