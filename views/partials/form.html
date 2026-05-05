@@ -35,11 +35,11 @@
           <legend class="field__label">Contact preference *</legend>
           <div class="radios">
             <label class="radio"
-              ><input type="radio" name="contact_pref" value="phone" required />
+              ><input type="radio" name="contact_preference_" value="phone" required />
               Phone Call</label
             >
             <label class="radio"
-              ><input type="radio" name="contact_pref" value="email" />
+              ><input type="radio" name="contact_preference_" value="email" />
               Email</label
             >
           </div>
@@ -107,7 +107,7 @@
           var PORTAL_ID = '21125073';
           var FORM_GUID = '731a27d1-df1f-497c-8be5-15dcc09e8a2d';
           var ENDPOINT = 'https://api.hsforms.com/submissions/v3/integration/submit/' + PORTAL_ID + '/' + FORM_GUID;
-          var HS_FIELDS = ['firstname', 'lastname', 'office_location_by_state', 'phone', 'email', 'message'];
+          var HS_FIELDS = ['firstname', 'lastname', 'office_location_by_state', ,'contact_preference_', 'phone', 'email', 'message'];
 
           form.addEventListener('submit', function (e) {
             e.preventDefault();
