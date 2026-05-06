@@ -1,11 +1,50 @@
 {{ define "stickyBar" }}
-<div class="sticky-bar" role="region" aria-label="Quick contact">
+<div class="sticky-bar" role="region" aria-label="Quick contact" data-sticky-bar>
   <div class="container sticky-bar__inner">
     <p class="sticky-bar__text">{{ .StickyBar.Text }}</p>
     <div class="sticky-bar__actions">
-      <a href="tel:{{ .Phone }}" class="btn btn--on-copper-ghost btn--sm">{{ .StickyBar.SecondaryCTA }} {{ .Phone }}</a>
-      <a href="#contact" class="btn btn--on-copper btn--sm">{{ .StickyBar.PrimaryCTA }}</a>
+      <a href="tel:{{ .Phone }}" class="btn btn--on-copper-ghost btn--sm sticky-bar__btn">{{ .StickyBar.SecondaryCTA }} {{ .Phone }}</a>
+      <a href="#contact" class="btn btn--on-copper btn--sm sticky-bar__btn">{{ .StickyBar.PrimaryCTA }}</a>
     </div>
   </div>
 </div>
+<script>
+  (function () {
+    var bar = document.querySelector('[data-sticky-bar]');
+    var contact = document.getElementById('contact');
+    if (!bar) return;
+
+    var pastScrollThreshold = false;
+    var contactInView = false;
+
+    function update() {
+      if (pastScrollThreshold && !contactInView) {
+        bar.classList.add('sticky-bar--visible');
+      } else {
+        bar.classList.remove('sticky-bar--visible');
+      }
+    }
+
+    // Trigger 1: show after the user scrolls 25% of viewport height.
+    var sentinel = document.createElement('div');
+    sentinel.style.cssText = 'position:absolute;top:25vh;left:0;width:1px;height:1px;pointer-events:none;';
+    document.body.appendChild(sentinel);
+
+    var scrollObserver = new IntersectionObserver(function (entries) {
+      // When the sentinel leaves the viewport upward, the user has scrolled past 25vh.
+      pastScrollThreshold = entries[0].boundingClientRect.top < 0;
+      update();
+    }, { threshold: 0 });
+    scrollObserver.observe(sentinel);
+
+    // Trigger 2: hide while the contact form is in view.
+    if (contact && 'IntersectionObserver' in window) {
+      var contactObserver = new IntersectionObserver(function (entries) {
+        contactInView = entries[0].isIntersecting;
+        update();
+      }, { threshold: 0.1 });
+      contactObserver.observe(contact);
+    }
+  })();
+</script>
 {{ end }}
