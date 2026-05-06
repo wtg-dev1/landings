@@ -55,7 +55,12 @@
               Phone Call
             </label>
             <label class="radio"
-              ><input type="radio" id="contact_preference_email" name="contact_preference_" value="email" />
+              ><input
+                type="radio"
+                id="contact_preference_email"
+                name="contact_preference_"
+                value="email"
+              />
               Email</label
             >
           </div>
@@ -118,6 +123,15 @@
 
         <p class="lead-form__phone">{{ .Form.PhoneFallback }}</p>
         <p class="lead-form__reassurance">{{ .Form.Reassurance }}</p>
+
+        <input type="hidden" id="gclid" name="gclid" />
+        <input type="hidden" id="utm_source" name="utm_source" />
+        <input type="hidden" id="utm_medium" name="utm_medium" />
+        <input type="hidden" id="utm_campaign" name="utm_campaign" />
+        <input type="hidden" id="utm_term" name="utm_term" />
+        <input type="hidden" id="utm_content" name="utm_content" />
+        <input type="hidden" id="page_url" name="page_url" />
+        <input type="hidden" id="referrer" name="referrer" />
       </form>
 
       <div class="lead-form__thanks" hidden role="status" aria-live="polite">
@@ -182,9 +196,21 @@
             var fields = HS_FIELDS.map(function (name) {
               var el = document.getElementById(name);
               if (name === "contact_preference_phone") {
-                return { name: "contact_preference_", value: document.getElementById("contact_preference_phone").checked ? "phone" : "" };
+                return {
+                  name: "contact_preference_",
+                  value: document.getElementById("contact_preference_phone")
+                    .checked
+                    ? "phone"
+                    : "",
+                };
               } else if (name === "contact_preference_email") {
-                return { name: "contact_preference_", value: document.getElementById("contact_preference_email").checked ? "email" : "" };
+                return {
+                  name: "contact_preference_",
+                  value: document.getElementById("contact_preference_email")
+                    .checked
+                    ? "email"
+                    : "",
+                };
               }
               return { name: name, value: el ? el.value : "" };
             }).filter(function (f) {
@@ -241,6 +267,26 @@
                 console.error(err);
               });
           });
+        })();
+
+        // Auto-populate hidden attribution fields
+        (function () {
+          const params = new URLSearchParams(window.location.search);
+          [
+            "gclid",
+            "utm_source",
+            "utm_medium",
+            "utm_campaign",
+            "utm_term",
+            "utm_content",
+          ].forEach((key) => {
+            const el = document.getElementById(key);
+            if (el && params.get(key)) el.value = params.get(key);
+          });
+          const pageUrl = document.getElementById("page_url");
+          const referrer = document.getElementById("referrer");
+          if (pageUrl) pageUrl.value = window.location.href;
+          if (referrer) referrer.value = document.referrer;
         })();
       </script>
 
