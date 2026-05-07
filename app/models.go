@@ -6,6 +6,11 @@ type PageContent struct {
 	City    string `json:"city"`
 	Variant string `json:"variant"`
 
+	// FormName is computed at render time via app.GetFormName from the
+	// page's URL path. Not loaded from JSON — the json:"-" tag keeps it
+	// out of the data layer so it can't be accidentally overridden.
+	FormName string `json:"-"`
+
 	Phone string `json:"phone"`
 
 	Meta         Meta         `json:"meta"`

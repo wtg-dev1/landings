@@ -165,6 +165,38 @@
             "message",
           ];
 
+          // GA4 dataLayer plumbing. Form name is rendered server-side via
+          // app.GetFormName and exposed on window.LP_FORM_NAME (base.html).
+          // event_id is generated once per pageload and reused across the
+          // start/submit pair so they correlate in analytics.
+          window.dataLayer = window.dataLayer || [];
+          var FORM_NAME = window.LP_FORM_NAME || "";
+          var EVENT_ID =
+            (window.crypto && window.crypto.randomUUID && window.crypto.randomUUID()) ||
+            (Date.now().toString(36) + Math.random().toString(36).slice(2, 10));
+          var startPushed = false;
+          function pushFormEvent(name, status) {
+            window.dataLayer.push({
+              event: name,
+              event_id: EVENT_ID,
+              event_time: new Date().getTime(),
+              form_id: "enquiry",
+              form_name: FORM_NAME,
+              form_location: window.location.href,
+              submission_status: status,
+            });
+          }
+          function pushStartOnce() {
+            if (startPushed) return;
+            startPushed = true;
+            pushFormEvent("lp_form_start", "not_submitted");
+          }
+          // First interaction with any field fires lp_form_start. focusin
+          // bubbles, so a single listener on the form covers every input,
+          // textarea, and select without per-field wiring.
+          form.addEventListener("focusin", pushStartOnce, { once: false });
+          form.addEventListener("change", pushStartOnce, { once: false });
+
           form.addEventListener("submit", function (e) {
             e.preventDefault();
 
@@ -234,6 +266,7 @@
             })
               .then(function (res) {
                 if (res.ok) {
+                  pushFormEvent("lp_form_submit", "submitted");
                   form.hidden = true;
                   if (thanks) thanks.hidden = false;
                   return;

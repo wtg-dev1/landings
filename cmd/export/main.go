@@ -60,6 +60,7 @@ func renderOne(s app.SiteEntry, outDir string) error {
 	if err != nil {
 		return err
 	}
+	content.FormName = app.GetFormName("/" + s.City + "/" + s.Route)
 	dir := filepath.Join(outDir, s.City, s.Route)
 	if err := os.MkdirAll(dir, 0o755); err != nil {
 		return err
