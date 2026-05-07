@@ -176,17 +176,6 @@ section[id] { scroll-margin-top: 100px; }
   padding: clamp(48px, 7vw, 90px) 0;
   position: relative; overflow: hidden;
 }
-/* Decorative leaf overlay — full-bleed, 20% opacity, behind content */
-.hero::before {
-  content: "";
-  position: absolute; inset: 0;
-  background-image: url('/static/images/figma/hero-bg.png');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.2;
-  pointer-events: none;
-  z-index: 0;
-}
 .hero__inner {
   position: relative;
   z-index: 1;
@@ -226,8 +215,8 @@ section[id] { scroll-margin-top: 100px; }
 .hero__ctas { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
 .hero__trust {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 30px;
   color: var(--navy);
   opacity: 0.85;
 }
@@ -283,7 +272,9 @@ section[id] { scroll-margin-top: 100px; }
 }
 .treat-card__image {
   aspect-ratio: 4/3;
-  background-size: cover; background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--cream-3);
   border-radius: var(--r-lg);
 }
