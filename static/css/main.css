@@ -966,6 +966,12 @@ section[id] { scroll-margin-top: 100px; }
   .treat__grid { grid-template-columns: repeat(2, 1fr); }
   .reviews__grid { grid-template-columns: 1fr; }
   .pricing__card { padding: 48px 36px; }
+}
+
+/* Pricing two-column desktop layout only fits at full container width (≥1180px).
+   Below that the $-amount (clamp 48–72px, white-space:nowrap) overflows into the
+   reimbursement paragraph, so stack vertically. */
+@media (max-width: 1180px) {
   .pricing__top { grid-template-columns: 1fr; gap: 24px; }
 }
 
@@ -981,8 +987,12 @@ section[id] { scroll-margin-top: 100px; }
   .how__steps, .locations__grid, .footer__offices,
   .stats__grid { grid-template-columns: 1fr; }
   .stats__grid { grid-template-columns: repeat(2, 1fr); }
-  .compare__head, .compare__row { grid-template-columns: 1fr; }
-  .compare__cell--us { background: var(--cream); border-top: 3px solid var(--copper); }
+  /* Keep the comparison as a true 2-column table on mobile. Tighten paddings,
+     icons, and font so both columns fit in ~360px viewports without overflow. */
+  .compare__head-cell { padding: 14px 10px; font-size: 16px; line-height: 1.25; }
+  .compare__cell { padding: 10px 8px; font-size: 13px; line-height: 1.4; gap: 6px; }
+  .compare__icon { width: 18px; height: 18px; font-size: 10px; }
+  .compare__icon--x { font-size: 12px; }
   .lead-form__row--two { grid-template-columns: 1fr; }
   .sticky-bar__text { display: none; }
   .sticky-bar__actions { flex: 1; }
