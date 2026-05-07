@@ -966,7 +966,7 @@ section[id] { scroll-margin-top: 100px; }
   .treat__grid { grid-template-columns: repeat(2, 1fr); }
   .reviews__grid { grid-template-columns: 1fr; }
   .pricing__card { padding: 48px 36px; }
-  .pricing__top { gap: 32px; }
+  .pricing__top { grid-template-columns: 1fr; gap: 24px; }
 }
 
 @media (max-width: 600px) {
