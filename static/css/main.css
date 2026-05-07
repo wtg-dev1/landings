@@ -987,12 +987,11 @@ section[id] { scroll-margin-top: 100px; }
   .how__steps, .locations__grid, .footer__offices,
   .stats__grid { grid-template-columns: 1fr; }
   .stats__grid { grid-template-columns: repeat(2, 1fr); }
-  /* Keep the comparison as a true 2-column table on mobile. Tighten paddings,
-     icons, and font so both columns fit in ~360px viewports without overflow. */
+  /* Keep the comparison as a true 2-column table on mobile. Tighten paddings
+     and font, drop the icons entirely so text gets the full cell width. */
   .compare__head-cell { padding: 14px 10px; font-size: 16px; line-height: 1.25; }
-  .compare__cell { padding: 10px 8px; font-size: 13px; line-height: 1.4; gap: 6px; }
-  .compare__icon { width: 18px; height: 18px; font-size: 10px; }
-  .compare__icon--x { font-size: 12px; }
+  .compare__cell { padding: 10px 8px; font-size: 13px; line-height: 1.4; gap: 0; }
+  .compare__icon { display: none; }
   .lead-form__row--two { grid-template-columns: 1fr; }
   .sticky-bar__text { display: none; }
   .sticky-bar__actions { flex: 1; }
