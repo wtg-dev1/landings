@@ -1,0 +1,390 @@
+{
+  "city": "brooklyn",
+  "variant": "child",
+  "phone": "347-970-6757",
+  "meta": {
+    "title": "Child Therapy This Week | PhD Child Psychologist | Brooklyn Austin Miami",
+    "description": "Child therapy with a doctoral child psychologist this week. PhD/PsyD only, with pediatric psychiatry on the same team, $280-300/session, OON help. Brooklyn, Austin, Miami, online."
+  },
+  "header": {
+    "logoEyebrow": "Williamsburg",
+    "logoWordmark": "Therapy Group",
+    "bookLabel": "Book a session"
+  },
+  "anchors": [
+    {
+      "label": "What we treat",
+      "href": "#treat"
+    },
+    {
+      "label": "How it works",
+      "href": "#how"
+    },
+    {
+      "label": "Our clinicians",
+      "href": "#clinicians"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "Locations",
+      "href": "#locations"
+    },
+    {
+      "label": "FAQs",
+      "href": "#faq"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "chips": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "h1": "Child therapy this week, with a PhD or PsyD child psychologist.",
+    "subhead": "Whether your kid is anxious, struggling at school, melting down at home, or going through something they won't talk about, your child's first session can be this week. Every child therapist holds a PhD or PsyD, with pediatric psychiatrists on the same team.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "primaryCTA": "Book my child's first session",
+    "secondaryCTA": "Call",
+    "image": "/static/images/figma/hero.png",
+    "imageAlt": "Child-friendly WTG therapy space with curved-wood seating"
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "PhD & PsyD clinicians"
+    },
+    {
+      "value": "10+",
+      "label": "Years of excellence"
+    },
+    {
+      "value": "5★",
+      "label": "Google rated"
+    },
+    {
+      "value": "7 days",
+      "label": "Typical time to first session"
+    }
+  ],
+  "treat": {
+    "eyebrow": "What we treat",
+    "h2": "No kid gets better in a vacuum",
+    "subhead": "Six ways we support kids, the parents raising them, and the family around them, depending on what's actually going on.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Child therapy",
+        "body": "One-on-one sessions with a doctoral child clinician for kids working through anxiety, behavior, school stress, social issues, or family changes.",
+        "image": "/static/images/figma/treat-1.png"
+      },
+      {
+        "number": "02",
+        "title": "Teen therapy",
+        "body": "What works for a 9-year-old doesn't work for a 15-year-old. Our teen therapists are trained for the developmental stage, the social pressure, and the things teens won't say out loud at home.",
+        "image": "/static/images/figma/treat-2.png"
+      },
+      {
+        "number": "03",
+        "title": "Pediatric psychiatry",
+        "body": "Board-certified pediatric psychiatrists when ADHD, anxiety, or mood needs medication alongside therapy. One care plan, not two.",
+        "image": "/static/images/figma/treat-3.png"
+      },
+      {
+        "number": "04",
+        "title": "Parenting support",
+        "body": "For when the meltdowns, conversations, or rules that used to work have stopped working. Paired with your child's therapy so you and the therapist are running the same plan.",
+        "image": "/static/images/figma/treat-4.png"
+      },
+      {
+        "number": "05",
+        "title": "Family therapy alongside",
+        "body": "When what your kid is going through is also happening to the family. A family therapist works alongside your child's therapist, with both of them on one shared plan.",
+        "image": "/static/images/figma/treat-5.png"
+      },
+      {
+        "number": "06",
+        "title": "Crisis support for kids in distress",
+        "body": "When something has just happened, a hospitalization, a school crisis, or a sudden change at home, we move fast. First session this week, with the same team that carries the ongoing work.",
+        "image": "/static/images/figma/misc-116.png"
+      }
+    ],
+    "cta": "Find my child's therapist"
+  },
+  "comparison": {
+    "eyebrow": "How we're different",
+    "h2": "Most child therapy practices can do one thing well. We're built to do more.",
+    "subhead": "The five things that go wrong with most child therapy practices, and what happens when none of them go wrong at Williamsburg Therapy Group.",
+    "themLabel": "Most therapy practices",
+    "usLabel": "Williamsburg Therapy Group",
+    "rows": [
+      {
+        "them": "A solo child psychologist who can't help if your kid needs psychiatry or your family needs separate therapy.",
+        "us": "A multi-clinician doctoral team, your kid's therapist, your therapist, your psychiatrist (if needed) all on the same care plan."
+      },
+      {
+        "them": "Master's-level therapist with a parent-training certification but no doctoral child psychology training.",
+        "us": "PhD or PsyD child clinicians trained specifically for child psychology, with pediatric psychiatrists on the same team."
+      },
+      {
+        "them": "Your child sees a therapist and you're left guessing what they're working on.",
+        "us": "Your child's therapist gives you regular updates on goals and progress, with parent support sessions built in when needed."
+      },
+      {
+        "them": "Six-week waitlist before your child can get started.",
+        "us": "Most kids have their first session the same week you call, match confirmed within 24 hours."
+      },
+      {
+        "them": "Out-of-network paperwork dumped on you to figure out alone.",
+        "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
+      }
+    ],
+    "cta": "See if we're a fit"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "h2": "From your first call to your child's first session in seven days",
+    "subhead": "A coordinator picks up, asks three questions about your kid, and gets the right doctoral therapist matched and scheduled by the end of the week.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Call or fill up our form",
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
+      },
+      {
+        "number": "2",
+        "title": "Get matched in 24 hours",
+        "body": "A coordinator picks the right child therapist for your kid based on what's going on, how old they are, and the kind of personality they respond to."
+      },
+      {
+        "number": "3",
+        "title": "First session",
+        "body": "Meet in person or over secure video, often within the same week. Parents sit in for the first part if your child is younger or anxious."
+      },
+      {
+        "number": "4",
+        "title": "Make progress",
+        "body": "Regular check-ins from your child's therapist, paced to your kid's age, with goals specific enough that you can tell whether things are actually shifting at home."
+      }
+    ],
+    "cta": "Get started today"
+  },
+  "whyWTG": {
+    "eyebrow": "Why Williamsburg Therapy Group",
+    "h2": "Five reasons parents choose WTG for their kids",
+    "subhead": "Where doctoral training meets actual kids and teens.",
+    "bullets": [
+      {
+        "title": "Only doctoral-level child therapists",
+        "body": "PhD and PsyD only, with doctoral child psychology training. Most practices run child therapy through master's-level clinicians with weekend certifications. We don't."
+      },
+      {
+        "title": "Pediatric psychiatry on the same team",
+        "body": "When ADHD, anxiety, or mood needs medication, the same care team handles both. One care plan, with the therapist and the psychiatrist actually talking to each other."
+      },
+      {
+        "title": "Built for kids who don't want to be there",
+        "body": "Reluctant kids and quiet teens are normal. Our child therapists know how to start the work even when your kid isn't ready to talk yet, with activities, side conversations, or just sitting together until trust builds."
+      },
+      {
+        "title": "Parent communication cadence that fits your kid's age",
+        "body": "Younger kids: regular updates on goals and progress, plus parent sessions when you need them. Teens: their sessions stay private, but the therapist is in touch with you if there's something you'd want to know about your kid's safety or wellbeing."
+      },
+      {
+        "title": "Real coordinator match in 24 hours",
+        "body": "Not a quiz, not an algorithm. A person on our team listens to your kid's situation and pairs them with the right clinician. Match confirmed within 24 hours."
+      }
+    ],
+    "cta": "Talk to a coordinator",
+    "image": "/static/images/figma/why-wtg.jpg",
+    "imageAlt": "WTG doctoral clinician"
+  },
+  "clinicians": {
+    "eyebrow": "Meet a few of our therapists",
+    "h2": "Doctoral child specialists across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair your kid with any doctoral therapist on the team whose practice area includes child or teen work. The four below are placeholder slots for real WTG child specialists; final names and headshots replace these before launch.",
+    "featured": [
+      {
+        "name": "Slot 1",
+        "credential": "PhD",
+        "city": "Brooklyn",
+        "treats": "kids 6-12 with anxiety, behavior, school stress, and social issues",
+        "photo": "/static/images/figma/clinician-1.png"
+      },
+      {
+        "name": "Slot 2",
+        "credential": "PsyD",
+        "city": "Austin",
+        "treats": "teens working through identity, family conflict, and academic stress",
+        "photo": "/static/images/figma/clinician-2.png"
+      },
+      {
+        "name": "Slot 3",
+        "credential": "PhD",
+        "city": "Miami",
+        "treats": "kids with ADHD, learning differences, and executive function challenges",
+        "photo": "/static/images/figma/clinician-3.png"
+      },
+      {
+        "name": "Slot 4",
+        "credential": "PsyD",
+        "city": "Online",
+        "treats": "teens balancing therapy with packed school schedules",
+        "photo": "/static/images/figma/clinician-4.png"
+      }
+    ],
+    "cta": "Get matched today"
+  },
+  "midCTA": {
+    "h2": "The hardest part is making the call. The rest is on us.",
+    "body": "First session within seven days, in Brooklyn, Austin, Miami, or online. You don't need to have it figured out before you call. We will help you sort it on the phone.",
+    "cta": "Book a session"
+  },
+  "pricing": {
+    "eyebrow": "Session rates & insurance",
+    "h2": "Clear pricing. Help with reimbursement.",
+    "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
+    "priceBlock": "$280 to $300",
+    "priceUnit": "per 45-minute session",
+    "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
+    "steps": [
+      "We charge you the session fee at the time of service.",
+      "We send you a superbill you can submit to your insurance.",
+      "Reimbursify files the claim for you. You get reimbursed directly."
+    ],
+    "cta": "Check your coverage"
+  },
+  "locations": {
+    "eyebrow": "Where we practice",
+    "h2": "Brooklyn, Austin, Miami, and online",
+    "subhead": "Three offices plus secure video across New York, Texas, and Florida.",
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "North Williamsburg 109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262",
+        "hours": "8 AM to 5 PM CT, Mon to Sat"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Online",
+        "address": "Secure video sessions across NY · TX · FL",
+        "phone": "",
+        "hours": "Book online anytime",
+        "online": true
+      }
+    ],
+    "cta": "Book at your nearest location"
+  },
+  "testimonials": {
+    "eyebrow": "What patients say",
+    "h2": "Real results, in their words",
+    "reviews": [
+      {
+        "quote": "Dr. Selling and the team at WTG are the best! Beautiful office space in Brooklyn.",
+        "author": "Michael F.",
+        "city": "Brooklyn"
+      },
+      {
+        "quote": "I highly recommend Dr. Trubowitz, she's helped our family resolve some longstanding issues. This is the best group of doctors in Austin that I've worked with. The space is also beautiful and relaxing.",
+        "author": "Rebecca B.",
+        "city": "Austin"
+      },
+      {
+        "quote": "This office is unlike any other therapy office I've ever seen. Totally clean, beautiful curved wood everywhere, complimentary tea and water. Particularly impressed with the group therapy room. Just a really nice place to be.",
+        "author": "Jake F.",
+        "city": "Austin"
+      }
+    ],
+    "cta": "Start your story"
+  },
+  "faq": {
+    "eyebrow": "Common questions",
+    "h2": "Everything parents ask before their child's first session",
+    "items": [
+      {
+        "q": "How much does child therapy cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most kids meet weekly to start, often shifting to every other week once the early momentum builds. Children doing focused work (specific anxiety, school behavior, social skills) often see meaningful change in 12 to 20 sessions. Kids working on deeper patterns may stay longer. Your child's therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping kids in therapy forever."
+      },
+      {
+        "q": "What if my kid hates the first session and refuses to go back?",
+        "a": "It happens, especially with reluctant kids and teens. Our doctoral child therapists are trained to make the first session low-pressure, sometimes that means parents stay for part of it, sometimes it means the kid does an activity instead of talking. If the fit isn't right, your coordinator will re-match you with a different clinician on the team. We expect some kids to need a second try; you don't have to start over from scratch."
+      },
+      {
+        "q": "Will my child's therapist tell me what they say in session?",
+        "a": "The cadence depends on your child's age. For younger kids, expect regular updates on goals and progress and parent sessions when they're useful. For teens, the work itself stays private, but the therapist will be in touch with you about anything related to safety or wellbeing. Your therapist will lay all of this out with both of you in the first sessions, so no one is guessing what gets shared."
+      },
+      {
+        "q": "How young is too young for therapy?",
+        "a": "Most of our child therapists work with kids age 5 and up. For younger children, we often focus more on parent coaching, where you learn the skills to support your child at home. Your coordinator can tell you which approach fits your child's age."
+      },
+      {
+        "q": "Can my child see a separate therapist on the same team if family therapy is also needed?",
+        "a": "Yes, and many families do exactly that. Your child has their own sessions with a child therapist, you have yours with your therapist, and a family therapist leads the sessions where you all meet together. With your consent, the team shares notes so everyone is working from the same plan."
+      }
+    ],
+    "cta": "Get your questions answered",
+    "image": "/static/images/figma/faq-room.png",
+    "imageAlt": "WTG office space"
+  },
+  "form": {
+    "eyebrow": "The hardest part is making the call",
+    "h2": "Tell us what's going on. We'll handle the rest.",
+    "subhead": "A real coordinator calls or emails you back the same day. They'll ask three questions, match your kid with the right child therapist, and put a first session on the calendar. No waitlists.",
+    "locations": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "consent": "By leaving your phone or email, you are consenting to receiving communications from us via text or email and that may include communications about your appointments, services, and marketing information related to our services. You may opt out of marketing information at any time. Your contact information will never be sold to any third party and will only be shared to the extent necessary to perform any services on your behalf.",
+    "submit": "Request my consultation",
+    "phoneFallback": "or call 347-970-6757 to speak with our coordinator now.",
+    "reassurance": "Same-day response. No waitlists, no runaround.",
+    "image": "/static/images/figma/misc-116.png",
+    "imageAlt": "WTG office plant"
+  },
+  "stickyBar": {
+    "text": "Child therapy this week. PhD/PsyD. $280 to $300 per session.",
+    "primaryCTA": "Book a session",
+    "secondaryCTA": "Call"
+  },
+  "footer": {
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547"
+      }
+    ],
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "city": "brooklyn",
-  "variant": "general",
+  "variant": "anxiety-depression",
   "phone": "347-970-6757",
   "meta": {
-    "title": "Brooklyn Therapy \u2014 Williamsburg Therapy Group",
-    "description": "Doctoral-level therapists in Brooklyn. Same-week openings. PhD and PsyD only."
+    "title": "Anxiety & Depression Therapy This Week | PhD/PsyD + Psychiatry | WTG",
+    "description": "Anxiety and depression therapy with a doctoral therapist this week. PhD/PsyD only with psychiatry on the same team, $280-300/session, OON help. Brooklyn, Austin, Miami, online."
   },
   "header": {
     "logoEyebrow": "Williamsburg",
@@ -48,13 +48,13 @@
       "Miami",
       "Online"
     ],
-    "h1": "The right therapist, ready to meet you this week.",
-    "subhead": "First session as soon as this week. Every therapist holds a PhD or PsyD, and a real coordinator picks the one who matches your goals, schedule, and style.",
-    "trustLine": "Same-week openings \u00b7 In person or online \u00b7 Out-of-network with reimbursement support",
-    "primaryCTA": "Book a session",
+    "h1": "Anxiety and depression therapy this week, with a PhD or PsyD therapist.",
+    "subhead": "Whether you're dealing with everyday low-grade overwhelm, panic that won't quit, depression that crept up over years, or OCD or trauma layered underneath, your first session can be this week. Every therapist holds a PhD or PsyD, and our board-certified psychiatrists are on the same team if medication ends up being part of the plan.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
-    "imageAlt": "WTG clinician in office"
+    "imageAlt": "Editorial portrait of a doctoral clinician in a WTG office"
   },
   "stats": [
     {
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5\u2605",
+      "value": "5★",
       "label": "Google rated"
     },
     {
@@ -76,43 +76,43 @@
   ],
   "treat": {
     "eyebrow": "What we treat",
-    "h2": "Therapy for anxiety, depression, relationships, and life transitions",
-    "subhead": "Every one of our six specialties is staffed by PhD and PsyD clinicians, with board-certified psychiatrists for medication.",
+    "h2": "Anxiety and depression therapy is what we do, and the rest of the team is here when the work asks for more",
+    "subhead": "Six ways our doctoral team supports adults working through anxiety, depression, and what often comes alongside them. Every clinician PhD or PsyD.",
     "cards": [
       {
         "number": "01",
-        "title": "Individual therapy",
-        "body": "One-on-one sessions for adults. Work anxiety, burnout, relationship stress, life changes, trauma, and more.",
+        "title": "Anxiety therapy",
+        "body": "Evidence-based work for generalized anxiety, panic, social anxiety, health anxiety, and the everyday low-grade overwhelm that doesn't have a name.",
         "image": "/static/images/figma/treat-1.png"
       },
       {
         "number": "02",
-        "title": "Couples therapy",
-        "body": "For couples who want to fight less, talk more, and feel close again. In person or online.",
+        "title": "Depression therapy",
+        "body": "Doctoral support for major depression, persistent low mood, and the kind that crept up over years.",
         "image": "/static/images/figma/treat-2.png"
       },
       {
         "number": "03",
-        "title": "Child & family",
-        "body": "Support for children, teens, and families working through school, behavior, and family changes.",
+        "title": "OCD and trauma alongside",
+        "body": "Targeted work for OCD, PTSD, and trauma responses using methods proven for these specific conditions.",
         "image": "/static/images/figma/treat-3.png"
       },
       {
         "number": "04",
-        "title": "Anxiety & depression",
-        "body": "Targeted CBT and evidence-based care for anxiety, depression, OCD, and trauma.",
+        "title": "Psychiatry on the same team",
+        "body": "Board-certified psychiatrists when medication can help. One care plan with your therapist, not two separate visits.",
         "image": "/static/images/figma/treat-4.png"
       },
       {
         "number": "05",
-        "title": "Psychiatry",
-        "body": "Board-certified psychiatrists on the same team as your therapist. One plan, not two.",
+        "title": "Perinatal mental health",
+        "body": "Specialized doctoral care for pregnancy and postpartum depression and anxiety, on the same team.",
         "image": "/static/images/figma/treat-5.png"
       },
       {
         "number": "06",
-        "title": "Neuropsych testing",
-        "body": "Full evaluations for ADHD, learning differences, and cognitive questions. Results you can actually use.",
+        "title": "Couples and family work",
+        "body": "When anxiety or depression is reaching your partner or kids. Doctoral couples and family therapists on the same team.",
         "image": "/static/images/figma/misc-116.png"
       }
     ],
@@ -120,29 +120,29 @@
   },
   "comparison": {
     "eyebrow": "How we're different",
-    "h2": "What makes Williamsburg Therapy Group different for therapy",
-    "subhead": "A side-by-side look at what most therapy practices offer versus what happens at WTG.",
+    "h2": "How anxiety and depression therapy at WTG compares to the rest of the field",
+    "subhead": "What you'll get from most options versus what happens at WTG.",
     "themLabel": "Most therapy practices",
     "usLabel": "Williamsburg Therapy Group",
     "rows": [
       {
-        "them": "Master's-level therapists handling complex cases.",
-        "us": "Every clinician holds a PhD or PsyD, plus board-certified psychiatrists on the same team."
+        "them": "A specialty center that matches WTG on credentials but has no integrated psychiatry. When you need medication, you start over with a new practice.",
+        "us": "Therapy and psychiatry on the same team, sharing notes with your consent. One care plan, not two."
       },
       {
-        "them": "You scroll a directory and pick a name with no context.",
-        "us": "A real patient coordinator matches you to the right therapist for your goals, schedule, and style."
+        "them": "Master's-level therapists with weekend CBT certifications running anxiety and depression work.",
+        "us": "Every therapist holds a PhD or PsyD, with board-certified psychiatrists on the same team."
       },
       {
-        "them": "Waitlists that stretch two to six weeks before a first session.",
-        "us": "Most new patients have their first session the same week they call."
+        "them": "You scroll a directory and pick a name based on a photo and a paragraph bio.",
+        "us": "A real coordinator picks the therapist for what you're working through, on a five-minute call. Match confirmed within 24 hours."
       },
       {
-        "them": "One-size-fits-all talk therapy regardless of what you're dealing with.",
-        "us": "Evidence-based methods picked for your specific issue, from structured CBT to deeper relational work."
+        "them": "Six-week waitlist before your first session.",
+        "us": "Most patients have their first session the same week they call."
       },
       {
-        "them": "You handle out-of-network paperwork alone and hope for reimbursement.",
+        "them": "Out-of-network paperwork dumped on you to figure out.",
         "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
       }
     ],
@@ -150,18 +150,18 @@
   },
   "howItWorks": {
     "eyebrow": "How it works",
-    "h2": "Four simple steps, from call to care",
-    "subhead": "Under two minutes to start. No long forms, no chatbots, a real person answers.",
+    "h2": "Four steps from your first call to your first session",
+    "subhead": "Under five minutes to start. No long forms, no chatbots, a real person answers and asks three questions about what you're working through.",
     "steps": [
       {
         "number": "1",
         "title": "Call or tap to book",
-        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day."
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
       },
       {
         "number": "2",
-        "title": "Get matched",
-        "body": "We pair you with the right doctoral therapist for your goals, schedule, and preferences."
+        "title": "Get matched in 24 hours",
+        "body": "We pair you with a doctoral therapist for what you're working through, your schedule, and the way you like to work. Match confirmed within 24 hours."
       },
       {
         "number": "3",
@@ -171,35 +171,35 @@
       {
         "number": "4",
         "title": "Make progress",
-        "body": "Clear goals and regular check-ins so you can see how far you've come."
+        "body": "Concrete tools and check-ins so you can see the change in your day-to-day, not just in session."
       }
     ],
     "cta": "Get started today"
   },
   "whyWTG": {
     "eyebrow": "Why Williamsburg Therapy Group",
-    "h2": "Doctoral training, delivered with warmth",
-    "subhead": "What makes us different, in five lines.",
+    "h2": "Five reasons adults choose WTG for anxiety and depression",
+    "subhead": "Where doctoral training meets the moments medication may also matter.",
     "bullets": [
       {
-        "title": "Only doctoral-level clinicians",
-        "body": "Only PhD and PsyD therapists, plus board-certified psychiatrists. Most practices staff master's-level clinicians. We don't."
+        "title": "Therapy and psychiatry on the same team",
+        "body": "When medication can help, you're not bouncing between separate practices, retelling your story, or coordinating two records yourself. One team, one care plan, one set of notes."
       },
       {
-        "title": "Matched by a real coordinator",
-        "body": "A person on our care team listens to what you're dealing with and picks the therapist most likely to click with you."
+        "title": "Only doctoral-level therapists",
+        "body": "Only PhD and PsyD clinicians for anxiety and depression. Most practices use master's-level therapists with weekend CBT certifications. We don't."
       },
       {
-        "title": "Evidence-based, not one-size-fits-all",
-        "body": "Your therapist uses methods proven to work for your specific issue, from structured skill-building to deeper talk therapy."
+        "title": "Real coordinator match in 24 hours",
+        "body": "Not a quiz, not an algorithm. A person on our team listens to what you're working through and pairs you with the right doctoral therapist. Match confirmed within 24 hours."
       },
       {
-        "title": "In person or online, your call",
-        "body": "Most new patients start the same week."
+        "title": "Multi-method, not single-brand",
+        "body": "Specialty centers bet everything on one method. Our doctoral therapists flex across CBT, DBT, interpersonal, and psychodynamic approaches based on what's actually in front of them."
       },
       {
         "title": "Same therapist, every session",
-        "body": "We match you once, you don't start over."
+        "body": "We match you once. You don't restart with someone new every time someone leaves the practice."
       }
     ],
     "cta": "Talk to a coordinator",
@@ -208,35 +208,35 @@
   },
   "clinicians": {
     "eyebrow": "Meet a few of our therapists",
-    "h2": "Fifty-plus doctoral-level clinicians across three markets",
-    "subhead": "Over fifty doctoral-level clinicians on the team. Your coordinator can pair you with any of them, including the ones here.",
+    "h2": "Doctoral specialists for anxiety and depression across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area fits what you're working through. The four below are placeholder slots for real WTG specialists; final names and headshots replace these before launch.",
     "featured": [
       {
         "name": "Slot 1",
         "credential": "PhD",
         "city": "Brooklyn",
-        "treats": "anxiety, early-career stress, relationship concerns",
+        "treats": "generalized anxiety, panic, work and career stress, perfectionism",
         "photo": "/static/images/figma/clinician-1.png"
       },
       {
         "name": "Slot 2",
         "credential": "PsyD",
         "city": "Austin",
-        "treats": "couples, trauma, identity, transitions",
+        "treats": "depression, postpartum depression, life transitions affecting mood",
         "photo": "/static/images/figma/clinician-2.png"
       },
       {
         "name": "Slot 3",
-        "credential": "MD",
+        "credential": "PhD",
         "city": "Miami",
-        "treats": "patients who need medication alongside therapy",
+        "treats": "OCD, PTSD, complex trauma using evidence-based methods",
         "photo": "/static/images/figma/clinician-3.png"
       },
       {
         "name": "Slot 4",
-        "credential": "PhD",
+        "credential": "PsyD",
         "city": "Online",
-        "treats": "depression, OCD, and trauma using evidence-based talk therapy",
+        "treats": "high-functioning adults balancing therapy with demanding schedules",
         "photo": "/static/images/figma/clinician-4.png"
       }
     ],
@@ -244,7 +244,7 @@
   },
   "midCTA": {
     "h2": "Ready when you are.",
-    "body": "Same-week openings across Brooklyn, Austin, Miami, and online. It's your pace.",
+    "body": "Same-week first sessions for anxiety and depression therapy across Brooklyn, Austin, Miami, and online. The hardest part is making the call.",
     "cta": "Book a session"
   },
   "pricing": {
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
+        "address": "Secure video sessions across NY · TX · FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -318,27 +318,27 @@
   },
   "faq": {
     "eyebrow": "Common questions",
-    "h2": "Everything you're probably wondering",
+    "h2": "Everything adults ask before the first session",
     "items": [
       {
-        "q": "Do you take my insurance?",
-        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most of our patients use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We'll give you a superbill and partner with Reimbursify, a claim-filing service, to submit it to your insurer on your behalf."
+        "q": "How much does therapy cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most adults meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work on anxiety or depression often see meaningful change in 12 to 20 sessions. Patients doing deeper work on OCD, trauma, or long-standing depression may stay longer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
       },
       {
-        "q": "How fast can I see someone?",
-        "a": "Most new patients have their first session the same week they call. Your coordinator will show you openings that fit your schedule."
+        "q": "Do I need medication, or is therapy enough?",
+        "a": "Many adults do well with therapy alone. Some benefit from medication alongside therapy. Some need a phase of medication first to stabilize before therapy can do its work. The right answer depends on what you're working through. Because we have psychiatrists on the same team as our therapists, you don't have to figure this out alone, your therapist and, if needed, your psychiatrist will recommend what fits. You can also start with therapy and add psychiatry later if it's needed."
       },
       {
-        "q": "What makes \"doctoral-level\" different?",
-        "a": "Every therapist at WTG has a PhD or PsyD, the same doctoral training that hospital and university psychologists hold. Most practices staff master's-level therapists. We don't."
+        "q": "What kind of therapy do you use for anxiety and depression?",
+        "a": "Our doctoral therapists are trained in multiple evidence-based methods, including cognitive behavioral therapy, dialectical behavior therapy, interpersonal therapy, and psychodynamic approaches. Your coordinator pairs you with a therapist whose style fits how you like to work and what you're working through."
       },
       {
-        "q": "Can I do sessions online?",
-        "a": "Yes. We offer secure video sessions across New York, Texas, and Florida. Many patients mix in-person and online based on their week."
+        "q": "What if I've tried therapy before and it didn't work?",
+        "a": "It happens, and it doesn't mean therapy can't work for you. Often the issue was the fit with the therapist, the modality used, or the timing in your life. Your coordinator can pair you with a doctoral clinician whose approach is different from what you tried last time. Tell your new therapist what didn't work before, we build from there."
       },
       {
-        "q": "What if my therapist isn't the right fit?",
-        "a": "It happens, and we expect it sometimes. Tell your coordinator and we'll re-match you with another doctoral therapist on the team. No awkward conversations on your end."
+        "q": "Do you take my insurance for anxiety or depression therapy?",
+        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most patients use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We give you a superbill and partner with Reimbursify, a claim-filing service, that submits it to your insurer for you."
       }
     ],
     "cta": "Get your questions answered",
@@ -348,7 +348,7 @@
   "form": {
     "eyebrow": "Ready to take the next step?",
     "h2": "Tell us a little about what you're looking for",
-    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure.",
+    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure. The first session can be this week.",
     "locations": [
       "Brooklyn",
       "Austin",
@@ -363,7 +363,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Same-week openings. Doctoral-level therapists.",
+    "text": "Anxiety & depression therapy this week. PhD/PsyD + psychiatry. $280 to $300/session.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
   }
 }

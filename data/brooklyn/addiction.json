@@ -1,10 +1,10 @@
 {
   "city": "brooklyn",
-  "variant": "general",
+  "variant": "addiction",
   "phone": "347-970-6757",
   "meta": {
-    "title": "Brooklyn Therapy \u2014 Williamsburg Therapy Group",
-    "description": "Doctoral-level therapists in Brooklyn. Same-week openings. PhD and PsyD only."
+    "title": "Outpatient Addiction Therapy This Week | PhD/PsyD | Discreet | WTG",
+    "description": "Outpatient addiction therapy with a doctoral therapist this week. PhD/PsyD only, cash-pay discretion, $280-300/session. Not residential. Brooklyn, Austin, Miami, online."
   },
   "header": {
     "logoEyebrow": "Williamsburg",
@@ -48,13 +48,13 @@
       "Miami",
       "Online"
     ],
-    "h1": "The right therapist, ready to meet you this week.",
-    "subhead": "First session as soon as this week. Every therapist holds a PhD or PsyD, and a real coordinator picks the one who matches your goals, schedule, and style.",
-    "trustLine": "Same-week openings \u00b7 In person or online \u00b7 Out-of-network with reimbursement support",
-    "primaryCTA": "Book a session",
+    "h1": "Outpatient addiction therapy this week, with a PhD or PsyD therapist.",
+    "subhead": "Whether you're working through alcohol use, recreational substance challenges, prescription dependence, or maintenance after primary treatment, your first session can be this week. Outpatient, doctoral-level, cash-pay private practice. Not residential rehab. Your story stays between you and your team.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Cash-pay discretion, OON claim filed if you choose",
+    "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
-    "imageAlt": "WTG clinician in office"
+    "imageAlt": "Clean, understated WTG office"
   },
   "stats": [
     {
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5\u2605",
+      "value": "5★",
       "label": "Google rated"
     },
     {
@@ -76,43 +76,43 @@
   ],
   "treat": {
     "eyebrow": "What we treat",
-    "h2": "Therapy for anxiety, depression, relationships, and life transitions",
-    "subhead": "Every one of our six specialties is staffed by PhD and PsyD clinicians, with board-certified psychiatrists for medication.",
+    "h2": "Outpatient addiction therapy is what we do, and the rest of the team is here when the work asks for more",
+    "subhead": "Six ways our doctoral team supports adults working through substance use and the mental health work that goes alongside it. Every clinician PhD or PsyD.",
     "cards": [
       {
         "number": "01",
-        "title": "Individual therapy",
-        "body": "One-on-one sessions for adults. Work anxiety, burnout, relationship stress, life changes, trauma, and more.",
+        "title": "Outpatient substance use therapy",
+        "body": "Doctoral support for working through alcohol use, recreational substance challenges, and prescription dependence in an outpatient private-practice setting.",
         "image": "/static/images/figma/treat-1.png"
       },
       {
         "number": "02",
-        "title": "Couples therapy",
-        "body": "For couples who want to fight less, talk more, and feel close again. In person or online.",
+        "title": "Co-occurring mental health",
+        "body": "Anxiety, depression, trauma, and other conditions that often go alongside substance use. Treated together, on the same team, not in two separate appointments.",
         "image": "/static/images/figma/treat-2.png"
       },
       {
         "number": "03",
-        "title": "Child & family",
-        "body": "Support for children, teens, and families working through school, behavior, and family changes.",
+        "title": "Maintenance and relapse prevention",
+        "body": "Doctoral support after primary treatment, when the work is staying on the path you've already started.",
         "image": "/static/images/figma/treat-3.png"
       },
       {
         "number": "04",
-        "title": "Anxiety & depression",
-        "body": "Targeted CBT and evidence-based care for anxiety, depression, OCD, and trauma.",
+        "title": "Family and couples affected by substance use",
+        "body": "Doctoral therapists for partners, kids, and families navigating a loved one's substance use.",
         "image": "/static/images/figma/treat-4.png"
       },
       {
         "number": "05",
-        "title": "Psychiatry",
-        "body": "Board-certified psychiatrists on the same team as your therapist. One plan, not two.",
+        "title": "Psychiatry on the same team",
+        "body": "Board-certified psychiatrists when medication is part of your treatment plan. One care plan, not two.",
         "image": "/static/images/figma/treat-5.png"
       },
       {
         "number": "06",
-        "title": "Neuropsych testing",
-        "body": "Full evaluations for ADHD, learning differences, and cognitive questions. Results you can actually use.",
+        "title": "Honest about what we don't do",
+        "body": "We are not a residential rehab, detox center, or 24-hour monitoring program. If that's what you need, your coordinator will refer you to a partner who is.",
         "image": "/static/images/figma/misc-116.png"
       }
     ],
@@ -120,48 +120,48 @@
   },
   "comparison": {
     "eyebrow": "How we're different",
-    "h2": "What makes Williamsburg Therapy Group different for therapy",
-    "subhead": "A side-by-side look at what most therapy practices offer versus what happens at WTG.",
+    "h2": "How outpatient addiction therapy at WTG compares to the rest of the field",
+    "subhead": "What you'll get from most options versus what happens at WTG.",
     "themLabel": "Most therapy practices",
     "usLabel": "Williamsburg Therapy Group",
     "rows": [
       {
-        "them": "Master's-level therapists handling complex cases.",
-        "us": "Every clinician holds a PhD or PsyD, plus board-certified psychiatrists on the same team."
+        "them": "A facility-based program that puts your situation on file with your insurance and shows up in your medical record.",
+        "us": "A private-practice outpatient setting with cash-pay options. Your story stays between you and your team unless you choose to submit a superbill."
       },
       {
-        "them": "You scroll a directory and pick a name with no context.",
-        "us": "A real patient coordinator matches you to the right therapist for your goals, schedule, and style."
+        "them": "LCDCs or peer counselors as the primary provider, with no doctoral oversight.",
+        "us": "Doctoral therapists (PhD or PsyD) trained to treat substance use alongside the underlying anxiety, depression, or trauma."
       },
       {
-        "them": "Waitlists that stretch two to six weeks before a first session.",
-        "us": "Most new patients have their first session the same week they call."
+        "them": "Single-track 12-step or single-modality framework regardless of fit.",
+        "us": "Evidence-based work matched to your situation, integrating cognitive behavioral therapy, motivational interviewing, and other approaches."
       },
       {
-        "them": "One-size-fits-all talk therapy regardless of what you're dealing with.",
-        "us": "Evidence-based methods picked for your specific issue, from structured CBT to deeper relational work."
+        "them": "Six-week waitlist before your first session.",
+        "us": "Most patients have their first session the same week they call, match confirmed within 24 hours."
       },
       {
-        "them": "You handle out-of-network paperwork alone and hope for reimbursement.",
-        "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
+        "them": "Out-of-network paperwork dumped on you to figure out alone if you choose to use insurance.",
+        "us": "Reimbursify files your OON claim for you if you opt in, and most plans pay back 50 to 80 percent of the session fee."
       }
     ],
     "cta": "See if we're a fit"
   },
   "howItWorks": {
     "eyebrow": "How it works",
-    "h2": "Four simple steps, from call to care",
-    "subhead": "Under two minutes to start. No long forms, no chatbots, a real person answers.",
+    "h2": "Four steps from your first call to your first session",
+    "subhead": "Under five minutes to start. No long forms, no chatbots, a real person answers and asks three questions about where you are in this work.",
     "steps": [
       {
         "number": "1",
         "title": "Call or tap to book",
-        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day."
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
       },
       {
         "number": "2",
-        "title": "Get matched",
-        "body": "We pair you with the right doctoral therapist for your goals, schedule, and preferences."
+        "title": "Get matched in 24 hours",
+        "body": "We pair you with a doctoral therapist for what you're working through, your schedule, and how you like to work. Match confirmed within 24 hours."
       },
       {
         "number": "3",
@@ -171,35 +171,35 @@
       {
         "number": "4",
         "title": "Make progress",
-        "body": "Clear goals and regular check-ins so you can see how far you've come."
+        "body": "Concrete tools and check-ins so you can see the change in your day-to-day, not just in session."
       }
     ],
     "cta": "Get started today"
   },
   "whyWTG": {
     "eyebrow": "Why Williamsburg Therapy Group",
-    "h2": "Doctoral training, delivered with warmth",
-    "subhead": "What makes us different, in five lines.",
+    "h2": "Five reasons high-functioning adults choose WTG for outpatient substance use work",
+    "subhead": "Where doctoral training meets discretion.",
     "bullets": [
       {
-        "title": "Only doctoral-level clinicians",
-        "body": "Only PhD and PsyD therapists, plus board-certified psychiatrists. Most practices staff master's-level clinicians. We don't."
+        "title": "Private-practice discretion",
+        "body": "Outpatient setting, cash-pay options. No facility intake forms. No insurance disclosures unless you choose to submit a superbill. Your work stays between you and your team."
       },
       {
-        "title": "Matched by a real coordinator",
-        "body": "A person on our care team listens to what you're dealing with and picks the therapist most likely to click with you."
+        "title": "Doctoral, substance-use-experienced therapists",
+        "body": "PhD and PsyD only, with training in substance use work and co-occurring mental health. Not LCDC-only, not peer-counselor only."
       },
       {
-        "title": "Evidence-based, not one-size-fits-all",
-        "body": "Your therapist uses methods proven to work for your specific issue, from structured skill-building to deeper talk therapy."
+        "title": "Substance use AND the mental health that goes alongside it",
+        "body": "Most facilities treat one or the other. Our doctoral team treats both, with the same care plan."
+      },
+      {
+        "title": "Real coordinator match in 24 hours",
+        "body": "A person on our care team listens to where you are in this work and picks the therapist most likely to fit. Match confirmed within 24 hours."
       },
       {
         "title": "In person or online, your call",
-        "body": "Most new patients start the same week."
-      },
-      {
-        "title": "Same therapist, every session",
-        "body": "We match you once, you don't start over."
+        "body": "Brooklyn, Austin, Miami offices, plus secure video across NY, TX, and FL. Most new patients start the same week."
       }
     ],
     "cta": "Talk to a coordinator",
@@ -208,35 +208,35 @@
   },
   "clinicians": {
     "eyebrow": "Meet a few of our therapists",
-    "h2": "Fifty-plus doctoral-level clinicians across three markets",
-    "subhead": "Over fifty doctoral-level clinicians on the team. Your coordinator can pair you with any of them, including the ones here.",
+    "h2": "Doctoral substance use specialists across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair you with a doctoral therapist whose practice area includes substance use work. The four below are placeholder slots for real WTG specialists; final names and headshots replace these before launch.",
     "featured": [
       {
         "name": "Slot 1",
         "credential": "PhD",
         "city": "Brooklyn",
-        "treats": "anxiety, early-career stress, relationship concerns",
+        "treats": "outpatient substance use work alongside anxiety, depression, and life pressure",
         "photo": "/static/images/figma/clinician-1.png"
       },
       {
         "name": "Slot 2",
         "credential": "PsyD",
         "city": "Austin",
-        "treats": "couples, trauma, identity, transitions",
+        "treats": "maintenance and relapse prevention with high-functioning adults",
         "photo": "/static/images/figma/clinician-2.png"
       },
       {
         "name": "Slot 3",
-        "credential": "MD",
+        "credential": "PhD",
         "city": "Miami",
-        "treats": "patients who need medication alongside therapy",
+        "treats": "co-occurring substance use and trauma using evidence-based methods",
         "photo": "/static/images/figma/clinician-3.png"
       },
       {
         "name": "Slot 4",
-        "credential": "PhD",
+        "credential": "PsyD",
         "city": "Online",
-        "treats": "depression, OCD, and trauma using evidence-based talk therapy",
+        "treats": "outpatient substance use work for adults balancing demanding schedules",
         "photo": "/static/images/figma/clinician-4.png"
       }
     ],
@@ -244,7 +244,7 @@
   },
   "midCTA": {
     "h2": "Ready when you are.",
-    "body": "Same-week openings across Brooklyn, Austin, Miami, and online. It's your pace.",
+    "body": "Same-week first sessions for outpatient substance use therapy across Brooklyn, Austin, Miami, and online. The hardest part is the first call.",
     "cta": "Book a session"
   },
   "pricing": {
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
+        "address": "Secure video sessions across NY · TX · FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -318,27 +318,27 @@
   },
   "faq": {
     "eyebrow": "Common questions",
-    "h2": "Everything you're probably wondering",
+    "h2": "Everything adults ask before the first session",
     "items": [
       {
-        "q": "Do you take my insurance?",
-        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most of our patients use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We'll give you a superbill and partner with Reimbursify, a claim-filing service, to submit it to your insurer on your behalf."
+        "q": "Will my insurance company or employer find out?",
+        "a": "When you pay cash for outpatient therapy, your sessions do not appear on your insurance record or in any employer-visible system. If you choose to submit an OON superbill for reimbursement, your insurance will see a diagnosis code on the claim. Many of our patients choose cash-pay specifically to keep this work entirely between them and their care team. Your coordinator can walk you through what each option means before you decide."
       },
       {
-        "q": "How fast can I see someone?",
-        "a": "Most new patients have their first session the same week they call. Your coordinator will show you openings that fit your schedule."
+        "q": "How much does therapy cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most patients meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work on substance use plus co-occurring anxiety, depression, or trauma often see meaningful change in 16 to 24 sessions. Patients in maintenance after primary treatment often stay longer at lower frequency. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
       },
       {
-        "q": "What makes \"doctoral-level\" different?",
-        "a": "Every therapist at WTG has a PhD or PsyD, the same doctoral training that hospital and university psychologists hold. Most practices staff master's-level therapists. We don't."
+        "q": "Are you a residential rehab or a detox center?",
+        "a": "No. We're an outpatient, doctoral-level private practice. We work with adults who are not in active medical detox and who can safely engage in weekly or twice-weekly therapy sessions. If you need residential treatment, medical detox, or 24-hour care, your coordinator will help you find a partner provider that fits."
       },
       {
-        "q": "Can I do sessions online?",
-        "a": "Yes. We offer secure video sessions across New York, Texas, and Florida. Many patients mix in-person and online based on their week."
+        "q": "Do you prescribe medication for substance use treatment?",
+        "a": "Our psychiatrists prescribe medications that support outpatient substance use treatment when it's clinically appropriate. Whether a medication-supported track is the right fit depends on your specific situation. Your coordinator can match you with a psychiatrist who has experience with this work if that's part of what you're looking for."
       },
       {
-        "q": "What if my therapist isn't the right fit?",
-        "a": "It happens, and we expect it sometimes. Tell your coordinator and we'll re-match you with another doctoral therapist on the team. No awkward conversations on your end."
+        "q": "Do you take my insurance for outpatient addiction therapy?",
+        "a": "We're a cash-pay practice, so we don't bill insurance directly. Many patients pay cash to keep their substance use work entirely off their insurance record. If you'd rather submit a superbill for out-of-network reimbursement, your insurance will see a diagnosis code on the claim. Most plans reimburse 50 to 80 percent of the session fee, and we partner with Reimbursify to file the claim for you."
       }
     ],
     "cta": "Get your questions answered",
@@ -348,7 +348,7 @@
   "form": {
     "eyebrow": "Ready to take the next step?",
     "h2": "Tell us a little about what you're looking for",
-    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure.",
+    "subhead": "Our patient coordinator will call or email you back the same day. Discreet, no pressure, no waitlists. The first session can be this week.",
     "locations": [
       "Brooklyn",
       "Austin",
@@ -363,7 +363,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Same-week openings. Doctoral-level therapists.",
+    "text": "Outpatient substance use therapy. PhD/PsyD. $280 to $300. Discreet.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
   }
 }
