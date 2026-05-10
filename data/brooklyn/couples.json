@@ -1,10 +1,10 @@
 {
   "city": "brooklyn",
-  "variant": "general",
+  "variant": "couples",
   "phone": "347-970-6757",
   "meta": {
-    "title": "Brooklyn Therapy \u2014 Williamsburg Therapy Group",
-    "description": "Doctoral-level therapists in Brooklyn. Same-week openings. PhD and PsyD only."
+    "title": "Couples Therapy This Week | PhD & PsyD | Brooklyn Austin Miami",
+    "description": "Couples therapy with a doctoral therapist this week. PhD/PsyD only, real coordinator match, $280-300/session, OON reimbursement filed for you. Brooklyn, Austin, Miami, online."
   },
   "header": {
     "logoEyebrow": "Williamsburg",
@@ -48,13 +48,13 @@
       "Miami",
       "Online"
     ],
-    "h1": "The right therapist, ready to meet you this week.",
-    "subhead": "First session as soon as this week. Every therapist holds a PhD or PsyD, and a real coordinator picks the one who matches your goals, schedule, and style.",
-    "trustLine": "Same-week openings \u00b7 In person or online \u00b7 Out-of-network with reimbursement support",
-    "primaryCTA": "Book a session",
+    "h1": "Couples therapy this week, with a PhD or PsyD therapist.",
+    "subhead": "Couples come to us for all kinds of reasons. The argument that keeps coming back. The work of rebuilding trust after a betrayal. The slow drift into feeling more like roommates than partners. Wherever you are, your first joint session can be this week. Every couples therapist on our team holds a PhD or PsyD.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "primaryCTA": "Book our first joint session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
-    "imageAlt": "WTG clinician in office"
+    "imageAlt": "Two seated chairs in a WTG couples therapy office"
   },
   "stats": [
     {
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5\u2605",
+      "value": "5★",
       "label": "Google rated"
     },
     {
@@ -76,73 +76,73 @@
   ],
   "treat": {
     "eyebrow": "What we treat",
-    "h2": "Therapy for anxiety, depression, relationships, and life transitions",
-    "subhead": "Every one of our six specialties is staffed by PhD and PsyD clinicians, with board-certified psychiatrists for medication.",
+    "h2": "Couples therapy, with the rest of our team behind it",
+    "subhead": "Six ways our doctoral team supports couples and the lives they're navigating together. Every clinician PhD or PsyD.",
     "cards": [
       {
         "number": "01",
-        "title": "Individual therapy",
-        "body": "One-on-one sessions for adults. Work anxiety, burnout, relationship stress, life changes, trauma, and more.",
+        "title": "Couples therapy",
+        "body": "Same-week first joint session, in person or online. For couples who want to fight less, talk more, and feel close again.",
         "image": "/static/images/figma/treat-1.png"
       },
       {
         "number": "02",
-        "title": "Couples therapy",
-        "body": "For couples who want to fight less, talk more, and feel close again. In person or online.",
+        "title": "Premarital and new chapters",
+        "body": "Marriage, parenthood, fertility, careers, blended families. Get on the same page before life gets harder.",
         "image": "/static/images/figma/treat-2.png"
       },
       {
         "number": "03",
-        "title": "Child & family",
-        "body": "Support for children, teens, and families working through school, behavior, and family changes.",
+        "title": "Trust repair after betrayal",
+        "body": "Structured doctoral support after infidelity or broken trust. Both partners, together, with a clear path.",
         "image": "/static/images/figma/treat-3.png"
       },
       {
         "number": "04",
-        "title": "Anxiety & depression",
-        "body": "Targeted CBT and evidence-based care for anxiety, depression, OCD, and trauma.",
+        "title": "LGBTQ+ affirmative couples",
+        "body": "Same-sex, polyamorous, open relationships, and queer marriages. Affirmative from intake forward.",
         "image": "/static/images/figma/treat-4.png"
       },
       {
         "number": "05",
-        "title": "Psychiatry",
-        "body": "Board-certified psychiatrists on the same team as your therapist. One plan, not two.",
+        "title": "Individual therapy alongside",
+        "body": "When one partner also needs solo work. Same practice, same doctoral standard, often the same care plan.",
         "image": "/static/images/figma/treat-5.png"
       },
       {
         "number": "06",
-        "title": "Neuropsych testing",
-        "body": "Full evaluations for ADHD, learning differences, and cognitive questions. Results you can actually use.",
+        "title": "Psychiatry on the same team",
+        "body": "When one partner's anxiety, ADHD, or depression is showing up in the relationship, our psychiatrists step in. One care plan, not two.",
         "image": "/static/images/figma/misc-116.png"
       }
     ],
-    "cta": "Find my therapist"
+    "cta": "Find our couples therapist"
   },
   "comparison": {
     "eyebrow": "How we're different",
-    "h2": "What makes Williamsburg Therapy Group different for therapy",
-    "subhead": "A side-by-side look at what most therapy practices offer versus what happens at WTG.",
+    "h2": "How couples therapy at WTG compares to the rest of the field",
+    "subhead": "What you'll get from our competitors versus what happens at WTG.",
     "themLabel": "Most therapy practices",
     "usLabel": "Williamsburg Therapy Group",
     "rows": [
       {
-        "them": "Master's-level therapists handling complex cases.",
-        "us": "Every clinician holds a PhD or PsyD, plus board-certified psychiatrists on the same team."
+        "them": "An online therapy app pairs you with the next available therapist.",
+        "us": "A real coordinator picks a doctoral couples therapist for both of you, on a five-minute intake call."
       },
       {
-        "them": "You scroll a directory and pick a name with no context.",
-        "us": "A real patient coordinator matches you to the right therapist for your goals, schedule, and style."
+        "them": "Master's-level therapist with a weekend Gottman or EFT certification.",
+        "us": "PhD or PsyD trained in evidence-based couples work as part of doctoral curriculum, not through a short course."
       },
       {
-        "them": "Waitlists that stretch two to six weeks before a first session.",
-        "us": "Most new patients have their first session the same week they call."
+        "them": "You scroll a directory and pick a name based on a headshot.",
+        "us": "We confirm your match in 24 hours, with both partners' schedules and working styles factored in from session one."
       },
       {
-        "them": "One-size-fits-all talk therapy regardless of what you're dealing with.",
-        "us": "Evidence-based methods picked for your specific issue, from structured CBT to deeper relational work."
+        "them": "Generic 'communication tips' regardless of what you're walking in with.",
+        "us": "Therapy shaped around your specific dynamic, whether that's repair after betrayal, conflict de-escalation, intimacy rebuilding, or parenthood transitions."
       },
       {
-        "them": "You handle out-of-network paperwork alone and hope for reimbursement.",
+        "them": "You handle the out-of-network paperwork alone and hope for reimbursement.",
         "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
       }
     ],
@@ -150,56 +150,56 @@
   },
   "howItWorks": {
     "eyebrow": "How it works",
-    "h2": "Four simple steps, from call to care",
-    "subhead": "Under two minutes to start. No long forms, no chatbots, a real person answers.",
+    "h2": "Four steps from your first call to your first joint session",
+    "subhead": "It takes less than five minutes to start. No long forms, no chatbots, a real person answers and asks a few questions about what's going on.",
     "steps": [
       {
         "number": "1",
         "title": "Call or tap to book",
-        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day."
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
       },
       {
         "number": "2",
-        "title": "Get matched",
-        "body": "We pair you with the right doctoral therapist for your goals, schedule, and preferences."
+        "title": "Get matched in 24 hours",
+        "body": "We pair you with a doctoral couples therapist for your goals, both partners' schedules, and how each of you likes to work. Match confirmed within 24 hours."
       },
       {
         "number": "3",
-        "title": "First session",
-        "body": "Meet in person or over secure video, often within the same week."
+        "title": "First joint session",
+        "body": "Both of you meet your therapist together, in person or over secure video, often the same week."
       },
       {
         "number": "4",
         "title": "Make progress",
-        "body": "Clear goals and regular check-ins so you can see how far you've come."
+        "body": "Concrete repair language and structures you'll use between sessions, with check-ins so you can feel the change at home."
       }
     ],
     "cta": "Get started today"
   },
   "whyWTG": {
     "eyebrow": "Why Williamsburg Therapy Group",
-    "h2": "Doctoral training, delivered with warmth",
-    "subhead": "What makes us different, in five lines.",
+    "h2": "Five reasons couples choose WTG",
+    "subhead": "Where doctoral training meets actual couples work.",
     "bullets": [
       {
-        "title": "Only doctoral-level clinicians",
-        "body": "Only PhD and PsyD therapists, plus board-certified psychiatrists. Most practices staff master's-level clinicians. We don't."
+        "title": "Doctoral, couples-experienced clinicians",
+        "body": "Only PhD and PsyD therapists with couples-specific training. Not master's-level with a weekend Gottman or EFT certification."
       },
       {
-        "title": "Matched by a real coordinator",
-        "body": "A person on our care team listens to what you're dealing with and picks the therapist most likely to click with you."
+        "title": "Your therapist works for the relationship, not either partner",
+        "body": "No taking sides, no ganging up, no being told one of you is the problem. Each of you should feel heard, and each of you should be challenged in the places that move the relationship forward."
       },
       {
-        "title": "Evidence-based, not one-size-fits-all",
-        "body": "Your therapist uses methods proven to work for your specific issue, from structured skill-building to deeper talk therapy."
+        "title": "Both of you in the room from session one",
+        "body": "No 'come to a screening session alone, bring your partner later.' Joint work starts at session 1, the way couples work is meant to be."
       },
       {
-        "title": "In person or online, your call",
-        "body": "Most new patients start the same week."
+        "title": "Real coordinator match in 24 hours",
+        "body": "Not a quiz, not an algorithm. A person on our team listens to where your relationship is and pairs you with the doctoral therapist who's the right fit for both of you. Match confirmed within 24 hours."
       },
       {
-        "title": "Same therapist, every session",
-        "body": "We match you once, you don't start over."
+        "title": "Same therapist for as long as you're both in the work",
+        "body": "We match you once. You don't restart with a new clinician every time someone leaves the practice."
       }
     ],
     "cta": "Talk to a coordinator",
@@ -208,43 +208,43 @@
   },
   "clinicians": {
     "eyebrow": "Meet a few of our therapists",
-    "h2": "Fifty-plus doctoral-level clinicians across three markets",
-    "subhead": "Over fifty doctoral-level clinicians on the team. Your coordinator can pair you with any of them, including the ones here.",
+    "h2": "Doctoral couples specialists across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair you with any doctoral therapist on the team who works with couples. A few of them are featured below.",
     "featured": [
       {
         "name": "Slot 1",
         "credential": "PhD",
         "city": "Brooklyn",
-        "treats": "anxiety, early-career stress, relationship concerns",
+        "treats": "high-conflict couples, infidelity recovery, communication breakdowns",
         "photo": "/static/images/figma/clinician-1.png"
       },
       {
         "name": "Slot 2",
         "credential": "PsyD",
         "city": "Austin",
-        "treats": "couples, trauma, identity, transitions",
+        "treats": "premarital couples, parenthood transitions, intimacy and sex",
         "photo": "/static/images/figma/clinician-2.png"
       },
       {
         "name": "Slot 3",
-        "credential": "MD",
+        "credential": "PhD",
         "city": "Miami",
-        "treats": "patients who need medication alongside therapy",
+        "treats": "queer-affirmative couples therapy and polyamorous relationship work",
         "photo": "/static/images/figma/clinician-3.png"
       },
       {
         "name": "Slot 4",
-        "credential": "PhD",
+        "credential": "PsyD",
         "city": "Online",
-        "treats": "depression, OCD, and trauma using evidence-based talk therapy",
+        "treats": "long-distance couples and couples mixing in-person and video sessions",
         "photo": "/static/images/figma/clinician-4.png"
       }
     ],
     "cta": "Get matched today"
   },
   "midCTA": {
-    "h2": "Ready when you are.",
-    "body": "Same-week openings across Brooklyn, Austin, Miami, and online. It's your pace.",
+    "h2": "Both of you, in the room or on Zoom, this week.",
+    "body": "Same-week first joint sessions across Brooklyn, Austin, Miami, and online. The hardest part is the two of you deciding to do this together.",
     "cta": "Book a session"
   },
   "pricing": {
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
+        "address": "Secure video sessions across NY · TX · FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -318,27 +318,27 @@
   },
   "faq": {
     "eyebrow": "Common questions",
-    "h2": "Everything you're probably wondering",
+    "h2": "Everything couples ask before the first session",
     "items": [
       {
-        "q": "Do you take my insurance?",
-        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most of our patients use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We'll give you a superbill and partner with Reimbursify, a claim-filing service, to submit it to your insurer on your behalf."
+        "q": "How much does couples therapy cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most couples meet weekly to start, often shifting to every other week once the early momentum builds. Couples doing focused repair (after a betrayal, around communication, around de-escalation) often see meaningful change in 12 to 20 sessions. Couples working on deeper attachment patterns may stay longer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping couples in therapy forever."
       },
       {
-        "q": "How fast can I see someone?",
-        "a": "Most new patients have their first session the same week they call. Your coordinator will show you openings that fit your schedule."
+        "q": "Do you take my insurance for couples therapy?",
+        "a": "We're a cash-pay practice, so we don't bill insurance directly. Most couples use out-of-network benefits and get reimbursed 50 to 80 percent of the session fee. We give you a superbill and partner with Reimbursify, a claim-filing service, that submits it to your insurer for you."
       },
       {
-        "q": "What makes \"doctoral-level\" different?",
-        "a": "Every therapist at WTG has a PhD or PsyD, the same doctoral training that hospital and university psychologists hold. Most practices staff master's-level therapists. We don't."
+        "q": "What if my partner doesn't want to come yet?",
+        "a": "Start solo. Many couples begin with one partner doing individual work first. We can pivot to joint sessions when your partner is ready, or your coordinator can suggest how to invite them into the work."
       },
       {
-        "q": "Can I do sessions online?",
-        "a": "Yes. We offer secure video sessions across New York, Texas, and Florida. Many patients mix in-person and online based on their week."
+        "q": "Will the therapist take sides between us?",
+        "a": "No. Our couples therapists work for the relationship, not for either partner. Both of you should feel heard, both of you should feel challenged when it's useful, and neither of you should feel ganged up on. Tell your therapist directly if you ever feel that's slipping; that conversation is part of the work."
       },
       {
-        "q": "What if my therapist isn't the right fit?",
-        "a": "It happens, and we expect it sometimes. Tell your coordinator and we'll re-match you with another doctoral therapist on the team. No awkward conversations on your end."
+        "q": "What happens in the first joint session?",
+        "a": "Both of you will meet your therapist together. Expect questions about how you met, how things have been lately, and what each of you hopes to get out of therapy. No homework on day one. Just an honest start to the work, with both of you in the room."
       }
     ],
     "cta": "Get your questions answered",
@@ -346,9 +346,9 @@
     "imageAlt": "WTG office space"
   },
   "form": {
-    "eyebrow": "Ready to take the next step?",
+    "eyebrow": "Ready to take the next step together?",
     "h2": "Tell us a little about what you're looking for",
-    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure.",
+    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure. The first joint session can be this week.",
     "locations": [
       "Brooklyn",
       "Austin",
@@ -363,7 +363,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Same-week openings. Doctoral-level therapists.",
+    "text": "Couples therapy this week. PhD/PsyD. $280 to $300 per session.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1689402573 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
   }
 }
