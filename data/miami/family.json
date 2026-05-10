@@ -1,0 +1,390 @@
+{
+  "city": "miami",
+  "variant": "family",
+  "phone": "786-692-6547",
+  "meta": {
+    "title": "Family Therapy This Week | PhD & PsyD | Brooklyn Austin Miami",
+    "description": "Family therapy with a doctoral therapist this week. PhD/PsyD only, real coordinator match in 24 hours, $280-300/session, OON reimbursement filed. Brooklyn, Austin, Miami, online."
+  },
+  "header": {
+    "logoEyebrow": "Williamsburg",
+    "logoWordmark": "Therapy Group",
+    "bookLabel": "Book a session"
+  },
+  "anchors": [
+    {
+      "label": "What we treat",
+      "href": "#treat"
+    },
+    {
+      "label": "How it works",
+      "href": "#how"
+    },
+    {
+      "label": "Our clinicians",
+      "href": "#clinicians"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "Locations",
+      "href": "#locations"
+    },
+    {
+      "label": "FAQs",
+      "href": "#faq"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "chips": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "h1": "Family therapy this week, with a PhD or PsyD and the team your family might need",
+    "subhead": "First family session within seven days. Family therapists, child clinicians, and pediatric psychiatry, all PhD or PsyD, all on one team and one care plan, so you're not running between three providers. Our coordinators pick the right match for your family in 24 hours.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "primaryCTA": "Book our first family session",
+    "secondaryCTA": "Call",
+    "image": "/static/images/figma/hero.png",
+    "imageAlt": "Varied seating in a WTG family-friendly room"
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "PhD & PsyD clinicians"
+    },
+    {
+      "value": "10+",
+      "label": "Years of excellence"
+    },
+    {
+      "value": "5★",
+      "label": "Google rated"
+    },
+    {
+      "value": "7 days",
+      "label": "Typical time to first session"
+    }
+  ],
+  "treat": {
+    "eyebrow": "What we treat",
+    "h2": "No two families start in the same place",
+    "subhead": "Some begin with their kids in their own sessions. Some begin with the parents alone. Some begin with everyone in the room. Six ways to start, one team behind all of them.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Family therapy",
+        "body": "Same-week first family session, in person or online. For families ready to do the work together.",
+        "image": "/static/images/figma/treat-1.png"
+      },
+      {
+        "number": "02",
+        "title": "Child & teen therapy alongside",
+        "body": "When your child needs their own therapist alongside the family work, ours sit on the same team and coordinate on one plan with your consent.",
+        "image": "/static/images/figma/treat-2.png"
+      },
+      {
+        "number": "03",
+        "title": "Parenting support",
+        "body": "Real answers for the parts of parenting nothing prepares you for, paired with your child's therapy when both are in play.",
+        "image": "/static/images/figma/treat-3.png"
+      },
+      {
+        "number": "04",
+        "title": "When the marriage is part of the family issue",
+        "body": "When the kid is reacting to what's happening between the parents, our couples therapists sit on the same team as your family therapist. One coordinated plan, with your consent.",
+        "image": "/static/images/figma/treat-4.png"
+      },
+      {
+        "number": "05",
+        "title": "Pediatric and adult psychiatry",
+        "body": "When a kid or parent's ADHD, anxiety, or mood calls for medication, our pediatric and adult psychiatrists step in on the same team as the family therapist working towards the same goal.",
+        "image": "/static/images/figma/treat-5.png"
+      },
+      {
+        "number": "06",
+        "title": "Co-parenting after separation or divorce",
+        "body": "When the marriage has ended but the parenting hasn't, our doctoral therapists help separated and divorced parents make the handoffs, decisions, and conversations that protect the kids in the middle.",
+        "image": "/static/images/figma/misc-116.png"
+      }
+    ],
+    "cta": "Find our family therapist"
+  },
+  "comparison": {
+    "eyebrow": "How we're different",
+    "h2": "What separates WTG from the family therapy you'll find elsewhere",
+    "subhead": "Five places where most family therapy stops short, and where our doctoral team picks up.",
+    "themLabel": "Most therapy practices",
+    "usLabel": "Williamsburg Therapy Group",
+    "rows": [
+      {
+        "them": "A 25-clinician master's-level group practice running family work without doctoral systems training.",
+        "us": "Every family therapist holds a PhD or PsyD, with doctoral child clinicians and integrated psychiatry on the same team."
+      },
+      {
+        "them": "A solo doctoral specialist who can't help if your kid needs a different therapist or your family needs psychiatry.",
+        "us": "A multi-clinician doctoral team. Your family therapist, your kid's therapist, and your psychiatrist (if needed) all on the same care plan."
+      },
+      {
+        "them": "Your child sees a therapist over there, you see one over here, and no one talks to each other.",
+        "us": "Your child's therapist, your therapist, and your psychiatrist (with your consent) coordinate directly with each other. You're not the messenger between three offices."
+      },
+      {
+        "them": "Six-week waitlist before the family can sit together.",
+        "us": "First family session within seven days. Doctoral therapist match confirmed in 24 hours."
+      },
+      {
+        "them": "Out-of-network paperwork dumped on you to figure out alone.",
+        "us": "Reimbursify files your OON claim for you, and most plans pay back 50 to 80 percent of the session fee."
+      }
+    ],
+    "cta": "See if we're a fit"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "h2": "Four steps from your call to your first family session",
+    "subhead": "Under five minutes to start. No long forms, no chatbots, a real person answers and asks three questions about your family.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Call or tap to book",
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
+      },
+      {
+        "number": "2",
+        "title": "Get matched in 24 hours",
+        "body": "We pair you with a doctoral family therapist for your goals, your family's specific dynamic, and everyone's schedule. Match confirmed within 24 hours."
+      },
+      {
+        "number": "3",
+        "title": "First family session",
+        "body": "You decide who's in the room for the first session. Whoever's there meets the therapist together, in person or over secure video, often the same week as the call."
+      },
+      {
+        "number": "4",
+        "title": "Make progress",
+        "body": "You'll leave each session with practical tools to use at home, things to say when a conflict starts spiraling, structured ways to bring up hard topics, and small repair practices that actually work."
+      }
+    ],
+    "cta": "Get started today"
+  },
+  "whyWTG": {
+    "eyebrow": "Why Williamsburg Therapy Group",
+    "h2": "Five reasons families choose WTG",
+    "subhead": "Five things that hold true for every family who walks in, regardless of where the work starts.",
+    "bullets": [
+      {
+        "title": "One care team for the whole family",
+        "body": "Your child's therapist, your therapist, and your psychiatrist (if needed) coordinate with consent. One care plan, not three. Our competitors can't match this."
+      },
+      {
+        "title": "Doctoral, family-systems trained clinicians",
+        "body": "Only PhD and PsyD therapists with family systems training, with doctoral child clinicians and pediatric psychiatrists on the same team."
+      },
+      {
+        "title": "Real coordinator match in 24 hours",
+        "body": "A coordinator on our team picks the doctoral therapist most likely to fit your family. No quiz, no algorithm. Match confirmed in 24 hours."
+      },
+      {
+        "title": "Built for kids who don't always talk",
+        "body": "Our doctoral family therapists are trained to engage reluctant kids and quiet teens without forcing the conversation. Your kid won't be put on the spot."
+      },
+      {
+        "title": "Same therapist for as long as the family is in the work",
+        "body": "We match you once and the therapist stays with you for as long as the family is in the work. No restarting every few months with someone new, no re-telling your family's story to a stranger."
+      }
+    ],
+    "cta": "Talk to a coordinator",
+    "image": "/static/images/figma/why-wtg.jpg",
+    "imageAlt": "WTG doctoral clinician"
+  },
+  "clinicians": {
+    "eyebrow": "Meet a few of our therapists",
+    "h2": "Doctoral family specialists across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area includes family work.",
+    "featured": [
+      {
+        "name": "Slot 1",
+        "credential": "PhD",
+        "city": "Brooklyn",
+        "treats": "family conflict, sibling dynamics, parent-child rupture and repair",
+        "photo": "/static/images/figma/clinician-1.png"
+      },
+      {
+        "name": "Slot 2",
+        "credential": "PsyD",
+        "city": "Austin",
+        "treats": "blended families, divorce-impacted kids, family transitions",
+        "photo": "/static/images/figma/clinician-2.png"
+      },
+      {
+        "name": "Slot 3",
+        "credential": "PhD",
+        "city": "Miami",
+        "treats": "multigenerational families and family work involving aging parents",
+        "photo": "/static/images/figma/clinician-3.png"
+      },
+      {
+        "name": "Slot 4",
+        "credential": "PsyD",
+        "city": "Online",
+        "treats": "families with members in different cities, and families balancing in-person and video sessions",
+        "photo": "/static/images/figma/clinician-4.png"
+      }
+    ],
+    "cta": "Get matched today"
+  },
+  "midCTA": {
+    "h2": "The family work begins as soon as you do",
+    "body": "First family session within seven days, across Brooklyn, Austin, Miami, and online. You don't need everyone on board to begin. You just need to start.",
+    "cta": "Book a session"
+  },
+  "pricing": {
+    "eyebrow": "Session rates & insurance",
+    "h2": "Clear pricing. Help with reimbursement.",
+    "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
+    "priceBlock": "$280 to $300",
+    "priceUnit": "per 45-minute session",
+    "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
+    "steps": [
+      "We charge you the session fee at the time of service.",
+      "We send you a superbill you can submit to your insurance.",
+      "Reimbursify files the claim for you. You get reimbursed directly."
+    ],
+    "cta": "Check your coverage"
+  },
+  "locations": {
+    "eyebrow": "Where we practice",
+    "h2": "Brooklyn, Austin, Miami, and online",
+    "subhead": "Three offices plus secure video across New York, Texas, and Florida.",
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "North Williamsburg 109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262",
+        "hours": "8 AM to 5 PM CT, Mon to Sat"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Online",
+        "address": "Secure video sessions across NY · TX · FL",
+        "phone": "",
+        "hours": "Book online anytime",
+        "online": true
+      }
+    ],
+    "cta": "Book at your nearest location"
+  },
+  "testimonials": {
+    "eyebrow": "What patients say",
+    "h2": "Real results, in their words",
+    "reviews": [
+      {
+        "quote": "Dr. Selling and the team at WTG are the best! Beautiful office space in Brooklyn.",
+        "author": "Michael F.",
+        "city": "Brooklyn"
+      },
+      {
+        "quote": "I highly recommend Dr. Trubowitz, she's helped our family resolve some longstanding issues. This is the best group of doctors in Austin that I've worked with. The space is also beautiful and relaxing.",
+        "author": "Rebecca B.",
+        "city": "Austin"
+      },
+      {
+        "quote": "This office is unlike any other therapy office I've ever seen. Totally clean, beautiful curved wood everywhere, complimentary tea and water. Particularly impressed with the group therapy room. Just a really nice place to be.",
+        "author": "Jake F.",
+        "city": "Austin"
+      }
+    ],
+    "cta": "Start your story"
+  },
+  "faq": {
+    "eyebrow": "Common questions",
+    "h2": "Everything parents ask before the first family session",
+    "items": [
+      {
+        "q": "How much does family therapy cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most families meet weekly to start, often shifting to every other week once the early momentum builds. Families doing focused work (sibling dynamics, school behavior, blended-family adjustment) often see meaningful change in 12 to 20 sessions. Families working on deeper patterns after rupture, divorce, or generational dynamics may stay longer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping families in therapy forever."
+      },
+      {
+        "q": "What if my kid won't talk in the family session?",
+        "a": "It's normal, especially with teens. Our doctoral family therapists are trained to make space for kids who don't want to talk yet. Sometimes that means letting them sit quietly while you and your therapist do the work, sometimes that means side conversations or activities, sometimes that means individual sessions for the kid before bringing them back. Your kid will not be put on the spot."
+      },
+      {
+        "q": "What if some family members don't want to come?",
+        "a": "You don't need everyone on board to start. Many families begin with the parents alone, or one parent and one child, and bring others in as the work creates room for them. Your therapist can also help you figure out how to start the conversation with family members who aren't on board yet."
+      },
+      {
+        "q": "Will the therapist take sides between parents and kids?",
+        "a": "No. Our family therapists work for the family, not for any one member. Each person should feel heard, each should feel challenged when it's useful, and no one should feel ganged up on."
+      },
+      {
+        "q": "Can my child see a separate therapist on the same team?",
+        "a": "Yes, and many families do exactly that. Your child can see a doctoral child therapist in their own sessions, you can see your therapist in yours, and the family therapist holds the joint sessions. With your consent, the team shares notes so everyone is rowing in the same direction."
+      }
+    ],
+    "cta": "Get your questions answered",
+    "image": "/static/images/figma/faq-room.png",
+    "imageAlt": "WTG office space"
+  },
+  "form": {
+    "eyebrow": "Ready to take the next step as a family?",
+    "h2": "Tell us a little about what you're looking for",
+    "subhead": "Our patient coordinator will call or email you back the same day. No waitlists, no chatbots, no pressure. The first family session can be this week.",
+    "locations": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "consent": "By leaving your phone or email, you are consenting to receiving communications from us via text or email and that may include communications about your appointments, services, and marketing information related to our services. You may opt out of marketing information at any time. Your contact information will never be sold to any third party and will only be shared to the extent necessary to perform any services on your behalf.",
+    "submit": "Request my consultation",
+    "phoneFallback": "or call 786-692-6547 to speak with our coordinator now.",
+    "reassurance": "Same-day response. No waitlists, no runaround.",
+    "image": "/static/images/figma/misc-116.png",
+    "imageAlt": "WTG office plant"
+  },
+  "stickyBar": {
+    "text": "Family therapy this week. PhD/PsyD. $280 to $300 per session.",
+    "primaryCTA": "Book a session",
+    "secondaryCTA": "Call"
+  },
+  "footer": {
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547"
+      }
+    ],
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+  }
+}

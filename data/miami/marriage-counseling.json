@@ -1,0 +1,390 @@
+{
+  "city": "miami",
+  "variant": "marriage-counseling",
+  "phone": "786-692-6547",
+  "meta": {
+    "title": "Marriage Counseling This Week | PhD & PsyD | Brooklyn Austin Miami",
+    "description": "Marriage counseling with a doctoral therapist this week. PhD/PsyD only, real coordinator match in 24 hours, $280-300/session, OON reimbursement filed. Brooklyn, Austin, Miami, online."
+  },
+  "header": {
+    "logoEyebrow": "Williamsburg",
+    "logoWordmark": "Therapy Group",
+    "bookLabel": "Book a session"
+  },
+  "anchors": [
+    {
+      "label": "What we treat",
+      "href": "#treat"
+    },
+    {
+      "label": "How it works",
+      "href": "#how"
+    },
+    {
+      "label": "Our clinicians",
+      "href": "#clinicians"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "Locations",
+      "href": "#locations"
+    },
+    {
+      "label": "FAQs",
+      "href": "#faq"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "chips": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "h1": "Marriage counseling this week, with a PhD or PsyD therapist.",
+    "subhead": "You've probably already tried. The same argument. The broken trust. The years of distance. Asking yourself the honest question of whether it's still fixable. Your first joint session can be this week, with a PhD or PsyD marriage counselor who works for the marriage, not either spouse.",
+    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "primaryCTA": "Book our first joint session",
+    "secondaryCTA": "Call",
+    "image": "/static/images/figma/hero.png",
+    "imageAlt": "Two seated chairs in a WTG marriage counseling office"
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "PhD & PsyD clinicians"
+    },
+    {
+      "value": "10+",
+      "label": "Years of excellence"
+    },
+    {
+      "value": "5★",
+      "label": "Google rated"
+    },
+    {
+      "value": "7 days",
+      "label": "Typical time to first session"
+    }
+  ],
+  "treat": {
+    "eyebrow": "What we treat",
+    "h2": "Designed for the marriage you've spent years building",
+    "subhead": "Six ways our doctoral team helps spouses fight for what they've already invested in. Every clinician holds a PhD or PsyD.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Marriage counseling",
+        "body": "Same-week first joint session, in person or online. For spouses who want a counselor as serious about the marriage as they are.",
+        "image": "/static/images/figma/treat-1.png"
+      },
+      {
+        "number": "02",
+        "title": "Trust repair after betrayal",
+        "body": "Structured doctoral support after infidelity, financial deception, or broken trust. Both spouses, together, with a clear path.",
+        "image": "/static/images/figma/treat-2.png"
+      },
+      {
+        "number": "03",
+        "title": "When you're not sure if it's fixable",
+        "body": "For spouses asking if the marriage is still worth saving. Your counselor helps you see it honestly, without pushing either of you toward staying or leaving.",
+        "image": "/static/images/figma/treat-3.png"
+      },
+      {
+        "number": "04",
+        "title": "LGBTQ+ affirmative marriage",
+        "body": "For same-sex and queer marriages. Counselors who don't need the dynamic explained to them and won't treat your marriage as a special case. Affirmative from the first call forward.",
+        "image": "/static/images/figma/treat-4.png"
+      },
+      {
+        "number": "05",
+        "title": "Family and co-parenting alongside",
+        "body": "When marriage tension is showing up in the kids, our child and family clinicians step in alongside the marriage counselor. One team, one care plan.",
+        "image": "/static/images/figma/treat-5.png"
+      },
+      {
+        "number": "06",
+        "title": "Psychiatry on the same team",
+        "body": "When one spouse's anxiety, ADHD, or depression is showing up in the marriage, our psychiatrists step in.",
+        "image": "/static/images/figma/misc-116.png"
+      }
+    ],
+    "cta": "Find our marriage counselor"
+  },
+  "comparison": {
+    "eyebrow": "How we're different",
+    "h2": "What separates WTG from the marriage counseling you'll find elsewhere else",
+    "subhead": "Five real differences between the marriage counseling you'll find elsewhere and how we work.",
+    "themLabel": "Most therapy practices",
+    "usLabel": "Williamsburg Therapy Group",
+    "rows": [
+      {
+        "them": "A 'high-performance' boutique with a single Gottman or EFT track running marriage work.",
+        "us": "PhD and PsyD counselors trained in multiple evidence-based methods, so your marriage gets the approach that fits it instead of one method applied to every couple who walks in."
+      },
+      {
+        "them": "Master's-level counselor with a weekend certification on top of a master's degree.",
+        "us": "Only doctoral clinicians, who spent years studying and practicing marriage work as part of their PhD or PsyD, not as a certificate added on later."
+      },
+      {
+        "them": "You scroll a directory and pick a name based on a headshot and a paragraph bio.",
+        "us": "A real coordinator picks the marriage counselor for both spouses on a five-minute call and confirms your match within 24 hours."
+      },
+      {
+        "them": "Generic communication tips that don't address what years of marriage actually do to a relationship.",
+        "us": "Sessions tailored around what your marriage actually needs, whether that's infidelity repair, reconnection after years of drift, parenthood transitions, or pre-divorce clarity."
+      },
+      {
+        "them": "You handle out-of-network paperwork alone and hope for reimbursement.",
+        "us": "Reimbursify files your out-of-network claim for you, and most plans reimburse 50 to 80 percent of the session fee."
+      }
+    ],
+    "cta": "See if we're a fit"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "h2": "Four steps from your first call to your first joint session",
+    "subhead": "It takes less than five minutes to start. No long forms, no chatbots, a real person answers and asks a few questions about where your marriage is.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Call or tap to book",
+        "body": "Reach our patient coordinator by phone or online. A real person gets back to you the same day, on a five-minute call."
+      },
+      {
+        "number": "2",
+        "title": "Get matched in 24 hours",
+        "body": "We pair you with a doctoral marriage counselor whose experience fits what's going on in your home, both your schedules, and how each of you likes to work. Match confirmed within 24 hours."
+      },
+      {
+        "number": "3",
+        "title": "First joint session",
+        "body": "Both of you meet your counselor together, in person or over secure video, often the same week as your intake appointment."
+      },
+      {
+        "number": "4",
+        "title": "Make progress",
+        "body": "You'll leave each session with concrete tools to use at home, things to say when an argument starts spiraling, structured ways to talk through hard topics, and small repair practices that actually work."
+      }
+    ],
+    "cta": "Get started today"
+  },
+  "whyWTG": {
+    "eyebrow": "Why Williamsburg Therapy Group",
+    "h2": "Five reasons high-stakes marriages choose WTG",
+    "subhead": "Where doctoral training meets marriages worth fighting for.",
+    "bullets": [
+      {
+        "title": "Doctoral, marriage-experienced clinicians",
+        "body": "Only PhD and PsyD therapists with marriage-specific training. Not master's-level with a weekend Gottman or EFT certification."
+      },
+      {
+        "title": "Your counselor works for the marriage, not either spouse",
+        "body": "No taking sides, no ganging up, no being told one of you is the problem. Each of you should feel heard, each of you should feel challenged when it's useful."
+      },
+      {
+        "title": "Both spouses in the room from session one",
+        "body": "Some practices ask one spouse to come alone first for a screening session, then bring the other in later. We don't. Joint work starts at session one, with both of you in the room."
+      },
+      {
+        "title": "Multi-method, not single-brand",
+        "body": "Most boutique marriage practices pick one method and apply it to every couple they see. Our doctoral counselors are trained across several proven approaches and use the right one for you."
+      },
+      {
+        "title": "Designed for marriages with years to protect",
+        "body": "Years invested, kids, shared finances, and a shared life. We treat marriage counseling with the seriousness those decades deserve."
+      }
+    ],
+    "cta": "Talk to a coordinator",
+    "image": "/static/images/figma/why-wtg.jpg",
+    "imageAlt": "WTG doctoral clinician"
+  },
+  "clinicians": {
+    "eyebrow": "Meet a few of our therapists",
+    "h2": "Doctoral marriage counselors across Brooklyn, Austin, Miami, and online",
+    "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area includes marriage work. The four below are placeholder slots for real WTG marriage specialists; final names and headshots replace these before launch.",
+    "featured": [
+      {
+        "name": "Slot 1",
+        "credential": "PhD",
+        "city": "Brooklyn",
+        "treats": "long-married couples, infidelity recovery, communication breakdowns",
+        "photo": "/static/images/figma/clinician-1.png"
+      },
+      {
+        "name": "Slot 2",
+        "credential": "PsyD",
+        "city": "Austin",
+        "treats": "parenthood transitions, blended families, intimacy after years together",
+        "photo": "/static/images/figma/clinician-2.png"
+      },
+      {
+        "name": "Slot 3",
+        "credential": "PhD",
+        "city": "Miami",
+        "treats": "high-conflict marriages, attachment work, queer-affirmative marriage counseling",
+        "photo": "/static/images/figma/clinician-3.png"
+      },
+      {
+        "name": "Slot 4",
+        "credential": "PsyD",
+        "city": "Online",
+        "treats": "long-distance marriages and busy spouses balancing in-person and video sessions",
+        "photo": "/static/images/figma/clinician-4.png"
+      }
+    ],
+    "cta": "Get matched today"
+  },
+  "midCTA": {
+    "h2": "Both of you, in the room, this week.",
+    "body": "Same-week first joint sessions across Brooklyn, Austin, Miami, and online. Whatever brought you here, the wait between deciding to call and sitting down together can be a few days.",
+    "cta": "Book a session"
+  },
+  "pricing": {
+    "eyebrow": "Session rates & insurance",
+    "h2": "Clear pricing. Help with reimbursement.",
+    "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
+    "priceBlock": "$280 to $300",
+    "priceUnit": "per 45-minute session",
+    "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
+    "steps": [
+      "We charge you the session fee at the time of service.",
+      "We send you a superbill you can submit to your insurance.",
+      "Reimbursify files the claim for you. You get reimbursed directly."
+    ],
+    "cta": "Check your coverage"
+  },
+  "locations": {
+    "eyebrow": "Where we practice",
+    "h2": "Brooklyn, Austin, Miami, and online",
+    "subhead": "Three offices plus secure video across New York, Texas, and Florida.",
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "North Williamsburg 109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262",
+        "hours": "8 AM to 5 PM CT, Mon to Sat"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547",
+        "hours": "9 AM to 6 PM ET, Mon to Sat"
+      },
+      {
+        "name": "Online",
+        "address": "Secure video sessions across NY · TX · FL",
+        "phone": "",
+        "hours": "Book online anytime",
+        "online": true
+      }
+    ],
+    "cta": "Book at your nearest location"
+  },
+  "testimonials": {
+    "eyebrow": "What patients say",
+    "h2": "Real results, in their words",
+    "reviews": [
+      {
+        "quote": "Dr. Selling and the team at WTG are the best! Beautiful office space in Brooklyn.",
+        "author": "Michael F.",
+        "city": "Brooklyn"
+      },
+      {
+        "quote": "I highly recommend Dr. Trubowitz, she's helped our family resolve some longstanding issues. This is the best group of doctors in Austin that I've worked with. The space is also beautiful and relaxing.",
+        "author": "Rebecca B.",
+        "city": "Austin"
+      },
+      {
+        "quote": "This office is unlike any other therapy office I've ever seen. Totally clean, beautiful curved wood everywhere, complimentary tea and water. Particularly impressed with the group therapy room. Just a really nice place to be.",
+        "author": "Jake F.",
+        "city": "Austin"
+      }
+    ],
+    "cta": "Start your story"
+  },
+  "faq": {
+    "eyebrow": "Common questions",
+    "h2": "Everything spouses ask before the first session",
+    "items": [
+      {
+        "q": "How much does marriage counseling cost, and how long will it take?",
+        "a": "Sessions are $280 to $300 each. Most marriages meet weekly to start, often moving to every other week once the early momentum builds. Marriages doing focused repair (after a betrayal, around communication, around staying-together skill-building) often see meaningful change in 12 to 20 sessions. Marriages working on deeper attachment patterns or pre-divorce clarity may stay longer. Your counselor will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping marriages in counseling forever."
+      },
+      {
+        "q": "Is our marriage too far gone for counseling?",
+        "a": "Probably not, even if it feels that way today. Our doctoral counselors regularly work with marriages that have been struggling for years, after infidelity, after long stretches of disconnection, and when one or both spouses are unsure whether they want to stay. The first session is not about deciding the outcome. It's about getting an honest read on where the marriage is and what's possible from here."
+      },
+      {
+        "q": "What if my spouse refuses to come?",
+        "a": "Start on your own. Many marriages begin counseling with one spouse working individually first. We can pivot to joint sessions when your partner is ready, or your coordinator can help you figure out how to start the conversation at home."
+      },
+      {
+        "q": "Will the counselor side with one of us?",
+        "a": "No, our marriage counselors work for the marriage, not for either spouse. Both of you should feel heard, both of you should feel challenged where it actually moves the marriage forward, and neither of you should feel outnumbered in the room. If you ever feel that balance shifting, tell your counselor directly. That conversation is part of the work."
+      },
+      {
+        "q": "Are you Gottman or EFT certified?",
+        "a": "Our doctoral counselors are trained in multiple evidence-based methods, including cognitive behavioral therapy, dialectical behavior therapy, interpersonal therapy, and psychodynamic approaches. Some of our clinicians have specific Gottman or EFT training; your coordinator can match you with one if a named modality matters to you. We focus on what works for your specific marriage, not a single brand-name method."
+      }
+    ],
+    "cta": "Get your questions answered",
+    "image": "/static/images/figma/faq-room.png",
+    "imageAlt": "WTG office space"
+  },
+  "form": {
+    "eyebrow": "Your first joint session can be scheduled today",
+    "h2": "Tell us where the marriage is, and let's take it from there",
+    "subhead": "Our coordinator calls or emails you back the same day. By the end of the call, you'll know which doctoral marriage counselor fits both of you, when the first joint session is, and how out-of-network reimbursement works. No waitlists, no chatbots.",
+    "locations": [
+      "Brooklyn",
+      "Austin",
+      "Miami",
+      "Online"
+    ],
+    "consent": "By leaving your phone or email, you are consenting to receiving communications from us via text or email and that may include communications about your appointments, services, and marketing information related to our services. You may opt out of marketing information at any time. Your contact information will never be sold to any third party and will only be shared to the extent necessary to perform any services on your behalf.",
+    "submit": "Request my consultation",
+    "phoneFallback": "or call 786-692-6547 to speak with our coordinator now.",
+    "reassurance": "Same-day response. No waitlists, no runaround.",
+    "image": "/static/images/figma/misc-116.png",
+    "imageAlt": "WTG office plant"
+  },
+  "stickyBar": {
+    "text": "Marriage counseling this week. PhD/PsyD. $280 to $300 per session.",
+    "primaryCTA": "Book a session",
+    "secondaryCTA": "Call"
+  },
+  "footer": {
+    "offices": [
+      {
+        "name": "Brooklyn, NY",
+        "address": "109 N 12th St, Suites 503, 507, 701, and 702 Brooklyn, NY 11249",
+        "phone": "347-970-6757"
+      },
+      {
+        "name": "Austin, TX",
+        "address": "2121 S. Lamar Blvd, Suite 200 Austin, TX 78704",
+        "phone": "512-675-1262"
+      },
+      {
+        "name": "Miami, FL",
+        "address": "3390 Mary St, #116 Coconut Grove, FL 33133",
+        "phone": "786-692-6547"
+      }
+    ],
+    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+  }
+}
