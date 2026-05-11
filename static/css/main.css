@@ -469,6 +469,20 @@ section[id] { scroll-margin-top: 100px; }
 /* --- Clinicians ---------------------------------------------- */
 .clinicians { background: transparent; }
 .clinicians__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+/* Center-align grid when fewer than 4 clinicians are featured.
+   Keeps each card the same width as in the 4-column layout. */
+.clinicians__grid:has(.clinician:nth-child(3):last-child) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: calc(75% - 6px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.clinicians__grid:has(.clinician:nth-child(2):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: calc(50% - 12px);
+  margin-left: auto;
+  margin-right: auto;
+}
 .clinician {
   background: var(--white);
   /* Distinctive top-right "cut" corner — heavy radius on TR only */
