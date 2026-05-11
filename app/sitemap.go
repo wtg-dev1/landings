@@ -25,7 +25,7 @@ var Sites = []SiteEntry{
 	{City: "brooklyn", Variant: "lgbtq", Route: "lgbtq-therapy"},
 	{City: "brooklyn", Variant: "addiction", Route: "addiction-therapy"},
 
-	// {City: "miami", Variant: "general", Route: "therapy"},
+	{City: "miami", Variant: "general", Route: "therapy"},
 	{City: "miami", Variant: "couples", Route: "couples-therapy"},
 	{City: "miami", Variant: "family", Route: "family-therapy"},
 	{City: "miami", Variant: "child", Route: "child-therapy"},
@@ -35,7 +35,7 @@ var Sites = []SiteEntry{
 	{City: "miami", Variant: "lgbtq", Route: "lgbtq-therapy"},
 	{City: "miami", Variant: "addiction", Route: "addiction-therapy"},
 
-	// {City: "austin", Variant: "general", Route: "therapy"},
+	{City: "austin", Variant: "general", Route: "therapy"},
 	{City: "austin", Variant: "couples", Route: "couples-therapy"},
 	{City: "austin", Variant: "family", Route: "family-therapy"},
 	{City: "austin", Variant: "child", Route: "child-therapy"},
