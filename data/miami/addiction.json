@@ -208,36 +208,22 @@
   },
   "clinicians": {
     "eyebrow": "Meet a few of our therapists",
-    "h2": "Doctoral substance use specialists across Brooklyn, Austin, Miami, and online",
-    "subhead": "Our coordinator can pair you with a doctoral therapist whose practice area includes substance use work. The four below are placeholder slots for real WTG specialists; final names and headshots replace these before launch.",
+    "h2": "Doctoral substance use specialists in Miami and online",
+    "subhead": "Our coordinator can pair you with a doctoral therapist whose practice area includes substance use work. A few of our Miami specialists are featured below.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "outpatient substance use work alongside anxiety, depression, and life pressure",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Monica Nikc, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy, anxiety & depression, addiction, severe emotional conditions",
+        "photo": "/static/images/clinicians/monicanikcpsyd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "maintenance and relapse prevention with high-functioning adults",
-        "photo": "/static/images/figma/clinician-2.png"
-      },
-      {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "co-occurring substance use and trauma using evidence-based methods",
-        "photo": "/static/images/figma/clinician-3.png"
-      },
-      {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "outpatient substance use work for adults balancing demanding schedules",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Melissa Glass, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy, couples therapy, anxiety & depression, CBT",
+        "photo": "/static/images/clinicians/melissaglasspsyd.png"
       }
     ],
     "cta": "Get matched today"
