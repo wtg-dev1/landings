@@ -50,7 +50,7 @@
     ],
     "h1": "Couples therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Couples come to us for all kinds of reasons. The argument that keeps coming back. The work of rebuilding trust after a betrayal. The slow drift into feeling more like roommates than partners. Wherever you are, your first joint session can be this week. Every couples therapist on our team holds a PhD or PsyD.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book our first joint session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team who works with couples. A few of them are featured below.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "high-conflict couples, infidelity recovery, communication breakdowns",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Lianna Trubowitz, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "premarital couples, parenthood transitions, intimacy and sex",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Michael Kinsey, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/michaelkinseyphd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "queer-affirmative couples therapy and polyamorous relationship work",
-        "photo": "/static/images/figma/clinician-3.png"
+        "name": "Erin Hicks, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/erinhickspsyd.png"
       },
       {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "long-distance couples and couples mixing in-person and video sessions",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Madeleine Kloess, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, anxiety & depression",
+        "photo": "/static/images/clinicians/madeleinekloesspsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1962115501 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1962115501 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

@@ -50,7 +50,7 @@
     ],
     "h1": "LGBTQ+ affirmative therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Whether you're working through identity, in a queer relationship, navigating a transition, or just dealing with the same things straight adults deal with, your first session can be this week. Every therapist holds a PhD or PsyD, and a real coordinator pairs you with the affirmative clinician who fits where you are on a five-minute call.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team trained in affirmative care. The four below are placeholder slots for real WTG affirmative specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
+        "name": "Charles Burton",
         "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "queer adults working through identity, relationships, and life transitions",
-        "photo": "/static/images/figma/clinician-1.png"
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/charlesburtonphd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "trans and non-binary clients, including gender-affirming care work",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Jorge Alcantar, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/jorgealcantarpsyd.png"
       },
       {
-        "name": "Slot 3",
+        "name": "Gregory Weil",
         "credential": "PhD",
-        "city": "Miami",
-        "treats": "LGBTQ+ couples and chosen-family work, including poly and open relationships",
-        "photo": "/static/images/figma/clinician-3.png"
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/gregoryweilphd.png"
       },
       {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "queer adults in smaller markets without strong local affirmative care",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Jeffrey Goldman, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/jeffreygoldmanphd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

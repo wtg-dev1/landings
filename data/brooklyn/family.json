@@ -50,7 +50,7 @@
     ],
     "h1": "Family therapy this week, with a PhD or PsyD and the team your family might need",
     "subhead": "First family session within seven days. Family therapists, child clinicians, and pediatric psychiatry, all PhD or PsyD, all on one team and one care plan, so you're not running between three providers. Our coordinators pick the right match for your family in 24 hours.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book our first family session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area includes family work.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "family conflict, sibling dynamics, parent-child rupture and repair",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Alexandra Schira, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, child therapy",
+        "photo": "/static/images/clinicians/alexandraschirapsyd.png"
       },
       {
-        "name": "Slot 2",
+        "name": "Kaori Kato, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/kaorikatopsyd.png"
+      },
+      {
+        "name": "Camilla Mazetto, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, child therapy",
+        "photo": "/static/images/clinicians/camillamazettophd.png"
+      },
+      {
+        "name": "Amanda Salerno",
         "credential": "PsyD",
-        "city": "Austin",
-        "treats": "blended families, divorce-impacted kids, family transitions",
-        "photo": "/static/images/figma/clinician-2.png"
-      },
-      {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "multigenerational families and family work involving aging parents",
-        "photo": "/static/images/figma/clinician-3.png"
-      },
-      {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "families with members in different cities, and families balancing in-person and video sessions",
-        "photo": "/static/images/figma/clinician-4.png"
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/amandasalernopsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

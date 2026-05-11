@@ -50,7 +50,7 @@
     ],
     "h1": "Marriage counseling this week, with a PhD or PsyD therapist.",
     "subhead": "You've probably already tried. The same argument. The broken trust. The years of distance. Asking yourself the honest question of whether it's still fixable. Your first joint session can be this week, with a PhD or PsyD marriage counselor who works for the marriage, not either spouse.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book our first joint session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,25 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area includes marriage work. The four below are placeholder slots for real WTG marriage specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "long-married couples, infidelity recovery, communication breakdowns",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Melissa Glass, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/melissaglasspsyd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "parenthood transitions, blended families, intimacy after years together",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Monica Nikc, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/monicanikcpsyd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "high-conflict marriages, attachment work, queer-affirmative marriage counseling",
-        "photo": "/static/images/figma/clinician-3.png"
-      },
-      {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "long-distance marriages and busy spouses balancing in-person and video sessions",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Sofia Poma, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/sofiapomaphd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +279,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +378,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

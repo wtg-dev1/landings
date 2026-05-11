@@ -50,7 +50,7 @@
     ],
     "h1": "Outpatient addiction therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Whether you're working through alcohol use, recreational substance challenges, prescription dependence, or maintenance after primary treatment, your first session can be this week. Outpatient, doctoral-level, cash-pay private practice. Not residential rehab. Your story stays between you and your team.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Cash-pay discretion, OON claim filed if you choose",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Cash-pay discretion, OON claim filed if you choose",
     "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with a doctoral therapist whose practice area includes substance use work. The four below are placeholder slots for real WTG specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "outpatient substance use work alongside anxiety, depression, and life pressure",
-        "photo": "/static/images/figma/clinician-1.png"
-      },
-      {
-        "name": "Slot 2",
+        "name": "Allegra Nevins",
         "credential": "PsyD",
-        "city": "Austin",
-        "treats": "maintenance and relapse prevention with high-functioning adults",
-        "photo": "/static/images/figma/clinician-2.png"
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/allegranevinspsyd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "co-occurring substance use and trauma using evidence-based methods",
-        "photo": "/static/images/figma/clinician-3.png"
+        "name": "Shira Schuster, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/shiraschusterphd.png"
       },
       {
-        "name": "Slot 4",
+        "name": "Nick Fehertoi, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/nickfehertoiphd.png"
+      },
+      {
+        "name": "Dylan Horcher",
         "credential": "PsyD",
-        "city": "Online",
-        "treats": "outpatient substance use work for adults balancing demanding schedules",
-        "photo": "/static/images/figma/clinician-4.png"
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/dylanhorcherpsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

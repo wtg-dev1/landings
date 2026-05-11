@@ -28,7 +28,7 @@ var Sites = []SiteEntry{
 	{City: "miami", Variant: "general", Route: "therapy"},
 	{City: "miami", Variant: "couples", Route: "couples-therapy"},
 	{City: "miami", Variant: "family", Route: "family-therapy"},
-	{City: "miami", Variant: "child", Route: "child-therapy"},
+	// {City: "miami", Variant: "child", Route: "child-therapy"}, // Not available for Miami
 	{City: "miami", Variant: "marriage-counseling", Route: "marriage-counseling"},
 	{City: "miami", Variant: "anxiety-depression", Route: "anxiety-depression-therapy"},
 	{City: "miami", Variant: "cbt", Route: "cbt-therapy"},
@@ -38,7 +38,7 @@ var Sites = []SiteEntry{
 	{City: "austin", Variant: "general", Route: "therapy"},
 	{City: "austin", Variant: "couples", Route: "couples-therapy"},
 	{City: "austin", Variant: "family", Route: "family-therapy"},
-	{City: "austin", Variant: "child", Route: "child-therapy"},
+	// {City: "austin", Variant: "child", Route: "child-therapy"}, // Not available for Austin
 	{City: "austin", Variant: "marriage-counseling", Route: "marriage-counseling"},
 	{City: "austin", Variant: "anxiety-depression", Route: "anxiety-depression-therapy"},
 	{City: "austin", Variant: "cbt", Route: "cbt-therapy"},

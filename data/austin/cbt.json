@@ -50,7 +50,7 @@
     ],
     "h1": "CBT therapy this week, with a PhD or PsyD therapist who can flex if CBT alone isn't enough.",
     "subhead": "First session as soon as this week. Every CBT therapist holds a PhD or PsyD, with CBT training built into doctoral curriculum, not a weekend course. And when CBT alone isn't getting at the root, your same therapist can flex into DBT, psychodynamic, or other evidence-based methods. No referrals out. No starting over.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my first CBT session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team trained in CBT. The four below are placeholder slots for real WTG CBT specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "anxiety, panic, work and career stress using CBT framework",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Erin Hicks, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/erinhickspsyd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "depression and life transitions using CBT and behavioral activation",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Madeleine Kloess, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, anxiety & depression",
+        "photo": "/static/images/clinicians/madeleinekloesspsyd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "OCD and trauma using CBT-rooted methods",
-        "photo": "/static/images/figma/clinician-3.png"
+        "name": "Lea Raptis, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, trauma therapy",
+        "photo": "/static/images/clinicians/learaptispsyd.png"
       },
       {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "high-functioning adults who want structured, goal-oriented CBT sessions",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Lianna Trubowitz, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1962115501 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1962115501 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

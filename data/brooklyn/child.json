@@ -50,7 +50,7 @@
     ],
     "h1": "Child therapy this week, with a PhD or PsyD child psychologist.",
     "subhead": "Whether your kid is anxious, struggling at school, melting down at home, or going through something they won't talk about, your child's first session can be this week. Every child therapist holds a PhD or PsyD, with pediatric psychiatrists on the same team.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my child's first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair your kid with any doctoral therapist on the team whose practice area includes child or teen work. The four below are placeholder slots for real WTG child specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "kids 6-12 with anxiety, behavior, school stress, and social issues",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Alexandra Schira, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, child therapy",
+        "photo": "/static/images/clinicians/alexandraschirapsyd.png"
       },
       {
-        "name": "Slot 2",
+        "name": "Camilla Mazetto, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, child therapy",
+        "photo": "/static/images/clinicians/camillamazettophd.png"
+      },
+      {
+        "name": "Jessica Chelsky",
         "credential": "PsyD",
-        "city": "Austin",
-        "treats": "teens working through identity, family conflict, and academic stress",
-        "photo": "/static/images/figma/clinician-2.png"
+        "city": "See locations",
+        "treats": "individual therapy, lgbtq+ affirmative therapy",
+        "photo": "/static/images/clinicians/jessicachelskypsyd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "kids with ADHD, learning differences, and executive function challenges",
-        "photo": "/static/images/figma/clinician-3.png"
-      },
-      {
-        "name": "Slot 4",
+        "name": "Katie Connolly",
         "credential": "PsyD",
-        "city": "Online",
-        "treats": "teens balancing therapy with packed school schedules",
-        "photo": "/static/images/figma/clinician-4.png"
+        "city": "See locations",
+        "treats": "individual therapy, child therapy",
+        "photo": "/static/images/clinicians/katieconnollypsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1295107571 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1295107571 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

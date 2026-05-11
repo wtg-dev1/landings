@@ -3,7 +3,7 @@
   "variant": "general",
   "phone": "512-675-1262",
   "meta": {
-    "title": "Austin Therapy — Williamsburg Therapy Group",
+    "title": "Austin Therapy \u2014 Williamsburg Therapy Group",
     "description": "Doctoral-level therapists in Austin. Same-week openings. PhD and PsyD only."
   },
   "header": {
@@ -50,7 +50,7 @@
     ],
     "h1": "The right therapist, ready to meet you this week.",
     "subhead": "First session as soon as this week. Every therapist holds a PhD or PsyD, and a real coordinator picks the one who matches your goals, schedule, and style.",
-    "trustLine": "Same-week openings · In person or online · Out-of-network with reimbursement support",
+    "trustLine": "Same-week openings \u00b7 In person or online \u00b7 Out-of-network with reimbursement support",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Over fifty doctoral-level clinicians on the team. Your coordinator can pair you with any of them, including the ones here.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "anxiety, early-career stress, relationship concerns",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Michael Kinsey, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/michaelkinseyphd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "couples, trauma, identity, transitions",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Lianna Trubowitz, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "MD",
-        "city": "Miami",
-        "treats": "patients who need medication alongside therapy",
-        "photo": "/static/images/figma/clinician-3.png"
+        "name": "Lea Raptis, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, trauma therapy",
+        "photo": "/static/images/clinicians/learaptispsyd.png"
       },
       {
-        "name": "Slot 4",
-        "credential": "PhD",
-        "city": "Online",
-        "treats": "depression, OCD, and trauma using evidence-based talk therapy",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Erin Hicks, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/erinhickspsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1962115501 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1962115501 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }

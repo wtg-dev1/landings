@@ -50,7 +50,7 @@
     ],
     "h1": "Anxiety and depression therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Whether you're dealing with everyday low-grade overwhelm, panic that won't quit, depression that crept up over years, or OCD or trauma layered underneath, your first session can be this week. Every therapist holds a PhD or PsyD, and our board-certified psychiatrists are on the same team if medication ends up being part of the plan.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.png",
@@ -66,7 +66,7 @@
       "label": "Years of excellence"
     },
     {
-      "value": "5★",
+      "value": "5\u2605",
       "label": "Google rated"
     },
     {
@@ -212,32 +212,32 @@
     "subhead": "Our coordinator can pair you with any doctoral therapist on the team whose practice area fits what you're working through. The four below are placeholder slots for real WTG specialists; final names and headshots replace these before launch.",
     "featured": [
       {
-        "name": "Slot 1",
-        "credential": "PhD",
-        "city": "Brooklyn",
-        "treats": "generalized anxiety, panic, work and career stress, perfectionism",
-        "photo": "/static/images/figma/clinician-1.png"
+        "name": "Lea Raptis, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, trauma therapy",
+        "photo": "/static/images/clinicians/learaptispsyd.png"
       },
       {
-        "name": "Slot 2",
-        "credential": "PsyD",
-        "city": "Austin",
-        "treats": "depression, postpartum depression, life transitions affecting mood",
-        "photo": "/static/images/figma/clinician-2.png"
+        "name": "Michael Kinsey, Ph.D.",
+        "credential": "Ph.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/michaelkinseyphd.png"
       },
       {
-        "name": "Slot 3",
-        "credential": "PhD",
-        "city": "Miami",
-        "treats": "OCD, PTSD, complex trauma using evidence-based methods",
-        "photo": "/static/images/figma/clinician-3.png"
+        "name": "Lianna Trubowitz, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, couples therapy",
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
       },
       {
-        "name": "Slot 4",
-        "credential": "PsyD",
-        "city": "Online",
-        "treats": "high-functioning adults balancing therapy with demanding schedules",
-        "photo": "/static/images/figma/clinician-4.png"
+        "name": "Madeleine Kloess, Psy.D.",
+        "credential": "Psy.D",
+        "city": "See locations",
+        "treats": "individual therapy, anxiety & depression",
+        "photo": "/static/images/clinicians/madeleinekloesspsyd.png"
       }
     ],
     "cta": "Get matched today"
@@ -286,7 +286,7 @@
       },
       {
         "name": "Online",
-        "address": "Secure video sessions across NY · TX · FL",
+        "address": "Secure video sessions across NY \u00b7 TX \u00b7 FL",
         "phone": "",
         "hours": "Book online anytime",
         "online": true
@@ -385,6 +385,6 @@
         "phone": "786-692-6547"
       }
     ],
-    "legal": "NPI: 1962115501 · Licensed in NY, TX, FL · © 2026 Williamsburg Therapy Group"
+    "legal": "NPI: 1962115501 \u00b7 Licensed in NY, TX, FL \u00b7 \u00a9 2026 Williamsburg Therapy Group"
   }
 }
