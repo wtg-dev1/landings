@@ -113,7 +113,7 @@
         "number": "06",
         "title": "Psychiatry on the same team",
         "body": "When medication can support CBT progress. One care plan, not two.",
-        "image": "/static/images/figma/misc-116.png"
+        "image": "/static/images/figma/bg-bord-116.jpg"
       }
     ],
     "cta": "Find my CBT therapist"
@@ -359,7 +359,7 @@
     "submit": "Request my consultation",
     "phoneFallback": "or call 347-970-6757 to speak with our coordinator now.",
     "reassurance": "Same-day response. No waitlists, no runaround.",
-    "image": "/static/images/figma/misc-116.png",
+    "image": "/static/images/figma/bg-bord-116.jpg",
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {

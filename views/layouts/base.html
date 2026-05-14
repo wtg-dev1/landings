@@ -18,10 +18,23 @@
 
   <title>{{ .Meta.Title }}</title>
   <meta name="description" content="{{ .Meta.Description }}" />
+  <!-- Inline main.css (~6 KiB) — removes the render-blocking stylesheet
+       request flagged by PSI. inlineCSS reads from app.staticDir at render. -->
+  <style>{{ inlineCSS "css/main.css" }}</style>
+
+  <!-- Google Fonts loaded async via the "preload + onload swap" trick so
+       they don't block first paint. preconnect handshake still happens
+       in the background. font-display:swap in the URL paints fallback
+       text immediately. -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/static/css/main.css" />
+  <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" />
+  </noscript>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>

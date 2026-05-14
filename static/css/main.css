@@ -576,7 +576,7 @@ section[id] { scroll-margin-top: 100px; }
 .pricing__card::before {
   content: "";
   position: absolute; inset: 0;
-  background-image: url('/static/images/figma/bg-border.png');
+  background-image: url('/static/images/figma/bg-border.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

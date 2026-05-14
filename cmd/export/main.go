@@ -32,7 +32,12 @@ func main() {
 	if err != nil {
 		log.Fatalf("resolve data-dir: %v", err)
 	}
+	absStatic, err := filepath.Abs(*staticDir)
+	if err != nil {
+		log.Fatalf("resolve static-dir: %v", err)
+	}
 	app.SetPaths(absViews, absData)
+	app.SetStaticDir(absStatic)
 
 	if err := os.MkdirAll(*outDir, 0o755); err != nil {
 		log.Fatalf("mkdir out: %v", err)

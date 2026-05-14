@@ -113,7 +113,7 @@
         "number": "06",
         "title": "Co-parenting after separation or divorce",
         "body": "When the marriage has ended but the parenting hasn't, our doctoral therapists help separated and divorced parents make the handoffs, decisions, and conversations that protect the kids in the middle.",
-        "image": "/static/images/figma/misc-116.png"
+        "image": "/static/images/figma/bg-bord-116.jpg"
       }
     ],
     "cta": "Find our family therapist"
@@ -359,7 +359,7 @@
     "submit": "Request my consultation",
     "phoneFallback": "or call 347-970-6757 to speak with our coordinator now.",
     "reassurance": "Same-day response. No waitlists, no runaround.",
-    "image": "/static/images/figma/misc-116.png",
+    "image": "/static/images/figma/bg-bord-116.jpg",
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {

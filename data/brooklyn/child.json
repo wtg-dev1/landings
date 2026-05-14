@@ -113,7 +113,7 @@
         "number": "06",
         "title": "Crisis support for kids in distress",
         "body": "When something has just happened, a hospitalization, a school crisis, or a sudden change at home, we move fast. First session this week, with the same team that carries the ongoing work.",
-        "image": "/static/images/figma/misc-116.png"
+        "image": "/static/images/figma/bg-bord-116.jpg"
       }
     ],
     "cta": "Find my child's therapist"
@@ -359,7 +359,7 @@
     "submit": "Request my consultation",
     "phoneFallback": "or call 347-970-6757 to speak with our coordinator now.",
     "reassurance": "Same-day response. No waitlists, no runaround.",
-    "image": "/static/images/figma/misc-116.png",
+    "image": "/static/images/figma/bg-bord-116.jpg",
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {

@@ -4,13 +4,15 @@ import (
 	"fmt"
 	"html/template"
 	"io"
+	"os"
 	"path/filepath"
 	"sync"
 )
 
 var (
-	viewsDir = "views"
-	dataDir  = "data"
+	viewsDir  = "views"
+	dataDir   = "data"
+	staticDir = "static"
 
 	tmpl     *template.Template
 	tmplOnce sync.Once
@@ -27,8 +29,28 @@ func SetPaths(views, data string) {
 	dataDir = data
 }
 
+// SetStaticDir overrides the default static directory. Used by the
+// inlineCSS template helper so the base layout can inline main.css
+// into the rendered HTML (eliminates a render-blocking request).
+func SetStaticDir(s string) {
+	staticDir = s
+}
+
 func loadTemplates() {
-	t := template.New("")
+	funcMap := template.FuncMap{
+		// inlineCSS reads a file from staticDir and returns it as
+		// template.CSS so html/template skips escaping. Lets the
+		// base layout drop /static/css/main.css inline and shave the
+		// CSS roundtrip off LCP.
+		"inlineCSS": func(relPath string) (template.CSS, error) {
+			b, err := os.ReadFile(filepath.Join(staticDir, relPath))
+			if err != nil {
+				return "", err
+			}
+			return template.CSS(b), nil
+		},
+	}
+	t := template.New("").Funcs(funcMap)
 	patterns := []string{
 		filepath.Join(viewsDir, "layouts", "*.html"),
 		filepath.Join(viewsDir, "partials", "*.html"),
