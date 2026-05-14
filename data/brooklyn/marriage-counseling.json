@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Marriage counseling",
         "body": "Same-week first joint session, in person or online. For spouses who want a counselor as serious about the marriage as they are.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Trust repair after betrayal",
         "body": "Structured doctoral support after infidelity, financial deception, or broken trust. Both spouses, together, with a clear path.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "When you're not sure if it's fixable",
         "body": "For spouses asking if the marriage is still worth saving. Your counselor helps you see it honestly, without pushing either of you toward staying or leaving.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "LGBTQ+ affirmative marriage",
         "body": "For same-sex and queer marriages. Counselors who don't need the dynamic explained to them and won't treat your marriage as a special case. Affirmative from the first call forward.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Family and co-parenting alongside",
         "body": "When marriage tension is showing up in the kids, our child and family clinicians step in alongside the marriage counselor. One team, one care plan.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/phoebeshepherdpsyd.png"
+        "photo": "static/images/clinicians/phoebeshepherdpsyd.jpg"
       },
       {
         "name": "Shira Schuster, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/shiraschusterphd.png"
+        "photo": "static/images/clinicians/shiraschusterphd.jpg"
       },
       {
         "name": "Sarah Song, PsyD",
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/sarahsongpsyd.png"
+        "photo": "static/images/clinicians/sarahsongpsyd.jpg"
       },
       {
         "name": "Autumn Winslow, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/autumnwinslowphd.png"
+        "photo": "static/images/clinicians/autumnwinslowphd.jpg"
       }
     ],
     "cta": "Get matched today"

@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Affirmative individual therapy",
         "body": "Doctoral therapy for queer, trans, and non-binary adults. Identity is the focus when it should be, and not the focus when it shouldn't.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "LGBTQ+ couples therapy",
         "body": "Affirmative couples work for same-sex, polyamorous, open, and any partnership that doesn't fit the default.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "Trans and gender-affirming care",
         "body": "Doctoral support for clients exploring, transitioning, or post-transition.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "Coming out and identity work",
         "body": "Whether you're exploring, just out, or 30 years out. Different stages need different work.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Anxiety, depression, and trauma",
         "body": "When queer adults come in for the same things straight adults do, with a clinician who gets the additional context.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,21 +216,21 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/laurenjenningspsyd.png"
+        "photo": "static/images/clinicians/laurenjenningspsyd.jpg"
       },
       {
         "name": "Lianna Trubowitz, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
+        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/erinhickspsyd.png"
+        "photo": "static/images/clinicians/erinhickspsyd.jpg"
       }
     ],
     "cta": "Get matched today"

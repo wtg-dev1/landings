@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Anxiety therapy",
         "body": "Evidence-based work for generalized anxiety, panic, social anxiety, health anxiety, and the everyday low-grade overwhelm that doesn't have a name.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Depression therapy",
         "body": "Doctoral support for major depression, persistent low mood, and the kind that crept up over years.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "OCD and trauma alongside",
         "body": "Targeted work for OCD, PTSD, and trauma responses using methods proven for these specific conditions.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "Psychiatry on the same team",
         "body": "Board-certified psychiatrists when medication can help. One care plan with your therapist, not two separate visits.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Perinatal mental health",
         "body": "Specialized doctoral care for pregnancy and postpartum depression and anxiety, on the same team.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,21 +216,21 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/melissaglasspsyd.png"
+        "photo": "static/images/clinicians/melissaglasspsyd.jpg"
       },
       {
         "name": "Monica Nikc, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/monicanikcpsyd.png"
+        "photo": "static/images/clinicians/monicanikcpsyd.jpg"
       },
       {
         "name": "Sofia Poma, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/sofiapomaphd.png"
+        "photo": "static/images/clinicians/sofiapomaphd.jpg"
       }
     ],
     "cta": "Get matched today"

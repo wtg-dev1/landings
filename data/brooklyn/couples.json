@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Couples therapy",
         "body": "Same-week first joint session, in person or online. For couples who want to fight less, talk more, and feel close again.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Premarital and new chapters",
         "body": "Marriage, parenthood, fertility, careers, blended families. Get on the same page before life gets harder.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "Trust repair after betrayal",
         "body": "Structured doctoral support after infidelity or broken trust. Both partners, together, with a clear path.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "LGBTQ+ affirmative couples",
         "body": "Same-sex, polyamorous, open relationships, and queer marriages. Affirmative from intake forward.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Individual therapy alongside",
         "body": "When one partner also needs solo work. Same practice, same doctoral standard, often the same care plan.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/phoebeshepherdpsyd.png"
+        "photo": "static/images/clinicians/phoebeshepherdpsyd.jpg"
       },
       {
         "name": "Shira Schuster, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/shiraschusterphd.png"
+        "photo": "static/images/clinicians/shiraschusterphd.jpg"
       },
       {
         "name": "Ida Taghavi",
         "credential": "PhD",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/idataghaviphd.png"
+        "photo": "static/images/clinicians/idataghaviphd.jpg"
       },
       {
         "name": "Autumn Winslow, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/autumnwinslowphd.png"
+        "photo": "static/images/clinicians/autumnwinslowphd.jpg"
       }
     ],
     "cta": "Get matched today"

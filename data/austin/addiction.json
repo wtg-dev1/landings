@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Outpatient substance use therapy",
         "body": "Doctoral support for working through alcohol use, recreational substance challenges, and prescription dependence in an outpatient private-practice setting.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Co-occurring mental health",
         "body": "Anxiety, depression, trauma, and other conditions that often go alongside substance use. Treated together, on the same team, not in two separate appointments.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "Maintenance and relapse prevention",
         "body": "Doctoral support after primary treatment, when the work is staying on the path you've already started.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "Family and couples affected by substance use",
         "body": "Doctoral therapists for partners, kids, and families navigating a loved one's substance use.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Psychiatry on the same team",
         "body": "Board-certified psychiatrists when medication is part of your treatment plan. One care plan, not two.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,14 +216,14 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, trauma therapy, anxiety & depression, CBT, addiction",
-        "photo": "/static/images/clinicians/learaptispsyd.png"
+        "photo": "/static/images/clinicians/learaptispsyd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy, trauma therapy, anxiety & depression, CBT",
-        "photo": "/static/images/clinicians/erinhickspsyd.png"
+        "photo": "/static/images/clinicians/erinhickspsyd.jpg"
       }
     ],
     "cta": "Get matched today"

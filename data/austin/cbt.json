@@ -83,31 +83,31 @@
         "number": "01",
         "title": "CBT for anxiety",
         "body": "Structured cognitive behavioral therapy for generalized anxiety, panic, social anxiety, and health anxiety.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "CBT for depression",
         "body": "Behavioral activation, cognitive restructuring, and the proven CBT framework for major and persistent depression.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "CBT for OCD and trauma",
         "body": "CBT-based methods for OCD, trauma responses, and the conditions where CBT has the strongest evidence base.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "DBT for emotion regulation",
         "body": "When emotion regulation, distress tolerance, or interpersonal effectiveness need a more structured framework alongside CBT.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Psychodynamic and deeper work",
         "body": "When CBT isn't getting at the root, your same doctoral therapist has training in deeper modalities.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/erinhickspsyd.png"
+        "photo": "static/images/clinicians/erinhickspsyd.jpg"
       },
       {
         "name": "Madeleine Kloess, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, anxiety & depression",
-        "photo": "/static/images/clinicians/madeleinekloesspsyd.png"
+        "photo": "static/images/clinicians/madeleinekloesspsyd.jpg"
       },
       {
         "name": "Lea Raptis, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, trauma therapy",
-        "photo": "/static/images/clinicians/learaptispsyd.png"
+        "photo": "static/images/clinicians/learaptispsyd.jpg"
       },
       {
         "name": "Lianna Trubowitz, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
+        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
       }
     ],
     "cta": "Get matched today"

@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Family therapy",
         "body": "Same-week first family session, in person or online. For families ready to do the work together.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Child & teen therapy alongside",
         "body": "When your child needs their own therapist alongside the family work, ours sit on the same team and coordinate on one plan with your consent.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "Parenting support",
         "body": "Real answers for the parts of parenting nothing prepares you for, paired with your child's therapy when both are in play.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "When the marriage is part of the family issue",
         "body": "When the kid is reacting to what's happening between the parents, our couples therapists sit on the same team as your family therapist. One coordinated plan, with your consent.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Pediatric and adult psychiatry",
         "body": "When a kid or parent's ADHD, anxiety, or mood calls for medication, our pediatric and adult psychiatrists step in on the same team as the family therapist working towards the same goal.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,21 +216,21 @@
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/sofiapomaphd.png"
+        "photo": "static/images/clinicians/sofiapomaphd.jpg"
       },
       {
         "name": "Melissa Glass, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "/static/images/clinicians/melissaglasspsyd.png"
+        "photo": "static/images/clinicians/melissaglasspsyd.jpg"
       },
       {
         "name": "Monica Nikc, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/monicanikcpsyd.png"
+        "photo": "static/images/clinicians/monicanikcpsyd.jpg"
       }
     ],
     "cta": "Get matched today"

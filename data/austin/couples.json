@@ -83,31 +83,31 @@
         "number": "01",
         "title": "Couples therapy",
         "body": "Same-week first joint session, in person or online. For couples who want to fight less, talk more, and feel close again.",
-        "image": "/static/images/figma/treat-1.png"
+        "image": "/static/images/figma/treat-1.jpg"
       },
       {
         "number": "02",
         "title": "Premarital and new chapters",
         "body": "Marriage, parenthood, fertility, careers, blended families. Get on the same page before life gets harder.",
-        "image": "/static/images/figma/treat-2.png"
+        "image": "/static/images/figma/treat-2.jpg"
       },
       {
         "number": "03",
         "title": "Trust repair after betrayal",
         "body": "Structured doctoral support after infidelity or broken trust. Both partners, together, with a clear path.",
-        "image": "/static/images/figma/treat-3.png"
+        "image": "/static/images/figma/treat-3.jpg"
       },
       {
         "number": "04",
         "title": "LGBTQ+ affirmative couples",
         "body": "Same-sex, polyamorous, open relationships, and queer marriages. Affirmative from intake forward.",
-        "image": "/static/images/figma/treat-4.png"
+        "image": "/static/images/figma/treat-4.jpg"
       },
       {
         "number": "05",
         "title": "Individual therapy alongside",
         "body": "When one partner also needs solo work. Same practice, same doctoral standard, often the same care plan.",
-        "image": "/static/images/figma/treat-5.png"
+        "image": "/static/images/figma/treat-5.jpg"
       },
       {
         "number": "06",
@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/liannatrubowitzpsyd.png"
+        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
       },
       {
         "name": "Michael Kinsey, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/michaelkinseyphd.png"
+        "photo": "static/images/clinicians/michaelkinseyphd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "/static/images/clinicians/erinhickspsyd.png"
+        "photo": "static/images/clinicians/erinhickspsyd.jpg"
       },
       {
         "name": "Madeleine Kloess, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, anxiety & depression",
-        "photo": "/static/images/clinicians/madeleinekloesspsyd.png"
+        "photo": "static/images/clinicians/madeleinekloesspsyd.jpg"
       }
     ],
     "cta": "Get matched today"
