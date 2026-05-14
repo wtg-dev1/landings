@@ -4,8 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M0KBH11CVT"></script>
+  <!-- Lazy-load 3rd-party tracking (GTM + HubSpot) to keep the main thread
+       free during initial render. PSI was flagging 6.9s of main-thread work,
+       most of it from these scripts parsing & executing on load. We:
+         1. Set up dataLayer/gtag stubs immediately so any inline gtag()
+            calls fired before GTM loads still queue (Google replays them).
+         2. Inject the actual GTM + HubSpot <script> tags only after the
+            first user interaction (scroll/move/touch/key) OR a 3.5s timer,
+            whichever fires first. Analytics still tracks every real visitor;
+            we just stop blocking the first paint waiting for it. -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -14,6 +21,37 @@
     // Server-rendered form name (see app/formname.go) — kept in a global
     // so the form's dataLayer pushes don't need to re-derive from URL.
     window.LP_FORM_NAME = {{ .FormName }};
+
+    (function () {
+      var fired = false;
+      function loadThirdParty() {
+        if (fired) return;
+        fired = true;
+
+        // Google Tag Manager
+        var gtm = document.createElement('script');
+        gtm.async = true;
+        gtm.src = 'https://www.googletagmanager.com/gtag/js?id=G-M0KBH11CVT';
+        document.head.appendChild(gtm);
+
+        // HubSpot tracking + forms loader (previously rendered inline in
+        // partials/form.html — moved here so the lazy-loader controls it).
+        var hs = document.createElement('script');
+        hs.async = true;
+        hs.defer = true;
+        hs.id = 'hs-script-loader';
+        hs.src = 'https://js.hs-scripts.com/21125073.js';
+        document.head.appendChild(hs);
+      }
+
+      var events = ['scroll', 'mousemove', 'touchstart', 'keydown', 'pointerdown'];
+      events.forEach(function (e) {
+        window.addEventListener(e, loadThirdParty, { once: true, passive: true });
+      });
+      // Fallback: even if the user does nothing, fire after 3.5s so analytics
+      // captures bounces too.
+      setTimeout(loadThirdParty, 3500);
+    })();
   </script>
 
   <title>{{ .Meta.Title }}</title>
