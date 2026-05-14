@@ -81,12 +81,13 @@
         <p class="lead-form__consent">{{ .Form.Consent }}</p>
 
         <label class="field">
-          <span class="field__label">Message</span>
+          <span class="field__label">Message *</span>
           <textarea
             id="message"
             name="message"
             rows="3"
-            placeholder="Briefly, what would you like help with? (Optional)"
+            placeholder="Briefly, what would you like help with?"
+            required
           ></textarea>
         </label>
 
