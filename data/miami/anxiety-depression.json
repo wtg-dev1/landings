@@ -113,7 +113,7 @@
         "number": "06",
         "title": "Couples and family work",
         "body": "When anxiety or depression is reaching your partner or kids. Doctoral couples and family therapists on the same team.",
-        "image": "/static/images/figma/bg-bord-116.jpg"
+        "image": "/static/images/figma/misc-116.jpg"
       }
     ],
     "cta": "Find my therapist"
@@ -352,7 +352,7 @@
     "submit": "Request my consultation",
     "phoneFallback": "or call 786-692-6547 to speak with our coordinator now.",
     "reassurance": "Same-day response. No waitlists, no runaround.",
-    "image": "/static/images/figma/bg-bord-116.jpg",
+    "image": "/static/images/figma/misc-116.jpg",
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
