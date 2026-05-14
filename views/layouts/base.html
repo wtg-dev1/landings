@@ -56,6 +56,13 @@
 
   <title>{{ .Meta.Title }}</title>
   <meta name="description" content="{{ .Meta.Description }}" />
+
+  <!-- LCP optimization: the hero image is a CSS background-image, so the
+       browser can't discover it until main.css is parsed. Preload it with
+       fetchpriority=high so the request kicks off immediately, in parallel
+       with HTML parsing. PSI's "LCP request discovery" check wants this. -->
+  <link rel="preload" as="image" href="{{ .Hero.Image }}" fetchpriority="high" />
+
   <!-- Inline main.css (~6 KiB) — removes the render-blocking stylesheet
        request flagged by PSI. inlineCSS reads from app.staticDir at render. -->
   <style>{{ inlineCSS "css/main.css" }}</style>
