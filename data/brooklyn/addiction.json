@@ -216,28 +216,28 @@
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/allegranevinspsyd.jpg"
+        "photo": "/static/images/clinicians/allegranevinspsyd.jpg"
       },
       {
         "name": "Shira Schuster, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/shiraschusterphd.jpg"
+        "photo": "/static/images/clinicians/shiraschusterphd.jpg"
       },
       {
         "name": "Nick Fehertoi, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/nickfehertoiphd.jpg"
+        "photo": "/static/images/clinicians/nickfehertoiphd.jpg"
       },
       {
         "name": "Dylan Horcher, PsyD",
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/dylanhorcherpsyd.jpg"
+        "photo": "/static/images/clinicians/dylanhorcherpsyd.jpg"
       }
     ],
     "cta": "Get matched today"

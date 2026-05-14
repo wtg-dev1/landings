@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/phoebeshepherdpsyd.jpg"
+        "photo": "/static/images/clinicians/phoebeshepherdpsyd.jpg"
       },
       {
         "name": "Shira Schuster, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/shiraschusterphd.jpg"
+        "photo": "/static/images/clinicians/shiraschusterphd.jpg"
       },
       {
         "name": "Ida Taghavi",
         "credential": "PhD",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/idataghaviphd.jpg"
+        "photo": "/static/images/clinicians/idataghaviphd.jpg"
       },
       {
         "name": "Autumn Winslow, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/autumnwinslowphd.jpg"
+        "photo": "/static/images/clinicians/autumnwinslowphd.jpg"
       }
     ],
     "cta": "Get matched today"

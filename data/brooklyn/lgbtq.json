@@ -216,28 +216,28 @@
         "credential": "PhD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/charlesburtonphd.jpg"
+        "photo": "/static/images/clinicians/charlesburtonphd.jpg"
       },
       {
         "name": "Jorge Alcantar, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/jorgealcantarpsyd.jpg"
+        "photo": "/static/images/clinicians/jorgealcantarpsyd.jpg"
       },
       {
         "name": "Gregory Weil",
         "credential": "PhD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/gregoryweilphd.jpg"
+        "photo": "/static/images/clinicians/gregoryweilphd.jpg"
       },
       {
         "name": "Jeffrey Goldman, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/jeffreygoldmanphd.jpg"
+        "photo": "/static/images/clinicians/jeffreygoldmanphd.jpg"
       }
     ],
     "cta": "Get matched today"

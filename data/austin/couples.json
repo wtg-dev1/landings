@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.jpg"
       },
       {
         "name": "Michael Kinsey, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/michaelkinseyphd.jpg"
+        "photo": "/static/images/clinicians/michaelkinseyphd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/erinhickspsyd.jpg"
+        "photo": "/static/images/clinicians/erinhickspsyd.jpg"
       },
       {
         "name": "Madeleine Kloess, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, anxiety & depression",
-        "photo": "static/images/clinicians/madeleinekloesspsyd.jpg"
+        "photo": "/static/images/clinicians/madeleinekloesspsyd.jpg"
       }
     ],
     "cta": "Get matched today"

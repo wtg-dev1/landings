@@ -216,21 +216,21 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/laurenjenningspsyd.jpg"
+        "photo": "/static/images/clinicians/laurenjenningspsyd.jpg"
       },
       {
         "name": "Lianna Trubowitz, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/erinhickspsyd.jpg"
+        "photo": "/static/images/clinicians/erinhickspsyd.jpg"
       }
     ],
     "cta": "Get matched today"

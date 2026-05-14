@@ -216,14 +216,14 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy, anxiety & depression, addiction, severe emotional conditions",
-        "photo": "static/images/clinicians/monicanikcpsyd.jpg"
+        "photo": "/static/images/clinicians/monicanikcpsyd.jpg"
       },
       {
         "name": "Melissa Glass, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy, couples therapy, anxiety & depression, CBT",
-        "photo": "static/images/clinicians/melissaglasspsyd.jpg"
+        "photo": "/static/images/clinicians/melissaglasspsyd.jpg"
       }
     ],
     "cta": "Get matched today"

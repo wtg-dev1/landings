@@ -216,28 +216,28 @@
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, child therapy",
-        "photo": "static/images/clinicians/alexandraschirapsyd.jpg"
+        "photo": "/static/images/clinicians/alexandraschirapsyd.jpg"
       },
       {
         "name": "Kaori Kato, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/kaorikatopsyd.jpg"
+        "photo": "/static/images/clinicians/kaorikatopsyd.jpg"
       },
       {
         "name": "Camilla Mazetto, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, child therapy",
-        "photo": "static/images/clinicians/camillamazettophd.jpg"
+        "photo": "/static/images/clinicians/camillamazettophd.jpg"
       },
       {
         "name": "Amanda Salerno, PsyD",
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/amandasalernopsyd.jpg"
+        "photo": "/static/images/clinicians/amandasalernopsyd.jpg"
       }
     ],
     "cta": "Get matched today"

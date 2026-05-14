@@ -216,28 +216,28 @@
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/sarahenglandphd.jpg"
+        "photo": "/static/images/clinicians/sarahenglandphd.jpg"
       },
       {
         "name": "Taralyn Teo, PsyD",
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/taralynteopsyd.jpg"
+        "photo": "/static/images/clinicians/taralynteopsyd.jpg"
       },
       {
         "name": "Victoria Frisse, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/victoriafrissephd.jpg"
+        "photo": "/static/images/clinicians/victoriafrissephd.jpg"
       },
       {
         "name": "Sharon Asher, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/sharonasherpsyd.jpg"
+        "photo": "/static/images/clinicians/sharonasherpsyd.jpg"
       }
     ],
     "cta": "Get matched today"

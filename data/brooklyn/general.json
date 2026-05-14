@@ -216,28 +216,28 @@
         "credential": "PhD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/julieslotnickphd.jpg"
+        "photo": "/static/images/clinicians/julieslotnickphd.jpg"
       },
       {
         "name": "Sarah England, Ph.D.",
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/sarahenglandphd.jpg"
+        "photo": "/static/images/clinicians/sarahenglandphd.jpg"
       },
       {
         "name": "Ashley Bryan, PsyD",
         "credential": "PsyD",
         "city": "See locations",
         "treats": "individual therapy, lgbtq+ affirmative therapy",
-        "photo": "static/images/clinicians/ashleybryanpsyd.jpg"
+        "photo": "/static/images/clinicians/ashleybryanpsyd.jpg"
       },
       {
         "name": "Phoebe Shepherd, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/phoebeshepherdpsyd.jpg"
+        "photo": "/static/images/clinicians/phoebeshepherdpsyd.jpg"
       }
     ],
     "cta": "Get matched today"

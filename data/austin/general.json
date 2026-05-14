@@ -216,28 +216,28 @@
         "credential": "Ph.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/michaelkinseyphd.jpg"
+        "photo": "/static/images/clinicians/michaelkinseyphd.jpg"
       },
       {
         "name": "Lianna Trubowitz, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/liannatrubowitzpsyd.jpg"
+        "photo": "/static/images/clinicians/liannatrubowitzpsyd.jpg"
       },
       {
         "name": "Lea Raptis, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, trauma therapy",
-        "photo": "static/images/clinicians/learaptispsyd.jpg"
+        "photo": "/static/images/clinicians/learaptispsyd.jpg"
       },
       {
         "name": "Erin Hicks, Psy.D.",
         "credential": "Psy.D",
         "city": "See locations",
         "treats": "individual therapy, couples therapy",
-        "photo": "static/images/clinicians/erinhickspsyd.jpg"
+        "photo": "/static/images/clinicians/erinhickspsyd.jpg"
       }
     ],
     "cta": "Get matched today"
