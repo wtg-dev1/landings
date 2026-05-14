@@ -50,7 +50,7 @@
     ],
     "h1": "CBT therapy this week, with a PhD or PsyD therapist who can flex if CBT alone isn't enough.",
     "subhead": "First session as soon as this week. Every CBT therapist holds a PhD or PsyD, with CBT training built into doctoral curriculum, not a weekend course. And when CBT alone isn't getting at the root, your same therapist can flex into DBT, psychodynamic, or other evidence-based methods. No referrals out. No starting over.",
-    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $380 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my first CBT session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.jpg",
@@ -251,7 +251,7 @@
     "eyebrow": "Session rates & insurance",
     "h2": "Clear pricing. Help with reimbursement.",
     "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
-    "priceBlock": "$280 to $300",
+    "priceBlock": "$280 to $380",
     "priceUnit": "per 45-minute session",
     "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
     "steps": [
@@ -322,7 +322,7 @@
     "items": [
       {
         "q": "How much does CBT cost, and how long will it take?",
-        "a": "Sessions are $280 to $300 each. CBT for anxiety or depression typically runs 12 to 20 sessions. Some patients need more for complex situations and others see meaningful progress in fewer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
+        "a": "Sessions are $280 to $380 each. CBT for anxiety or depression typically runs 12 to 20 sessions. Some patients need more for complex situations and others see meaningful progress in fewer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
       },
       {
         "q": "What's the difference between doctoral-level CBT and master's-level CBT?",
@@ -363,7 +363,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Doctoral CBT this week. Plus DBT, psychodynamic when CBT isn't enough. $280 to $300/session.",
+    "text": "Doctoral CBT this week. Plus DBT, psychodynamic when CBT isn't enough. $280 to $380/session.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },

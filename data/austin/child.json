@@ -50,7 +50,7 @@
     ],
     "h1": "Child therapy this week, with a PhD or PsyD child psychologist.",
     "subhead": "Whether your kid is anxious, struggling at school, melting down at home, or going through something they won't talk about, your child's first session can be this week. Every child therapist holds a PhD or PsyD, with pediatric psychiatrists on the same team.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Out-of-network claim filed for you",
+    "trustLine": "✓ First session this week ✓ $280 to $380 per session ✓ Out-of-network claim filed for you",
     "primaryCTA": "Book my child's first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.jpg",
@@ -251,7 +251,7 @@
     "eyebrow": "Session rates & insurance",
     "h2": "Clear pricing. Help with reimbursement.",
     "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
-    "priceBlock": "$280 to $300",
+    "priceBlock": "$280 to $380",
     "priceUnit": "per 45-minute session",
     "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
     "steps": [
@@ -322,7 +322,7 @@
     "items": [
       {
         "q": "How much does child therapy cost, and how long will it take?",
-        "a": "Sessions are $280 to $300 each. Most kids meet weekly to start, often shifting to every other week once the early momentum builds. Children doing focused work (specific anxiety, school behavior, social skills) often see meaningful change in 12 to 20 sessions. Kids working on deeper patterns may stay longer. Your child's therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping kids in therapy forever."
+        "a": "Sessions are $280 to $380 each. Most kids meet weekly to start, often shifting to every other week once the early momentum builds. Children doing focused work (specific anxiety, school behavior, social skills) often see meaningful change in 12 to 20 sessions. Kids working on deeper patterns may stay longer. Your child's therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping kids in therapy forever."
       },
       {
         "q": "What if my kid hates the first session and refuses to go back?",
@@ -363,7 +363,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Child therapy this week. PhD/PsyD. $280 to $300 per session.",
+    "text": "Child therapy this week. PhD/PsyD. $280 to $380 per session.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },

@@ -50,7 +50,7 @@
     ],
     "h1": "Outpatient addiction therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Whether you're working through alcohol use, recreational substance challenges, prescription dependence, or maintenance after primary treatment, your first session can be this week. Outpatient, doctoral-level, cash-pay private practice. Not residential rehab. Your story stays between you and your team.",
-    "trustLine": "✓ First session this week ✓ $280 to $300 per session ✓ Cash-pay discretion, OON claim filed if you choose",
+    "trustLine": "✓ First session this week ✓ $280 to $380 per session ✓ Cash-pay discretion, OON claim filed if you choose",
     "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.jpg",
@@ -237,7 +237,7 @@
     "eyebrow": "Session rates & insurance",
     "h2": "Clear pricing. Help with reimbursement.",
     "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
-    "priceBlock": "$280 to $300",
+    "priceBlock": "$280 to $380",
     "priceUnit": "per 45-minute session",
     "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
     "steps": [
@@ -312,7 +312,7 @@
       },
       {
         "q": "How much does therapy cost, and how long will it take?",
-        "a": "Sessions are $280 to $300 each. Most patients meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work on substance use plus co-occurring anxiety, depression, or trauma often see meaningful change in 16 to 24 sessions. Patients in maintenance after primary treatment often stay longer at lower frequency. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
+        "a": "Sessions are $280 to $380 each. Most patients meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work on substance use plus co-occurring anxiety, depression, or trauma often see meaningful change in 16 to 24 sessions. Patients in maintenance after primary treatment often stay longer at lower frequency. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
       },
       {
         "q": "Are you a residential rehab or a detox center?",
@@ -349,7 +349,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "Outpatient substance use therapy. PhD/PsyD. $280 to $300. Discreet.",
+    "text": "Outpatient substance use therapy. PhD/PsyD. $280 to $380. Discreet.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },

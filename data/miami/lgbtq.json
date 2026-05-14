@@ -50,7 +50,7 @@
     ],
     "h1": "LGBTQ+ affirmative therapy this week, with a PhD or PsyD therapist.",
     "subhead": "Whether you're working through identity, in a queer relationship, navigating a transition, or just dealing with the same things straight adults deal with, your first session can be this week. Every therapist holds a PhD or PsyD, and a real coordinator pairs you with the affirmative clinician who fits where you are on a five-minute call.",
-    "trustLine": "\u2713 First session this week \u2713 $280 to $300 per session \u2713 Out-of-network claim filed for you",
+    "trustLine": "\u2713 First session this week \u2713 $280 to $380 per session \u2713 Out-of-network claim filed for you",
     "primaryCTA": "Book my first session",
     "secondaryCTA": "Call",
     "image": "/static/images/figma/hero.jpg",
@@ -244,7 +244,7 @@
     "eyebrow": "Session rates & insurance",
     "h2": "Clear pricing. Help with reimbursement.",
     "subhead": "We're a cash-pay practice. No insurer dictating how many sessions you get, no diagnosis code filed to your permanent medical record.",
-    "priceBlock": "$280 to $300",
+    "priceBlock": "$280 to $380",
     "priceUnit": "per 45-minute session",
     "reimbursement": "Many patients have out-of-network benefits. We partner with Reimbursify, an independent service that submits your out-of-network claim to your insurer for you. Most plans pay back 50 to 80 percent of the session fee.",
     "steps": [
@@ -315,7 +315,7 @@
     "items": [
       {
         "q": "How much does therapy cost, and how long will it take?",
-        "a": "Sessions are $280 to $300 each. Most adults meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work often see meaningful change in 12 to 20 sessions. Patients doing deeper identity, relational, or trauma work may stay longer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
+        "a": "Sessions are $280 to $380 each. Most adults meet weekly to start, often shifting to every other week as the work progresses. Patients doing focused work often see meaningful change in 12 to 20 sessions. Patients doing deeper identity, relational, or trauma work may stay longer. Your therapist will set goals with you in the first sessions and check progress regularly. We're not in the business of keeping you in therapy forever."
       },
       {
         "q": "How do I know your therapists are actually affirming?",
@@ -356,7 +356,7 @@
     "imageAlt": "WTG office plant"
   },
   "stickyBar": {
-    "text": "LGBTQ+ affirmative therapy this week. PhD/PsyD. $280 to $300 per session.",
+    "text": "LGBTQ+ affirmative therapy this week. PhD/PsyD. $280 to $380 per session.",
     "primaryCTA": "Book a session",
     "secondaryCTA": "Call"
   },
